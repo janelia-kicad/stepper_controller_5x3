@@ -1,9 +1,9 @@
-(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-7602~57~ubuntu16.04.1)
+(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-40f60c9~58~ubuntu16.04.1)
 
   (general
     (links 0)
     (no_connects 0)
-    (area 0 0 0 0)
+    (area 69.481699 72.021699 190.868301 138.798301)
     (thickness 1.6)
     (drawings 6)
     (tracks 0)
@@ -250,7 +250,7 @@
   (gr_text https://github.com/janelia-modular-devices (at 102.87 133.35) (layer F.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.1905)))
   )
-  (gr_text "Janelia Modular Device\nstepper_controller\npart_number: 1000\n02/2017 ver 1.0 5x3" (at 73.66 105.41 90) (layer F.SilkS)
+  (gr_text "Janelia Modular Device\nstepper_controller\npart_number: 1140\n03/2017 ver 1.0 5x3" (at 73.66 105.41 90) (layer F.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.254)))
   )
 
