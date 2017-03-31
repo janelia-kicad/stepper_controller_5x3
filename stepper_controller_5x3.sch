@@ -34,7 +34,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 1 1
+Sheet 1 5
 Title "stepper_controller_5x3"
 Date ""
 Rev "1.0"
@@ -155,8 +155,6 @@ NoConn ~ 1400 1700
 NoConn ~ 1400 1800
 NoConn ~ 1400 1900
 NoConn ~ 1400 2000
-NoConn ~ 1400 2100
-NoConn ~ 1400 2200
 NoConn ~ 1400 2300
 NoConn ~ 1400 2400
 NoConn ~ 1400 2500
@@ -178,7 +176,6 @@ NoConn ~ 4300 1600
 NoConn ~ 4300 1700
 NoConn ~ 4300 1800
 NoConn ~ 4300 1900
-NoConn ~ 4300 2000
 NoConn ~ 4300 2100
 NoConn ~ 4300 2200
 NoConn ~ 4300 2300
@@ -213,4 +210,16 @@ F15 "SG_0" O R 6700 2250 60
 F16 "SG_1" O R 6700 2350 60 
 F17 "SG_2" O R 6700 2450 60 
 $EndSheet
+Wire Wire Line
+	1400 2100 1300 2100
+Wire Wire Line
+	1400 2200 1300 2200
+Text Label 1300 2100 2    60   ~ 0
+MOSI
+Text Label 1300 2200 2    60   ~ 0
+MISO
+Wire Wire Line
+	4300 2000 4400 2000
+Text Label 4400 2000 0    60   ~ 0
+CS_429
 $EndSCHEMATC
