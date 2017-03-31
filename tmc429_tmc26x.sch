@@ -30,6 +30,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:stepper_controller_5x3
 LIBS:components
+LIBS:stepper_controller_5x3-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268

@@ -30,6 +30,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:stepper_controller_5x3
 LIBS:components
+LIBS:stepper_controller_5x3-cache
 EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
@@ -149,8 +150,6 @@ NoConn ~ 1400 1100
 NoConn ~ 1400 1200
 NoConn ~ 1400 1300
 NoConn ~ 1400 1400
-NoConn ~ 1400 1500
-NoConn ~ 1400 1600
 NoConn ~ 1400 1700
 NoConn ~ 1400 1800
 NoConn ~ 1400 1900
@@ -167,7 +166,6 @@ NoConn ~ 1400 3100
 NoConn ~ 1400 3200
 NoConn ~ 4300 800 
 NoConn ~ 4300 1000
-NoConn ~ 4300 1100
 NoConn ~ 4300 1200
 NoConn ~ 4300 1300
 NoConn ~ 4300 1400
@@ -177,7 +175,6 @@ NoConn ~ 4300 1700
 NoConn ~ 4300 1800
 NoConn ~ 4300 1900
 NoConn ~ 4300 2100
-NoConn ~ 4300 2200
 NoConn ~ 4300 2300
 NoConn ~ 4300 2400
 NoConn ~ 4300 2500
@@ -222,4 +219,208 @@ Wire Wire Line
 	4300 2000 4400 2000
 Text Label 4400 2000 0    60   ~ 0
 CS_429
+$Comp
+L 0.1uF C?
+U 1 1 58DEC5B9
+P 2300 4250
+F 0 "C?" H 2300 4350 40  0000 L CNN
+F 1 "0.1uF" H 2300 4250 30  0000 C CNN
+F 2 "stepper_controller_5x3:SM1210" H 2338 4100 30  0001 C CNN
+F 3 "" H 2300 4250 60  0000 C CNN
+F 4 "digikey" H 2400 4450 60  0001 C CNN "Vendor"
+F 5 "478-3586-1-ND" H 2500 4550 60  0001 C CNN "PartNumber"
+F 6 "CAP CER 0.1UF 50V 10% X7R 1210" H 2600 4650 60  0001 C CNN "Description"
+	1    2300 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR?
+U 1 1 58DECDF5
+P 5250 1050
+F 0 "#PWR?" H 5250 900 50  0001 C CNN
+F 1 "+3V3" H 5265 1223 50  0000 C CNN
+F 2 "" H 5250 1050 50  0001 C CNN
+F 3 "" H 5250 1050 50  0001 C CNN
+	1    5250 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG?
+U 1 1 58DECE6D
+P 5400 950
+F 0 "#FLG?" H 4850 425 50  0001 C CNN
+F 1 "PWR_FLAG" H 5400 1124 50  0000 C CNN
+F 2 "" H 4850 350 50  0001 C CNN
+F 3 "" H 4850 350 50  0001 C CNN
+	1    5400 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 1100 5400 1100
+Wire Wire Line
+	5400 1100 5400 950 
+Wire Wire Line
+	5250 1050 5250 1100
+Connection ~ 5250 1100
+$Comp
+L +3V3 #PWR?
+U 1 1 58DED091
+P 2300 4000
+F 0 "#PWR?" H 2300 3850 50  0001 C CNN
+F 1 "+3V3" H 2315 4173 50  0000 C CNN
+F 2 "" H 2300 4000 50  0001 C CNN
+F 3 "" H 2300 4000 50  0001 C CNN
+	1    2300 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58DED54E
+P 2300 4500
+F 0 "#PWR?" H 1600 3250 50  0001 C CNN
+F 1 "GND" H 2305 4327 50  0000 C CNN
+F 2 "" H 1600 3500 50  0001 C CNN
+F 3 "" H 1600 3500 50  0001 C CNN
+	1    2300 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 4050 2300 4000
+Wire Wire Line
+	2300 4500 2300 4450
+$Comp
+L CLK_32MHZ CLK?
+U 1 1 58DEDC08
+P 3400 4250
+F 0 "CLK?" H 3650 4550 60  0000 C CNN
+F 1 "CLK_32MHZ" H 3050 4550 60  0000 C CNN
+F 2 "stepper_controller_5x3:CTS_SMD_4_7X5MM" H 3550 4450 60  0001 C CNN
+F 3 "" H 3400 4250 60  0001 C CNN
+F 4 "digikey" H 3750 4650 60  0001 C CNN "Vendor"
+F 5 "CTX277LVCT-ND" H 3850 4750 60  0001 C CNN "PartNumber"
+F 6 "OSC XO 32.000MHZ HCMOS TTL SMD" H 3950 4850 60  0001 C CNN "Description"
+	1    3400 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR?
+U 1 1 58DEDF6C
+P 3000 4200
+F 0 "#PWR?" H 3000 4050 50  0001 C CNN
+F 1 "+3V3" H 3015 4373 50  0000 C CNN
+F 2 "" H 3000 4200 50  0001 C CNN
+F 3 "" H 3000 4200 50  0001 C CNN
+	1    3000 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR?
+U 1 1 58DEE013
+P 3400 3850
+F 0 "#PWR?" H 3400 3700 50  0001 C CNN
+F 1 "+3V3" H 3415 4023 50  0000 C CNN
+F 2 "" H 3400 3850 50  0001 C CNN
+F 3 "" H 3400 3850 50  0001 C CNN
+	1    3400 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 3900 3400 3850
+Wire Wire Line
+	3000 4200 3000 4250
+Wire Wire Line
+	3000 4250 3050 4250
+$Comp
+L GND #PWR?
+U 1 1 58DEE2DC
+P 3400 4650
+F 0 "#PWR?" H 2700 3400 50  0001 C CNN
+F 1 "GND" H 3405 4477 50  0000 C CNN
+F 2 "" H 2700 3650 50  0001 C CNN
+F 3 "" H 2700 3650 50  0001 C CNN
+	1    3400 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 4650 3400 4600
+Wire Wire Line
+	3750 4250 3850 4250
+Text Label 3850 4250 0    60   ~ 0
+CLK
+Wire Wire Line
+	5750 1750 5650 1750
+Text Label 5650 1750 2    60   ~ 0
+CLK
+Wire Wire Line
+	4300 2200 4400 2200
+Text Label 4400 2200 0    60   ~ 0
+SCK
+Wire Wire Line
+	5750 1950 5650 1950
+Wire Wire Line
+	5750 2050 5650 2050
+Wire Wire Line
+	5750 2150 5650 2150
+Wire Wire Line
+	5750 2250 5650 2250
+Wire Wire Line
+	5750 2350 5650 2350
+Wire Wire Line
+	5750 2450 5650 2450
+Wire Wire Line
+	5750 2650 5650 2650
+Wire Wire Line
+	5750 2750 5650 2750
+Wire Wire Line
+	5750 2850 5650 2850
+Text Label 5650 1950 2    60   ~ 0
+SCK
+Text Label 5650 2050 2    60   ~ 0
+MOSI
+Text Label 5650 2150 2    60   ~ 0
+CS_429
+Text Label 5650 2250 2    60   ~ 0
+CS_26X_0
+Text Label 5650 2350 2    60   ~ 0
+CS_26X_1
+Text Label 5650 2450 2    60   ~ 0
+CS_26X_2
+Text Label 5650 2650 2    60   ~ 0
+ENABLE_0
+Text Label 5650 2750 2    60   ~ 0
+ENABLE_1
+Text Label 5650 2850 2    60   ~ 0
+ENABLE_2
+Wire Wire Line
+	6700 1750 6800 1750
+Text Label 6800 1750 0    60   ~ 0
+MISO
+Wire Wire Line
+	6700 1950 6800 1950
+Wire Wire Line
+	6700 2050 6800 2050
+Wire Wire Line
+	6700 2250 6800 2250
+Wire Wire Line
+	6700 2350 6800 2350
+Wire Wire Line
+	6700 2450 6800 2450
+Text Label 6800 1950 0    60   ~ 0
+INT
+Text Label 6800 2050 0    60   ~ 0
+POSCOMP
+Text Label 6800 2250 0    60   ~ 0
+SG_0
+Text Label 6800 2350 0    60   ~ 0
+SG_1
+Text Label 6800 2450 0    60   ~ 0
+SG_2
+Wire Wire Line
+	1400 1500 1300 1500
+Wire Wire Line
+	1400 1600 1300 1600
+Text Label 1300 1500 2    60   ~ 0
+INT
+Text Label 1300 1600 2    60   ~ 0
+POSCOMP
 $EndSCHEMATC
