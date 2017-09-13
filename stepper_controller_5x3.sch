@@ -58,7 +58,7 @@ F 5 "S1011E-25-ND" H 1300 1700 60  0001 C CNN "PartNumber"
 F 6 "25 Positions Header Breakaway Connector 0.1in" H 1300 1800 60  0001 C CNN "Description"
 F 7 "2" H 2600 1700 60  0001 C CNN "PartCount"
 	1    2850 1550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L PWR_FLAG #FLG1
@@ -68,8 +68,8 @@ F 0 "#FLG1" H 150 225 50  0001 C CNN
 F 1 "PWR_FLAG" H 700 924 50  0000 C CNN
 F 2 "" H 150 150 50  0001 C CNN
 F 3 "" H 150 150 50  0001 C CNN
-	1    700  750 
-	1    0    0    -1  
+	1    700  750
+	1    0    0    -1
 $EndComp
 $Comp
 L PWR_FLAG #FLG2
@@ -79,17 +79,17 @@ F 0 "#FLG2" H 550 225 50  0001 C CNN
 F 1 "PWR_FLAG" H 1100 924 50  0000 C CNN
 F 2 "" H 550 150 50  0001 C CNN
 F 3 "" H 550 150 50  0001 C CNN
-	1    1100 750 
-	1    0    0    -1  
+	1    1100 750
+	1    0    0    -1
 $EndComp
 Wire Wire Line
-	1100 750  1100 800 
+	1100 750  1100 800
 Wire Wire Line
-	1100 800  1400 800 
+	1100 800  1400 800
 Wire Wire Line
-	700  750  700  950 
+	700  750  700  950
 Wire Wire Line
-	700  900  1400 900 
+	700  900  1400 900
 $Comp
 L GND #PWR1
 U 1 1 589B84A6
@@ -98,10 +98,10 @@ F 0 "#PWR1" H 0   -300 50  0001 C CNN
 F 1 "GND" H 705 777 50  0000 C CNN
 F 2 "" H 0   -50 50  0001 C CNN
 F 3 "" H 0   -50 50  0001 C CNN
-	1    700  950 
-	1    0    0    -1  
+	1    700  950
+	1    0    0    -1
 $EndComp
-Connection ~ 700  900 
+Connection ~ 700  900
 $Comp
 L VDD #PWR2
 U 1 1 589B84C6
@@ -110,12 +110,12 @@ F 0 "#PWR2" H -150 -50 50  0001 C CNN
 F 1 "VDD" H 1367 923 50  0000 C CNN
 F 2 "" H -150 100 50  0001 C CNN
 F 3 "" H -150 100 50  0001 C CNN
-	1    1350 750 
-	1    0    0    -1  
+	1    1350 750
+	1    0    0    -1
 $EndComp
 Wire Wire Line
-	1350 750  1350 800 
-Connection ~ 1350 800 
+	1350 750  1350 800
+Connection ~ 1350 800
 $Comp
 L PWR_FLAG #FLG4
 U 1 1 589B8557
@@ -124,13 +124,13 @@ F 0 "#FLG4" H 4600 275 50  0001 C CNN
 F 1 "PWR_FLAG" H 5150 974 50  0000 C CNN
 F 2 "" H 4600 200 50  0001 C CNN
 F 3 "" H 4600 200 50  0001 C CNN
-	1    5150 800 
-	1    0    0    -1  
+	1    5150 800
+	1    0    0    -1
 $EndComp
 Wire Wire Line
-	4300 900  5150 900 
+	4300 900  5150 900
 Wire Wire Line
-	5150 900  5150 800 
+	5150 900  5150 800
 $Comp
 L VEE #PWR12
 U 1 1 589B8578
@@ -139,12 +139,12 @@ F 0 "#PWR12" H -50 -100 50  0001 C CNN
 F 1 "VEE" H 4867 973 50  0000 C CNN
 F 2 "" H -50 50  50  0001 C CNN
 F 3 "" H -50 50  50  0001 C CNN
-	1    4850 800 
-	1    0    0    -1  
+	1    4850 800
+	1    0    0    -1
 $EndComp
 Wire Wire Line
-	4850 800  4850 900 
-Connection ~ 4850 900 
+	4850 800  4850 900
+Connection ~ 4850 900
 NoConn ~ 1400 1000
 NoConn ~ 1400 1100
 NoConn ~ 1400 1200
@@ -161,7 +161,7 @@ NoConn ~ 1400 2900
 NoConn ~ 1400 3000
 NoConn ~ 1400 3100
 NoConn ~ 1400 3200
-NoConn ~ 4300 800 
+NoConn ~ 4300 800
 NoConn ~ 4300 1000
 NoConn ~ 4300 1200
 NoConn ~ 4300 1300
@@ -184,19 +184,19 @@ S 5750 1600 1050 1400
 U 58DAAD90
 F0 "tmc429_driver_0" 60
 F1 "tmc429_driver.sch" 60
-F2 "CLK" I L 5750 1750 60 
-F3 "SCK" I L 5750 1950 60 
-F4 "MOSI" I L 5750 2050 60 
-F5 "MISO" O R 6800 1750 60 
-F6 "~INT" O R 6800 1950 60 
-F7 "POSCOMP" O R 6800 2050 60 
-F8 "~CS_429" I L 5750 2150 60 
-F9 "~CS_DRIVER_0" I L 5750 2250 60 
-F10 "~CS_DRIVER_1" I L 5750 2350 60 
-F11 "~CS_DRIVER_2" I L 5750 2450 60 
-F12 "~ENABLE_0" I L 5750 2650 60 
-F13 "~ENABLE_1" I L 5750 2750 60 
-F14 "~ENABLE_2" I L 5750 2850 60 
+F2 "CLK" I L 5750 1750 60
+F3 "SCK" I L 5750 1950 60
+F4 "MOSI" I L 5750 2050 60
+F5 "MISO" O R 6800 1750 60
+F6 "~INT" O R 6800 1950 60
+F7 "POSCOMP" O R 6800 2050 60
+F8 "~CS_429" I L 5750 2150 60
+F9 "~CS_DRIVER_0" I L 5750 2250 60
+F10 "~CS_DRIVER_1" I L 5750 2350 60
+F11 "~CS_DRIVER_2" I L 5750 2450 60
+F12 "~ENABLE_0" I L 5750 2650 60
+F13 "~ENABLE_1" I L 5750 2750 60
+F14 "~ENABLE_2" I L 5750 2850 60
 $EndSheet
 Wire Wire Line
 	1400 2100 1300 2100
@@ -219,10 +219,10 @@ F 1 "0.1uF" H 3500 4350 30  0000 C CNN
 F 2 "stepper_controller_5x3:SM1210" H 3538 4200 30  0001 C CNN
 F 3 "" H 3500 4350 60  0000 C CNN
 F 4 "digikey" H 3600 4550 60  0001 C CNN "Vendor"
-F 5 "478-3586-1-ND" H 3700 4650 60  0001 C CNN "PartNumber"
-F 6 "CAP CER 0.1UF 50V 10% X7R 1210" H 3800 4750 60  0001 C CNN "Description"
+F 5 "399-13229-1-ND" H 3700 4650 60  0001 C CNN "PartNumber"
+F 6 "CAP CER 0.1UF 100V X7R 1210" H 3800 4750 60  0001 C CNN "Description"
 	1    3500 4350
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L +3V3 #PWR13
@@ -233,7 +233,7 @@ F 1 "+3V3" H 5265 1223 50  0000 C CNN
 F 2 "" H 5250 1050 50  0001 C CNN
 F 3 "" H 5250 1050 50  0001 C CNN
 	1    5250 1050
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L PWR_FLAG #FLG5
@@ -243,13 +243,13 @@ F 0 "#FLG5" H 4850 425 50  0001 C CNN
 F 1 "PWR_FLAG" H 5400 1124 50  0000 C CNN
 F 2 "" H 4850 350 50  0001 C CNN
 F 3 "" H 4850 350 50  0001 C CNN
-	1    5400 950 
-	1    0    0    -1  
+	1    5400 950
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	4300 1100 5400 1100
 Wire Wire Line
-	5400 1100 5400 950 
+	5400 1100 5400 950
 Wire Wire Line
 	5250 1050 5250 1100
 Connection ~ 5250 1100
@@ -262,7 +262,7 @@ F 1 "+3V3" H 3515 4273 50  0000 C CNN
 F 2 "" H 3500 4100 50  0001 C CNN
 F 3 "" H 3500 4100 50  0001 C CNN
 	1    3500 4100
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR8
@@ -273,7 +273,7 @@ F 1 "GND" H 3505 4427 50  0000 C CNN
 F 2 "" H 2800 3600 50  0001 C CNN
 F 3 "" H 2800 3600 50  0001 C CNN
 	1    3500 4600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	3500 4150 3500 4100
@@ -291,7 +291,7 @@ F 4 "digikey" H 4950 4750 60  0001 C CNN "Vendor"
 F 5 "CTX277LVCT-ND" H 5050 4850 60  0001 C CNN "PartNumber"
 F 6 "OSC XO 32.000MHZ HCMOS TTL SMD" H 5150 4950 60  0001 C CNN "Description"
 	1    4600 4350
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L +3V3 #PWR9
@@ -302,7 +302,7 @@ F 1 "+3V3" H 4215 4473 50  0000 C CNN
 F 2 "" H 4200 4300 50  0001 C CNN
 F 3 "" H 4200 4300 50  0001 C CNN
 	1    4200 4300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L +3V3 #PWR10
@@ -313,7 +313,7 @@ F 1 "+3V3" H 4615 4123 50  0000 C CNN
 F 2 "" H 4600 3950 50  0001 C CNN
 F 3 "" H 4600 3950 50  0001 C CNN
 	1    4600 3950
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	4600 4000 4600 3950
@@ -330,7 +330,7 @@ F 1 "GND" H 4605 4577 50  0000 C CNN
 F 2 "" H 3900 3750 50  0001 C CNN
 F 3 "" H 3900 3750 50  0001 C CNN
 	1    4600 4750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	4600 4750 4600 4700
@@ -438,7 +438,7 @@ F 4 "digikey" H 1850 4600 60  0001 C CNN "Vendor"
 F 5 "CP-063BH-ND" H 1950 4700 60  0001 C CNN "PartNumber"
 F 6 "CONN PWR JACK DC 2.5X5.5 8A T/H" H 2050 4800 60  0001 C CNN "Description"
 	1    1750 4350
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR4
@@ -449,7 +449,7 @@ F 1 "GND" H 1505 4277 50  0000 C CNN
 F 2 "" H 800 3450 50  0001 C CNN
 F 3 "" H 800 3450 50  0001 C CNN
 	1    1500 4450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VAA #PWR3
@@ -460,7 +460,7 @@ F 1 "VAA" H 1517 4423 50  0000 C CNN
 F 2 "" H 1500 4250 50  0001 C CNN
 F 3 "" H 1500 4250 50  0001 C CNN
 	1    1500 4250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	1500 4250 1500 4300
@@ -479,7 +479,7 @@ F 1 "PWR_FLAG" H 1400 4324 50  0000 C CNN
 F 2 "" H 850 3550 50  0001 C CNN
 F 3 "" H 850 3550 50  0001 C CNN
 	1    1400 4150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	1400 4150 1400 4300
@@ -496,7 +496,7 @@ F 4 "digikey" H 2550 4530 60  0001 C CNN "Vendor"
 F 5 "568-11697-1-ND" H 2650 4630 60  0001 C CNN "PartNumber"
 F 6 "DIODE SCHOTTKY 45V 10A CFP15" H 2750 4730 60  0001 C CNN "Description"
 	1    2500 4350
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L VAA #PWR5
@@ -507,7 +507,7 @@ F 1 "VAA" H 2367 4473 50  0000 C CNN
 F 2 "" H 2350 4300 50  0001 C CNN
 F 3 "" H 2350 4300 50  0001 C CNN
 	1    2350 4300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VDD #PWR6
@@ -518,7 +518,7 @@ F 1 "VDD" H 2667 4473 50  0000 C CNN
 F 2 "" H 1150 3650 50  0001 C CNN
 F 3 "" H 1150 3650 50  0001 C CNN
 	1    2650 4300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	2350 4300 2350 4350
