@@ -5,4 +5,9 @@ D Connector, single row, 01x04
 K connector
 $ENDCMP
 #
+$CMP VAR_47V_80A_0805
+D Voltage dependent resistor
+K vdr resistance
+$ENDCMP
+#
 #End Doc Library

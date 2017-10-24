@@ -46,3 +46,4 @@ LibDir=${KILIBS}
 LibName1=power
 LibName2=stepper_controller_5x3
 LibName3=components
+LibName4=device
