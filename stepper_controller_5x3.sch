@@ -3,7 +3,6 @@ LIBS:power
 LIBS:stepper_controller_5x3
 LIBS:components
 LIBS:device
-LIBS:stepper_controller_5x3-cache
 EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
