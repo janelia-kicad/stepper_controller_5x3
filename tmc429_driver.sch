@@ -1,8 +1,5 @@
-EESchema Schematic File Version 3
-LIBS:power
-LIBS:stepper_controller_5x3
-LIBS:components
-LIBS:device
+EESchema Schematic File Version 4
+LIBS:stepper_controller_5x3-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -18,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L TMC429 U1
+L stepper_controller_5x3:TMC429 U1
 U 1 1 58DAADA9
 P 2200 2650
 F 0 "U1" H 2550 3600 60  0000 C CNN
@@ -60,7 +57,7 @@ Wire Wire Line
 Wire Wire Line
 	1600 3050 1500 3050
 $Comp
-L +3V3 #PWR022
+L power:+3V3 #PWR022
 U 1 1 58DAE642
 P 2200 1450
 F 0 "#PWR022" H 2200 1300 50  0001 C CNN
@@ -80,7 +77,7 @@ Wire Wire Line
 	2200 1450 2200 1550
 Connection ~ 2200 1500
 $Comp
-L GND #PWR024
+L power:GND #PWR024
 U 1 1 58DAE6A2
 P 2200 3850
 F 0 "#PWR024" H 2200 3600 50  0001 C CNN
@@ -106,7 +103,7 @@ Wire Wire Line
 	2300 3750 2300 3800
 Connection ~ 2300 3800
 $Comp
-L 0.1uF C4
+L stepper_controller_5x3:0.1uF C4
 U 1 1 58DAE7A2
 P 1300 1300
 F 0 "C4" H 1300 1400 40  0000 L CNN
@@ -120,7 +117,7 @@ F 6 "CAP CER 0.1UF 100V X7R 1210" H 1600 1700 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR021
+L power:+3V3 #PWR021
 U 1 1 58DAE83F
 P 1300 1050
 F 0 "#PWR021" H 1300 900 50  0001 C CNN
@@ -131,7 +128,7 @@ F 3 "" H 1300 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR023
+L power:GND #PWR023
 U 1 1 58DAE85E
 P 1300 1550
 F 0 "#PWR023" H 1300 1300 50  0001 C CNN
@@ -339,7 +336,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 6450 5100 6450
 $Comp
-L SN74ABT541BDWR U2
+L stepper_controller_5x3:SN74ABT541BDWR U2
 U 1 1 59EFE647
 P 2200 5350
 F 0 "U2" H 2400 6000 60  0000 C CNN
@@ -353,7 +350,7 @@ F 6 "Buffer Non-Inverting 1 Element 8 Bit per Element Push-Pull Output 20-SOIC" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L 0.1uF C5
+L stepper_controller_5x3:0.1uF C5
 U 1 1 59EFF7BF
 P 900 5300
 F 0 "C5" H 900 5400 40  0000 L CNN
@@ -367,7 +364,7 @@ F 6 "CAP CER 0.1UF 100V X7R 1210" H 1200 5700 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR029
+L power:GND #PWR029
 U 1 1 59F00205
 P 2200 6100
 F 0 "#PWR029" H 2200 5850 50  0001 C CNN
@@ -378,7 +375,7 @@ F 3 "" H 2200 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR028
+L power:GND #PWR028
 U 1 1 59F005BB
 P 1800 5950
 F 0 "#PWR028" H 1800 5700 50  0001 C CNN
@@ -389,7 +386,7 @@ F 3 "" H 1800 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR027
+L power:GND #PWR027
 U 1 1 59F006C9
 P 900 5550
 F 0 "#PWR027" H 900 5300 50  0001 C CNN
@@ -400,7 +397,7 @@ F 3 "" H 900 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR026
+L power:+5V #PWR026
 U 1 1 59F00838
 P 900 5050
 F 0 "#PWR026" H 900 4900 50  0001 C CNN
@@ -411,7 +408,7 @@ F 3 "" H 900 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR025
+L power:+5V #PWR025
 U 1 1 59F008F8
 P 2200 4600
 F 0 "#PWR025" H 2200 4450 50  0001 C CNN

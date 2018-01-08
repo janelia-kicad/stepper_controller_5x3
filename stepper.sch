@@ -1,8 +1,5 @@
-EESchema Schematic File Version 3
-LIBS:power
-LIBS:stepper_controller_5x3
-LIBS:components
-LIBS:device
+EESchema Schematic File Version 4
+LIBS:stepper_controller_5x3-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -24,7 +21,7 @@ DIR
 Text HLabel 2950 3500 0    60   Input ~ 0
 ~ENABLE
 $Comp
-L MAX6817 U3
+L stepper_controller_5x3:MAX6817 U3
 U 1 1 58DB7355
 P 10200 5750
 AR Path="/58DAAD90/58DB6271/58DB7355" Ref="U3"  Part="1" 
@@ -41,7 +38,7 @@ F 6 "IC DEBOUNCER SWITCH DUAL SOT23-6" H 10750 5800 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 0.1uF C12
+L stepper_controller_5x3:0.1uF C12
 U 1 1 58DB75FF
 P 9150 5600
 AR Path="/58DAAD90/58DB6271/58DB75FF" Ref="C12"  Part="1" 
@@ -58,7 +55,7 @@ F 6 "CAP CER 0.1UF 100V X7R 1210" H 9450 6000 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR044
+L power:GND #PWR044
 U 1 1 58DB760B
 P 9150 5850
 AR Path="/58DAAD90/58DB6271/58DB760B" Ref="#PWR044"  Part="1" 
@@ -80,7 +77,7 @@ REF_B
 Text Label 9700 5900 2    60   ~ 0
 REFR_B
 $Comp
-L GND #PWR045
+L power:GND #PWR045
 U 1 1 58DB77EA
 P 10200 6100
 AR Path="/58DAAD90/58DB6271/58DB77EA" Ref="#PWR045"  Part="1" 
@@ -108,7 +105,7 @@ REF_B
 Text Label 8250 5650 2    60   ~ 0
 REFR_B
 $Comp
-L GND #PWR043
+L power:GND #PWR043
 U 1 1 58DBDD44
 P 8300 5800
 AR Path="/58DAAD90/58DB6271/58DBDD44" Ref="#PWR043"  Part="1" 
@@ -129,7 +126,7 @@ Wire Wire Line
 	8350 5750 8300 5750
 Connection ~ 8300 5750
 $Comp
-L +3V3 #PWR042
+L power:+3V3 #PWR042
 U 1 1 58DC30A2
 P 10200 5400
 AR Path="/58DAAD90/58DB6271/58DC30A2" Ref="#PWR042"  Part="1" 
@@ -143,7 +140,7 @@ F 3 "" H 10200 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR041
+L power:+3V3 #PWR041
 U 1 1 58DC30C6
 P 9150 5350
 AR Path="/58DAAD90/58DB6271/58DC30C6" Ref="#PWR041"  Part="1" 
@@ -159,7 +156,7 @@ $EndComp
 Text HLabel 2950 3900 0    60   Input ~ 0
 ~CS
 $Comp
-L TERM_BLK_HDR_4POS_VERT_0.150IN T2
+L stepper_controller_5x3:TERM_BLK_HDR_4POS_VERT_0.150IN T2
 U 1 1 58DD5490
 P 8550 5600
 AR Path="/58DAAD90/58DB6271/58DD5490" Ref="T2"  Part="1" 
@@ -212,7 +209,7 @@ B_+F
 Text Label 8250 3450 2    60   ~ 0
 B_-F
 $Comp
-L STEPSTICK SS1
+L stepper_controller_5x3:STEPSTICK SS1
 U 1 1 59433757
 P 3650 3600
 AR Path="/58DAAD90/58DB6271/59433757" Ref="SS1"  Part="1" 
@@ -246,7 +243,7 @@ B_+
 Text Label 4350 3750 0    60   ~ 0
 B_-
 $Comp
-L GND #PWR036
+L power:GND #PWR036
 U 1 1 59434313
 P 3650 4300
 AR Path="/58DAAD90/58DB6271/59434313" Ref="#PWR036"  Part="1" 
@@ -273,7 +270,7 @@ Wire Wire Line
 Wire Wire Line
 	3750 2950 3750 3000
 $Comp
-L GND #PWR032
+L power:GND #PWR032
 U 1 1 59438B84
 P 1850 2400
 AR Path="/58DAAD90/58DB6271/59438B84" Ref="#PWR032"  Part="1" 
@@ -291,7 +288,7 @@ Wire Wire Line
 Wire Wire Line
 	1850 2350 1850 2400
 $Comp
-L 10uF C7
+L stepper_controller_5x3:10uF C7
 U 1 1 59438DA3
 P 2350 2250
 AR Path="/58DAAD90/58DB6271/59438DA3" Ref="C7"  Part="1" 
@@ -308,7 +305,7 @@ F 6 "CAP CER 10UF 50V 10% X7S 1210" H 2650 2650 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR033
+L power:GND #PWR033
 U 1 1 59438E1F
 P 2350 2500
 AR Path="/58DAAD90/58DB6271/59438E1F" Ref="#PWR033"  Part="1" 
@@ -326,7 +323,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 2450 2350 2500
 $Comp
-L TERM_BLK_HDR_4POS_VERT_0.2IN T1
+L stepper_controller_5x3:TERM_BLK_HDR_4POS_VERT_0.2IN T1
 U 1 1 594392CD
 P 8550 3600
 AR Path="/58DAAD90/58DB6271/594392CD" Ref="T1"  Part="1" 
@@ -353,7 +350,7 @@ Wire Wire Line
 Wire Wire Line
 	10600 5900 10700 5900
 $Comp
-L 220uF_POL C6
+L stepper_controller_5x3:220uF_POL C6
 U 1 1 5947FBC7
 P 1850 2250
 AR Path="/58DAAD90/58DB6271/5947FBC7" Ref="C6"  Part="1" 
@@ -370,7 +367,7 @@ F 6 "CAP ALUM 220UF 20% 50V SMD" H 2160 2620 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 90nH_8A_8.5mOhm_SMD L1
+L stepper_controller_5x3:90nH_8A_8.5mOhm_SMD L1
 U 1 1 59EE3093
 P 5300 3450
 AR Path="/58DAAD90/58DB6271/59EE3093" Ref="L1"  Part="1" 
@@ -397,7 +394,7 @@ B_+
 Text Label 5100 3750 2    60   ~ 0
 B_-
 $Comp
-L 90nH_8A_8.5mOhm_SMD L2
+L stepper_controller_5x3:90nH_8A_8.5mOhm_SMD L2
 U 1 1 59EE3600
 P 5300 3550
 AR Path="/58DAAD90/58DB6271/59EE3600" Ref="L2"  Part="1" 
@@ -414,7 +411,7 @@ F 6 "FIXED IND 90NH 8A 8.5 MOHM SMD" H 5630 3890 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 90nH_8A_8.5mOhm_SMD L3
+L stepper_controller_5x3:90nH_8A_8.5mOhm_SMD L3
 U 1 1 59EE363A
 P 5300 3650
 AR Path="/58DAAD90/58DB6271/59EE363A" Ref="L3"  Part="1" 
@@ -431,7 +428,7 @@ F 6 "FIXED IND 90NH 8A 8.5 MOHM SMD" H 5630 3990 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 90nH_8A_8.5mOhm_SMD L4
+L stepper_controller_5x3:90nH_8A_8.5mOhm_SMD L4
 U 1 1 59EE3678
 P 5300 3750
 AR Path="/58DAAD90/58DB6271/59EE3678" Ref="L4"  Part="1" 
@@ -470,7 +467,7 @@ B_+F
 Text Label 5550 3750 0    60   ~ 0
 B_-F
 $Comp
-L 470pF_0805 C8
+L stepper_controller_5x3:470pF_0805 C8
 U 1 1 59EE5757
 P 4850 4700
 AR Path="/58DAAD90/58DB6271/59EE5757" Ref="C8"  Part="1" 
@@ -489,7 +486,7 @@ $EndComp
 Wire Wire Line
 	4850 4500 4850 4350
 $Comp
-L GND #PWR037
+L power:GND #PWR037
 U 1 1 59EE5B71
 P 4850 5050
 AR Path="/58DAAD90/58DB6271/59EE5B71" Ref="#PWR037"  Part="1" 
@@ -507,7 +504,7 @@ Wire Wire Line
 Text Label 4850 4350 0    60   ~ 0
 A_+F
 $Comp
-L 470pF_0805 C9
+L stepper_controller_5x3:470pF_0805 C9
 U 1 1 59EE5D0A
 P 5150 4700
 AR Path="/58DAAD90/58DB6271/59EE5D0A" Ref="C9"  Part="1" 
@@ -526,7 +523,7 @@ $EndComp
 Wire Wire Line
 	5150 4500 5150 4350
 $Comp
-L GND #PWR038
+L power:GND #PWR038
 U 1 1 59EE5D11
 P 5150 5050
 AR Path="/58DAAD90/58DB6271/59EE5D11" Ref="#PWR038"  Part="1" 
@@ -544,7 +541,7 @@ Wire Wire Line
 Text Label 5150 4350 0    60   ~ 0
 A_-F
 $Comp
-L 470pF_0805 C10
+L stepper_controller_5x3:470pF_0805 C10
 U 1 1 59EE5D8C
 P 5450 4700
 AR Path="/58DAAD90/58DB6271/59EE5D8C" Ref="C10"  Part="1" 
@@ -563,7 +560,7 @@ $EndComp
 Wire Wire Line
 	5450 4500 5450 4350
 $Comp
-L GND #PWR039
+L power:GND #PWR039
 U 1 1 59EE5D93
 P 5450 5050
 AR Path="/58DAAD90/58DB6271/59EE5D93" Ref="#PWR039"  Part="1" 
@@ -581,7 +578,7 @@ Wire Wire Line
 Text Label 5450 4350 0    60   ~ 0
 B_+F
 $Comp
-L 470pF_0805 C11
+L stepper_controller_5x3:470pF_0805 C11
 U 1 1 59EE5D9E
 P 5750 4700
 AR Path="/58DAAD90/58DB6271/59EE5D9E" Ref="C11"  Part="1" 
@@ -600,7 +597,7 @@ $EndComp
 Wire Wire Line
 	5750 4500 5750 4350
 $Comp
-L GND #PWR040
+L power:GND #PWR040
 U 1 1 59EE5DA5
 P 5750 5050
 AR Path="/58DAAD90/58DB6271/59EE5DA5" Ref="#PWR040"  Part="1" 
@@ -618,7 +615,7 @@ Wire Wire Line
 Text Label 5750 4350 0    60   ~ 0
 B_-F
 $Comp
-L VAA #PWR031
+L power:VAA #PWR031
 U 1 1 59EF59A5
 P 1850 2100
 AR Path="/58DAAD90/58DB6271/59EF59A5" Ref="#PWR031"  Part="1" 
@@ -632,7 +629,7 @@ F 3 "" H 1850 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VAA #PWR030
+L power:VAA #PWR030
 U 1 1 59EF5B6C
 P 2350 2000
 AR Path="/58DAAD90/58DB6271/59EF5B6C" Ref="#PWR030"  Part="1" 
@@ -646,7 +643,7 @@ F 3 "" H 2350 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VAA #PWR035
+L power:VAA #PWR035
 U 1 1 59EF5BB3
 P 3750 2950
 AR Path="/58DAAD90/58DB6271/59EF5BB3" Ref="#PWR035"  Part="1" 
@@ -660,7 +657,7 @@ F 3 "" H 3750 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR034
+L power:+5V #PWR034
 U 1 1 59EFA0E3
 P 3550 2950
 AR Path="/58DAAD90/58DB6271/59EFA0E3" Ref="#PWR034"  Part="1" 
@@ -674,7 +671,7 @@ F 3 "" H 3550 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR046
+L power:GND #PWR046
 U 1 1 59EFB153
 P 4850 6250
 AR Path="/58DAAD90/58DB6271/59EFB153" Ref="#PWR046"  Part="1" 
@@ -690,7 +687,7 @@ $EndComp
 Text Label 4850 5550 0    60   ~ 0
 A_+F
 $Comp
-L GND #PWR047
+L power:GND #PWR047
 U 1 1 59EFB165
 P 5150 6250
 AR Path="/58DAAD90/58DB6271/59EFB165" Ref="#PWR047"  Part="1" 
@@ -706,7 +703,7 @@ $EndComp
 Text Label 5150 5550 0    60   ~ 0
 A_-F
 $Comp
-L GND #PWR048
+L power:GND #PWR048
 U 1 1 59EFB177
 P 5450 6250
 AR Path="/58DAAD90/58DB6271/59EFB177" Ref="#PWR048"  Part="1" 
@@ -722,7 +719,7 @@ $EndComp
 Text Label 5450 5550 0    60   ~ 0
 B_+F
 $Comp
-L GND #PWR049
+L power:GND #PWR049
 U 1 1 59EFB189
 P 5750 6250
 AR Path="/58DAAD90/58DB6271/59EFB189" Ref="#PWR049"  Part="1" 
@@ -738,7 +735,7 @@ $EndComp
 Text Label 5750 5550 0    60   ~ 0
 B_-F
 $Comp
-L VAR_47V_80A_0805 RV3
+L stepper_controller_5x3:VAR_47V_80A_0805 RV3
 U 1 1 59EFB309
 P 4850 5900
 AR Path="/58DAAD90/58DB6271/59EFB309" Ref="RV3"  Part="1" 
@@ -755,7 +752,7 @@ F 6 "VARISTOR 47V 80A 0805" V 5275 6200 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L VAR_47V_80A_0805 RV4
+L stepper_controller_5x3:VAR_47V_80A_0805 RV4
 U 1 1 59EFB680
 P 5150 5900
 AR Path="/58DAAD90/58DB6271/59EFB680" Ref="RV4"  Part="1" 
@@ -772,7 +769,7 @@ F 6 "VARISTOR 47V 80A 0805" V 5575 6200 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L VAR_47V_80A_0805 RV5
+L stepper_controller_5x3:VAR_47V_80A_0805 RV5
 U 1 1 59EFB6E2
 P 5450 5900
 AR Path="/58DAAD90/58DB6271/59EFB6E2" Ref="RV5"  Part="1" 
@@ -789,7 +786,7 @@ F 6 "VARISTOR 47V 80A 0805" V 5875 6200 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L VAR_47V_80A_0805 RV6
+L stepper_controller_5x3:VAR_47V_80A_0805 RV6
 U 1 1 59EFB748
 P 5750 5900
 AR Path="/58DAAD90/58DB6271/59EFB748" Ref="RV6"  Part="1" 
@@ -806,7 +803,7 @@ F 6 "VARISTOR 47V 80A 0805" V 6175 6200 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L VAR_47V_80A_0805 RV1
+L stepper_controller_5x3:VAR_47V_80A_0805 RV1
 U 1 1 59EFB7B6
 P 4250 5900
 AR Path="/58DAAD90/58DB6271/59EFB7B6" Ref="RV1"  Part="1" 
@@ -823,7 +820,7 @@ F 6 "VARISTOR 47V 80A 0805" V 4675 6200 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L VAR_47V_80A_0805 RV2
+L stepper_controller_5x3:VAR_47V_80A_0805 RV2
 U 1 1 59EFB824
 P 4550 5900
 AR Path="/58DAAD90/58DB6271/59EFB824" Ref="RV2"  Part="1" 

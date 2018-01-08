@@ -1,4 +1,4 @@
-update=Wed 04 Jan 2017 04:59:50 PM EST
+update=Mon 08 Jan 2018 11:27:55 AM EST
 version=1
 last_client=kicad
 [cvpcb]
@@ -41,9 +41,4 @@ LabSize=60
 ERC_TestSimilarLabels=1
 [eeschema]
 version=1
-LibDir=${KILIBS}
-[eeschema/libraries]
-LibName1=power
-LibName2=stepper_controller_5x3
-LibName3=components
-LibName4=device
+LibDir=
