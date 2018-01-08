@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name power)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/power.lib)(options "")(descr ""))
+  (lib (name stepper_controller_5x3)(type Legacy)(uri ${KIPRJMOD}/stepper_controller_5x3.lib)(options "")(descr ""))
+  (lib (name components)(type Legacy)(uri ${KILIBS}/components.lib)(options "")(descr ""))
+  (lib (name device)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/device.lib)(options "")(descr ""))
+)
