@@ -1,0 +1,11 @@
+* Header                                                           :noexport:
+  #+MACRO: name modular_device_base_5x3
+  #+MACRO: version 1.2
+  #+MACRO: license Open-Source Hardware
+  #+MACRO: url https://github.com/janelia-kicad/modular_device_base_5x3
+  #+AUTHOR: Peter Polidoro
+  #+EMAIL: peterpolidoro@gmail.com
+* Description
+  This board is the base of 5x3 format modular devices. It is a breakout board
+  for the microprocessor, with connections for power, communication, and top
+  boards.
