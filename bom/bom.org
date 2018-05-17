@@ -1,54 +1,6 @@
-# Created 2018-05-17 Thu 17:30
-#+OPTIONS: title:nil author:nil email:nil toc:t |:t ^:nil
-* Repository Information
-
-- Name :: stepper_controller_5x3
-- Version :: 1.1
-- License :: Open-Source Hardware
-- URL :: https://github.com/janelia-kicad/stepper_controller_5x3
-- Author :: Peter Polidoro
-- Email :: peterpolidoro@gmail.com
-
-** Description
-
-This board controls up to 3 stepper motors with optional forward and reverse
-limit switches for each motor.
-
-* Images
-
-[[file:./images/top.png]]
-
-[[file:./images/bottom.png]]
-
-* Schematic
-
-[[file:./schematic/stepper_controller_5x3.pdf][./schematic/stepper_controller_5x3.pdf]]
-
-[[file:./schematic/images/schematic00.png]]
-
-[[file:./schematic/images/schematic01.png]]
-
-[[file:./schematic/images/schematic02.png]]
-
-[[file:./schematic/images/schematic03.png]]
-
-[[file:./schematic/images/schematic04.png]]
-
-* Gerbers
-
-Save gerbers zip file and send to your favorite PCB manufacturer for
-fabrication.
-
-[[file:./gerbers/stepper_controller_5x3_v1.1.zip][./gerbers/stepper_controller_5x3_v1.1.zip]]
-
-[[file:./gerbers/images/gerbers00.png]]
-
-[[file:./gerbers/images/gerbers01.png]]
-
+# Created 2018-05-17 Thu 14:03
 * Bill of Materials
-
-** PCB Parts
-
+#+RESULTS: pcb-parts
 | Item | Reference(s)                                                                     | Quantity | PartNumber        | Vendor  | Description                                                               |
 |------+----------------------------------------------------------------------------------+----------+-------------------+---------+---------------------------------------------------------------------------|
 |    1 | C1 C12 C19 C26 C4 C5                                                             |        6 | 399-13229-1-ND    | digikey | CAP CER 0.1UF 100V X7R 1210                                               |
@@ -69,35 +21,3 @@ fabrication.
 |   16 | U1                                                                               |        1 | 1460-1071-1-ND    | digikey | IC MOTOR CONTROLLER SPI 32QFN                                             |
 |   17 | U2                                                                               |        1 | 296-14668-1-ND    | digikey | Buffer Non-Inverting 1 Element 8 Bit per Element Push-Pull Output 20-SOIC |
 |   18 | U3 U4 U5                                                                         |        3 | MAX6817EUT+TCT-ND | digikey | IC DEBOUNCER SWITCH DUAL SOT23-6                                          |
-
-** Supplemental Parts
-
-| Item | Quantity | PartNumber       | Vendor  | Description                       |
-|------+----------+------------------+---------+-----------------------------------|
-|    1 |        3 | 277-1013-ND      | digikey | TERM BLOCK PLUG 4POS STR 5.08MM   |
-|    2 |        3 | 277-1042-ND      | digikey | TERM BLOCK PLUG 4POS 5.08MM       |
-|    3 |        3 | 277-1163-ND      | digikey | TERM BLOCK PLUG 4POS STR 3.81MM   |
-|    4 |        3 | 277-1193-ND      | digikey | TERM BLOCK PLUG 4POS 90DEG 3.81MM |
-|    5 |        3 | 1460-1187-ND     | digikey | TMC2130 STEPPER DRIVER BOARD      |
-|    6 |        3 | 501100B00000G-ND | digikey | HEATSINK 14-DIP/16-DIP            |
-|    7 |        1 | 3M10315-ND       | digikey | TAPE ADHESIVE TRANSFER 1/2in X5YD |
-
-** Vendor Parts Lists
-
-[[file:./bom/digikey_parts.csv][./bom/digikey_parts.csv]]
-
-[[file:./bom/supplemental_digikey_parts.csv][./bom/supplemental_digikey_parts.csv]]
-
-* Supplemental Documentation
-
-** Assembly Instructions
-
-- Solder header pins into the stepper driver board(s), making note of TOP label.
-  Insert header pins on bottom of board so that the long unsoldered header
-  pins point down when the TOP label faces up.
-- Expose one side of the thermal adhesive tape and attach to the bottom of the
-  heatsink. Trim tape so it does not extend beyond heatsink edges.
-- Expose the other side of the thermal adhesive tape and attach the heatsink
-  to the stepper driver board on the side with the TOP label.
-- Solder surface mount and through hole components onto the pcb.
-- Insert stepper driver board(s) into pin receptacles.
