@@ -1,4 +1,4 @@
-# Created 2018-05-17 Thu 17:30
+# Created 2018-05-18 Fri 09:41
 #+OPTIONS: title:nil author:nil email:nil toc:t |:t ^:nil
 * Repository Information
 
@@ -36,8 +36,7 @@ limit switches for each motor.
 
 * Gerbers
 
-Save gerbers zip file and send to your favorite PCB manufacturer for
-fabrication.
+Send gerbers zip file to your favorite PCB manufacturer for fabrication.
 
 [[file:./gerbers/stepper_controller_5x3_v1.1.zip][./gerbers/stepper_controller_5x3_v1.1.zip]]
 
