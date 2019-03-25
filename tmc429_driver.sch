@@ -1,13 +1,12 @@
 EESchema Schematic File Version 4
-LIBS:stepper_controller_5x3-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 5
 Title ""
 Date ""
-Rev "1.0"
+Rev "1.2"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -70,11 +69,11 @@ $EndComp
 Wire Wire Line
 	2100 1550 2100 1500
 Wire Wire Line
-	2100 1500 2300 1500
+	2100 1500 2200 1500
 Wire Wire Line
 	2300 1500 2300 1550
 Wire Wire Line
-	2200 1450 2200 1550
+	2200 1450 2200 1500
 Connection ~ 2200 1500
 $Comp
 L power:GND #PWR024
@@ -90,14 +89,14 @@ $EndComp
 Wire Wire Line
 	2000 3750 2000 3800
 Wire Wire Line
-	2000 3800 2400 3800
+	2000 3800 2100 3800
 Wire Wire Line
 	2400 3800 2400 3750
 Wire Wire Line
 	2100 3750 2100 3800
 Connection ~ 2100 3800
 Wire Wire Line
-	2200 3750 2200 3850
+	2200 3750 2200 3800
 Connection ~ 2200 3800
 Wire Wire Line
 	2300 3750 2300 3800
@@ -425,7 +424,7 @@ Wire Wire Line
 Wire Wire Line
 	1850 5800 1800 5800
 Wire Wire Line
-	1800 5800 1800 5950
+	1800 5800 1800 5900
 Wire Wire Line
 	1850 5900 1800 5900
 Connection ~ 1800 5900
@@ -505,4 +504,18 @@ Text Label 5000 4750 2    60   ~ 0
 ~CS_DRIVER_1_B
 Text Label 5000 6600 2    60   ~ 0
 ~CS_DRIVER_2_B
+Wire Wire Line
+	2200 1500 2300 1500
+Wire Wire Line
+	2200 1500 2200 1550
+Wire Wire Line
+	2100 3800 2200 3800
+Wire Wire Line
+	2200 3800 2200 3850
+Wire Wire Line
+	2200 3800 2300 3800
+Wire Wire Line
+	2300 3800 2400 3800
+Wire Wire Line
+	1800 5900 1800 5950
 $EndSCHEMATC
