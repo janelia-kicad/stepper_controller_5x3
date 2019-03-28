@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:stepper_controller_5x3-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -100,30 +101,23 @@ Wire Wire Line
 Wire Wire Line
 	5800 5550 5700 5550
 Text Label 5700 5350 2    60   ~ 0
-REF_B
+REF_B+
 Text Label 5700 5550 2    60   ~ 0
-REFR_B
+REFR_B+
 $Comp
 L power:GND #PWR043
 U 1 1 58DBDD44
-P 5750 5700
+P 5900 6450
 AR Path="/58DAAD90/58DB6271/58DBDD44" Ref="#PWR043"  Part="1" 
 AR Path="/58DAAD90/58DF1FF3/58DBDD44" Ref="#PWR063"  Part="1" 
 AR Path="/58DAAD90/58DF28B3/58DBDD44" Ref="#PWR083"  Part="1" 
-F 0 "#PWR043" H 5750 5450 50  0001 C CNN
-F 1 "GND" H 5755 5527 50  0000 C CNN
-F 2 "" H 5750 5700 50  0001 C CNN
-F 3 "" H 5750 5700 50  0001 C CNN
-	1    5750 5700
+F 0 "#PWR043" H 5900 6200 50  0001 C CNN
+F 1 "GND" H 5905 6277 50  0000 C CNN
+F 2 "" H 5900 6450 50  0001 C CNN
+F 3 "" H 5900 6450 50  0001 C CNN
+	1    5900 6450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5800 5450 5750 5450
-Wire Wire Line
-	5750 5450 5750 5650
-Wire Wire Line
-	5800 5650 5750 5650
-Connection ~ 5750 5650
 $Comp
 L power:+3V3 #PWR042
 U 1 1 58DC30A2
@@ -422,8 +416,6 @@ F 3 "" H 3700 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5750 5650 5750 5700
-Wire Wire Line
 	3800 3450 3850 3450
 $Comp
 L stepper_controller_5x3:OPTOISO_2CHAN U?
@@ -532,4 +524,24 @@ F 3 "" H 8200 5100 50  0001 C CNN
 	1    8200 5100
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5800 5450 5700 5450
+Wire Wire Line
+	5800 5650 5700 5650
+Text Label 5700 5450 2    60   ~ 0
+REF_B-
+Text Label 5700 5650 2    60   ~ 0
+REFR_B-
+Wire Wire Line
+	7150 5350 7050 5350
+Wire Wire Line
+	7150 5450 7050 5450
+Wire Wire Line
+	7150 5550 7050 5550
+Wire Wire Line
+	7150 5650 7050 5650
+Text Label 7050 5450 2    60   ~ 0
+REF_B+
+Text Label 7050 5550 2    60   ~ 0
+REFR_B+
 $EndSCHEMATC

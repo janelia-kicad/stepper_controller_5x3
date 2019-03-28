@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:stepper_controller_5x3-cache
 EELAYER 29 0
 EELAYER END
 $Descr A 11000 8500
