@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:stepper_controller_5x3-cache
 EELAYER 29 0
 EELAYER END
 $Descr A 11000 8500
@@ -610,20 +609,6 @@ F 3 "" H 3300 5500 50  0001 C CNN
 $EndComp
 Connection ~ 3300 5550
 $Comp
-L stepper_controller_5x3:1k R1
-U 1 1 59EFAA86
-P 3900 5800
-F 0 "R1" H 3950 5800 40  0000 L CNN
-F 1 "1k" V 3900 5800 40  0000 C CNN
-F 2 "stepper_controller_5x3:SM1210" V 3830 5800 30  0001 C CNN
-F 3 "" H 3900 5800 30  0000 C CNN
-F 4 "digikey" V 4080 5900 60  0001 C CNN "Vendor"
-F 5 "P1.00KAACT-ND" V 4180 6000 60  0001 C CNN "PartNumber"
-F 6 "RES SMD 1K OHM 1% 1/2W 1210" V 4280 6100 60  0001 C CNN "Description"
-	1    3900 5800
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR020
 U 1 1 59EFB511
 P 3900 6100
@@ -674,4 +659,18 @@ Wire Wire Line
 	3300 5550 3300 5600
 Wire Wire Line
 	3900 5500 3900 5550
+$Comp
+L stepper_controller_5x3:10.0k R?
+U 1 1 5CA32D84
+P 3900 5800
+F 0 "R?" H 3950 5800 40  0000 L CNN
+F 1 "10.0k" V 3900 5700 40  0000 L CNN
+F 2 "footprints:SM0805" V 3830 5800 30  0001 C CNN
+F 3 "" H 3900 5800 30  0000 C CNN
+F 4 "digikey" V 4080 5900 60  0001 C CNN "Vendor"
+F 5 "P10.0KCCT-ND" V 4180 6000 60  0001 C CNN "PartNumber"
+F 6 "RES SMD 10K OHM 1% 1/8W 0805" V 4280 6100 60  0001 C CNN "Description"
+	1    3900 5800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
