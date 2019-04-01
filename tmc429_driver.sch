@@ -27,37 +27,37 @@ F 6 "digikey" H 2900 3350 60  0001 C CNN "Vendor"
 	1    2250 2100
 	1    0    0    -1  
 $EndComp
-Text HLabel 1550 1700 0    60   Input ~ 0
+Text HLabel 1550 1700 0    60   Input ~ 6
 CLK
 Wire Wire Line
 	1650 1700 1550 1700
-Text HLabel 1550 1900 0    60   Input ~ 0
+Text HLabel 1550 1900 0    60   Input ~ 6
 SCK
-Text HLabel 1550 2000 0    60   Input ~ 0
+Text HLabel 1550 2000 0    60   Input ~ 6
 MOSI
-Text HLabel 1800 4600 0    60   Input ~ 0
+Text HLabel 1800 4600 0    60   Input ~ 6
 ~CS_429
 Wire Wire Line
 	1650 1900 1550 1900
 Wire Wire Line
 	1650 2000 1550 2000
 Wire Wire Line
-	1650 2200 1550 2200
-Text HLabel 3300 4250 2    60   Output ~ 0
+	1650 2200 1250 2200
+Text HLabel 3300 4250 2    60   Output ~ 6
 MISO
-Text HLabel 1550 2400 0    60   Output ~ 0
+Text HLabel 1550 2400 0    60   Output ~ 6
 ~INT
-Text HLabel 1550 2500 0    60   Output ~ 0
+Text HLabel 1550 2500 0    60   Output ~ 6
 POSCOMP
 Wire Wire Line
 	1650 2400 1550 2400
 Wire Wire Line
 	1650 2500 1550 2500
 $Comp
-L power:+3V3 #PWR022
+L power:+3V3 #PWR020
 U 1 1 58DAE642
 P 2250 900
-F 0 "#PWR022" H 2250 750 50  0001 C CNN
+F 0 "#PWR020" H 2250 750 50  0001 C CNN
 F 1 "+3V3" H 2265 1073 50  0000 C CNN
 F 2 "" H 2250 900 50  0001 C CNN
 F 3 "" H 2250 900 50  0001 C CNN
@@ -74,10 +74,10 @@ Wire Wire Line
 	2250 900  2250 950 
 Connection ~ 2250 950 
 $Comp
-L power:GND #PWR024
+L power:GND #PWR022
 U 1 1 58DAE6A2
 P 2250 3300
-F 0 "#PWR024" H 2250 3050 50  0001 C CNN
+F 0 "#PWR022" H 2250 3050 50  0001 C CNN
 F 1 "GND" H 2255 3127 50  0000 C CNN
 F 2 "" H 2250 3300 50  0001 C CNN
 F 3 "" H 2250 3300 50  0001 C CNN
@@ -114,10 +114,10 @@ F 6 "CAP CER 0.1UF 100V X7R 1210" H 1250 1550 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR021
+L power:+3V3 #PWR019
 U 1 1 58DAE83F
 P 950 900
-F 0 "#PWR021" H 950 750 50  0001 C CNN
+F 0 "#PWR019" H 950 750 50  0001 C CNN
 F 1 "+3V3" H 965 1073 50  0000 C CNN
 F 2 "" H 950 900 50  0001 C CNN
 F 3 "" H 950 900 50  0001 C CNN
@@ -125,10 +125,10 @@ F 3 "" H 950 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR023
+L power:GND #PWR021
 U 1 1 58DAE85E
 P 950 1400
-F 0 "#PWR023" H 950 1150 50  0001 C CNN
+F 0 "#PWR021" H 950 1150 50  0001 C CNN
 F 1 "GND" H 955 1227 50  0000 C CNN
 F 2 "" H 950 1400 50  0001 C CNN
 F 3 "" H 950 1400 50  0001 C CNN
@@ -151,19 +151,19 @@ Wire Wire Line
 	2850 2450 2950 2450
 Wire Wire Line
 	2850 2550 2950 2550
-Text Label 2950 1450 0    60   ~ 0
+Text Label 2950 1450 0    60   ~ 6
 STEP_0
-Text Label 2950 1550 0    60   ~ 0
+Text Label 2950 1550 0    60   ~ 6
 DIR_0
-Text Label 2950 1950 0    60   ~ 0
+Text Label 2950 1950 0    60   ~ 6
 STEP_1
-Text Label 2950 2050 0    60   ~ 0
+Text Label 2950 2050 0    60   ~ 6
 DIR_1
-Text Label 2950 2450 0    60   ~ 0
+Text Label 2950 2450 0    60   ~ 6
 STEP_2
-Text Label 2950 2550 0    60   ~ 0
+Text Label 2950 2550 0    60   ~ 6
 DIR_2
-Text HLabel 2150 6200 0    60   Input ~ 0
+Text HLabel 2150 6200 0    60   Input ~ 6
 ~ENABLE_0
 $Sheet
 S 5100 1850 1050 1200
@@ -186,21 +186,21 @@ Wire Wire Line
 	5100 2000 5000 2000
 Wire Wire Line
 	5100 2150 5000 2150
-Text Label 5000 2000 2    60   ~ 0
+Text Label 5000 2000 2    60   ~ 6
 STEP_0
-Text Label 5000 2150 2    60   ~ 0
+Text Label 5000 2150 2    60   ~ 6
 DIR_0
 Wire Wire Line
 	6150 2000 6250 2000
 Wire Wire Line
 	6150 2150 6250 2150
-Text Label 6250 2000 0    60   ~ 0
+Text Label 6250 2000 0    60   ~ 6
 REF_0
-Text Label 6250 2150 0    60   ~ 0
+Text Label 6250 2150 0    60   ~ 6
 REFR_0
-Text HLabel 2150 6400 0    60   Input ~ 0
+Text HLabel 2150 6400 0    60   Input ~ 6
 ~ENABLE_1
-Text HLabel 2150 6600 0    60   Input ~ 0
+Text HLabel 2150 6600 0    60   Input ~ 6
 ~ENABLE_2
 Wire Wire Line
 	2850 1650 2950 1650
@@ -214,43 +214,43 @@ Wire Wire Line
 	2850 2650 2950 2650
 Wire Wire Line
 	2850 2750 2950 2750
-Text Label 2950 1650 0    60   ~ 0
+Text Label 2950 1650 0    60   ~ 6
 REF_0
-Text Label 2950 1750 0    60   ~ 0
+Text Label 2950 1750 0    60   ~ 6
 REFR_0
-Text Label 2950 2150 0    60   ~ 0
+Text Label 2950 2150 0    60   ~ 6
 REF_1
-Text Label 2950 2650 0    60   ~ 0
+Text Label 2950 2650 0    60   ~ 6
 REF_2
-Text Label 2950 2250 0    60   ~ 0
+Text Label 2950 2250 0    60   ~ 6
 REFR_1
-Text Label 2950 2750 0    60   ~ 0
+Text Label 2950 2750 0    60   ~ 6
 REFR_2
-Text Label 5000 3850 2    60   ~ 0
+Text Label 5000 3850 2    60   ~ 6
 STEP_1
-Text Label 6250 3850 0    60   ~ 0
+Text Label 6250 3850 0    60   ~ 6
 REF_1
-Text Label 6250 4000 0    60   ~ 0
+Text Label 6250 4000 0    60   ~ 6
 REFR_1
-Text Label 5000 5700 2    60   ~ 0
+Text Label 5000 5700 2    60   ~ 6
 STEP_2
-Text Label 5000 5850 2    60   ~ 0
+Text Label 5000 5850 2    60   ~ 6
 DIR_2
-Text Label 6250 5700 0    60   ~ 0
+Text Label 6250 5700 0    60   ~ 6
 REF_2
-Text Label 6250 5850 0    60   ~ 0
+Text Label 6250 5850 0    60   ~ 6
 REFR_2
-Text HLabel 2150 6300 0    60   Input ~ 0
+Text HLabel 2150 6300 0    60   Input ~ 6
 ~CS_DRIVER_0
-Text HLabel 2150 6500 0    60   Input ~ 0
+Text HLabel 2150 6500 0    60   Input ~ 6
 ~CS_DRIVER_1
-Text HLabel 2150 6700 0    60   Input ~ 0
+Text HLabel 2150 6700 0    60   Input ~ 6
 ~CS_DRIVER_2
-Text HLabel 2150 6000 0    60   Input ~ 0
+Text HLabel 2150 6000 0    60   Input ~ 6
 SCK
-Text HLabel 2150 6100 0    60   Input ~ 0
+Text HLabel 2150 6100 0    60   Input ~ 6
 MOSI
-Text HLabel 5000 2750 0    60   Output ~ 0
+Text HLabel 5000 2750 0    60   Output ~ 6
 MISO
 Wire Wire Line
 	5000 2450 5100 2450
@@ -290,7 +290,7 @@ F8 "SCK" I L 5100 6150 60
 F9 "MOSI" I L 5100 6300 60 
 F10 "MISO" O L 5100 6450 60 
 $EndSheet
-Text Label 5000 4000 2    60   ~ 0
+Text Label 5000 4000 2    60   ~ 6
 DIR_1
 Wire Wire Line
 	5000 3850 5100 3850
@@ -316,9 +316,9 @@ Wire Wire Line
 	6150 5700 6250 5700
 Wire Wire Line
 	6150 5850 6250 5850
-Text HLabel 5000 4600 0    60   Output ~ 0
+Text HLabel 5000 4600 0    60   Output ~ 6
 MISO
-Text HLabel 5000 6450 0    60   Output ~ 0
+Text HLabel 5000 6450 0    60   Output ~ 6
 MISO
 Wire Wire Line
 	5000 4300 5100 4300
@@ -333,10 +333,10 @@ Wire Wire Line
 Wire Wire Line
 	5000 6450 5100 6450
 $Comp
-L stepper_controller_5x3:SN74ABT541BDWR U2
+L stepper_controller_5x3:SN74ABT541BDWR U3
 U 1 1 59EFE647
 P 2600 6350
-F 0 "U2" H 2800 7000 60  0000 C CNN
+F 0 "U3" H 2800 7000 60  0000 C CNN
 F 1 "SN74ABT541BDWR" V 2750 6350 60  0000 C CNN
 F 2 "stepper_controller_5x3:SOIC_20" H 2700 6900 60  0001 C CNN
 F 3 "" H 2600 6350 60  0001 C CNN
@@ -361,10 +361,10 @@ F 6 "CAP CER 0.1UF 100V X7R 1210" H 1600 6700 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR029
+L power:GND #PWR030
 U 1 1 59F00205
 P 2600 7100
-F 0 "#PWR029" H 2600 6850 50  0001 C CNN
+F 0 "#PWR030" H 2600 6850 50  0001 C CNN
 F 1 "GND" H 2605 6927 50  0000 C CNN
 F 2 "" H 2600 7100 50  0001 C CNN
 F 3 "" H 2600 7100 50  0001 C CNN
@@ -372,10 +372,10 @@ F 3 "" H 2600 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR028
+L power:GND #PWR029
 U 1 1 59F005BB
 P 2200 6950
-F 0 "#PWR028" H 2200 6700 50  0001 C CNN
+F 0 "#PWR029" H 2200 6700 50  0001 C CNN
 F 1 "GND" H 2205 6777 50  0000 C CNN
 F 2 "" H 2200 6950 50  0001 C CNN
 F 3 "" H 2200 6950 50  0001 C CNN
@@ -383,10 +383,10 @@ F 3 "" H 2200 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR027
+L power:GND #PWR028
 U 1 1 59F006C9
 P 1300 6550
-F 0 "#PWR027" H 1300 6300 50  0001 C CNN
+F 0 "#PWR028" H 1300 6300 50  0001 C CNN
 F 1 "GND" H 1305 6377 50  0000 C CNN
 F 2 "" H 1300 6550 50  0001 C CNN
 F 3 "" H 1300 6550 50  0001 C CNN
@@ -394,10 +394,10 @@ F 3 "" H 1300 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR026
+L power:+5V #PWR027
 U 1 1 59F00838
 P 1300 6050
-F 0 "#PWR026" H 1300 5900 50  0001 C CNN
+F 0 "#PWR027" H 1300 5900 50  0001 C CNN
 F 1 "+5V" H 1315 6223 50  0000 C CNN
 F 2 "" H 1300 6050 50  0001 C CNN
 F 3 "" H 1300 6050 50  0001 C CNN
@@ -405,10 +405,10 @@ F 3 "" H 1300 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR025
+L power:+5V #PWR026
 U 1 1 59F008F8
 P 2600 5600
-F 0 "#PWR025" H 2600 5450 50  0001 C CNN
+F 0 "#PWR026" H 2600 5450 50  0001 C CNN
 F 1 "+5V" H 2615 5773 50  0000 C CNN
 F 2 "" H 2600 5600 50  0001 C CNN
 F 3 "" H 2600 5600 50  0001 C CNN
@@ -462,45 +462,45 @@ Wire Wire Line
 	2950 6600 3050 6600
 Wire Wire Line
 	2950 6700 3050 6700
-Text Label 3050 6000 0    60   ~ 0
+Text Label 3050 6000 0    60   ~ 6
 SCK_B
-Text Label 5000 4300 2    60   ~ 0
+Text Label 5000 4300 2    60   ~ 6
 SCK_B
-Text Label 5000 2450 2    60   ~ 0
+Text Label 5000 2450 2    60   ~ 6
 SCK_B
-Text Label 5000 6150 2    60   ~ 0
+Text Label 5000 6150 2    60   ~ 6
 SCK_B
-Text Label 3050 6100 0    60   ~ 0
+Text Label 3050 6100 0    60   ~ 6
 MOSI_B
-Text Label 5000 2600 2    60   ~ 0
+Text Label 5000 2600 2    60   ~ 6
 MOSI_B
-Text Label 5000 4450 2    60   ~ 0
+Text Label 5000 4450 2    60   ~ 6
 MOSI_B
-Text Label 5000 6300 2    60   ~ 0
+Text Label 5000 6300 2    60   ~ 6
 MOSI_B
-Text Label 3050 6200 0    60   ~ 0
+Text Label 3050 6200 0    60   ~ 6
 ~ENABLE_0_B
-Text Label 5000 2300 2    60   ~ 0
+Text Label 5000 2300 2    60   ~ 6
 ~ENABLE_0_B
-Text Label 3050 6300 0    60   ~ 0
+Text Label 3050 6300 0    60   ~ 6
 ~CS_DRIVER_0_B
-Text Label 5000 2900 2    60   ~ 0
+Text Label 5000 2900 2    60   ~ 6
 ~CS_DRIVER_0_B
-Text Label 3050 6400 0    60   ~ 0
+Text Label 3050 6400 0    60   ~ 6
 ~ENABLE_1_B
-Text Label 3050 6600 0    60   ~ 0
+Text Label 3050 6600 0    60   ~ 6
 ~ENABLE_2_B
-Text Label 3050 6500 0    60   ~ 0
+Text Label 3050 6500 0    60   ~ 6
 ~CS_DRIVER_1_B
-Text Label 3050 6700 0    60   ~ 0
+Text Label 3050 6700 0    60   ~ 6
 ~CS_DRIVER_2_B
-Text Label 5000 4150 2    60   ~ 0
+Text Label 5000 4150 2    60   ~ 6
 ~ENABLE_1_B
-Text Label 5000 6000 2    60   ~ 0
+Text Label 5000 6000 2    60   ~ 6
 ~ENABLE_2_B
-Text Label 5000 4750 2    60   ~ 0
+Text Label 5000 4750 2    60   ~ 6
 ~CS_DRIVER_1_B
-Text Label 5000 6600 2    60   ~ 0
+Text Label 5000 6600 2    60   ~ 6
 ~CS_DRIVER_2_B
 Wire Wire Line
 	2250 950  2350 950 
@@ -522,7 +522,8 @@ U 1 1 5CA471C7
 P 2950 4250
 AR Path="/58DAAD90/58DB6271/5CA471C7" Ref="U?"  Part="1" 
 AR Path="/58DAAD90/58DF1FF3/5CA471C7" Ref="U?"  Part="1" 
-F 0 "U?" H 3050 4650 40  0000 L CNN
+AR Path="/58DAAD90/5CA471C7" Ref="U2"  Part="1" 
+F 0 "U2" H 3050 4650 40  0000 L CNN
 F 1 "BUFFER_TRI_STATE" H 3000 3850 40  0000 L CNN
 F 2 "stepper_controller_5x3:SOT-23-5" H 2950 4250 60  0001 C CNN
 F 3 "" H 2950 4250 60  0001 C CNN
@@ -538,7 +539,8 @@ U 1 1 5CA471D0
 P 1850 4300
 AR Path="/58DAAD90/58DB6271/5CA471D0" Ref="R?"  Part="1" 
 AR Path="/58DAAD90/58DF1FF3/5CA471D0" Ref="R?"  Part="1" 
-F 0 "R?" H 1900 4300 40  0000 L CNN
+AR Path="/58DAAD90/5CA471D0" Ref="R1"  Part="1" 
+F 0 "R1" H 1900 4300 40  0000 L CNN
 F 1 "10.0k" V 1850 4200 40  0000 L CNN
 F 2 "footprints:SM0805" V 1780 4300 30  0001 C CNN
 F 3 "" H 1850 4300 30  0000 C CNN
@@ -555,7 +557,8 @@ P 1850 4000
 AR Path="/58DAAD90/58DB6271/5CA471D6" Ref="#PWR?"  Part="1" 
 AR Path="/58DAAD90/58DF1FF3/5CA471D6" Ref="#PWR?"  Part="1" 
 AR Path="/58DAAD90/58DF28B3/5CA471D6" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1850 3850 50  0001 C CNN
+AR Path="/58DAAD90/5CA471D6" Ref="#PWR024"  Part="1" 
+F 0 "#PWR024" H 1850 3850 50  0001 C CNN
 F 1 "+3V3" H 1865 4173 50  0000 C CNN
 F 2 "" H 1850 4000 50  0001 C CNN
 F 3 "" H 1850 4000 50  0001 C CNN
@@ -571,15 +574,15 @@ Wire Wire Line
 Wire Wire Line
 	1850 4600 1900 4600
 Connection ~ 1850 4600
-Text Label 1900 4600 0    60   ~ 0
+Text Label 1900 4600 0    60   ~ 6
 ~CS
 Wire Wire Line
 	2650 4350 2600 4350
 Wire Wire Line
 	2650 4150 2600 4150
-Text Label 2600 4150 2    60   ~ 0
+Text Label 2600 4150 2    60   ~ 6
 ~CS
-Text Label 2600 4350 2    60   ~ 0
+Text Label 2600 4350 2    60   ~ 6
 MISO_UB
 Wire Wire Line
 	3250 4250 3300 4250
@@ -590,7 +593,8 @@ P 2950 3750
 AR Path="/58DAAD90/58DB6271/5CA471E7" Ref="#PWR?"  Part="1" 
 AR Path="/58DAAD90/58DF1FF3/5CA471E7" Ref="#PWR?"  Part="1" 
 AR Path="/58DAAD90/58DF28B3/5CA471E7" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2950 3600 50  0001 C CNN
+AR Path="/58DAAD90/5CA471E7" Ref="#PWR023"  Part="1" 
+F 0 "#PWR023" H 2950 3600 50  0001 C CNN
 F 1 "+3V3" H 2965 3923 50  0000 C CNN
 F 2 "" H 2950 3750 50  0001 C CNN
 F 3 "" H 2950 3750 50  0001 C CNN
@@ -604,7 +608,8 @@ P 2950 4750
 AR Path="/58DAAD90/58DB6271/5CA471ED" Ref="#PWR?"  Part="1" 
 AR Path="/58DAAD90/58DF1FF3/5CA471ED" Ref="#PWR?"  Part="1" 
 AR Path="/58DAAD90/58DF28B3/5CA471ED" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2950 4500 50  0001 C CNN
+AR Path="/58DAAD90/5CA471ED" Ref="#PWR025"  Part="1" 
+F 0 "#PWR025" H 2950 4500 50  0001 C CNN
 F 1 "GND" H 2955 4577 50  0000 C CNN
 F 2 "" H 2950 4750 50  0001 C CNN
 F 3 "" H 2950 4750 50  0001 C CNN
@@ -616,5 +621,9 @@ Wire Wire Line
 Wire Wire Line
 	2950 4700 2950 4750
 Wire Wire Line
-	1650 2100 1550 2100
+	1650 2100 1250 2100
+Text Label 1250 2100 2    60   ~ 6
+MISO_UB
+Text Label 1250 2200 2    60   ~ 6
+~CS
 $EndSCHEMATC

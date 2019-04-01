@@ -3,7 +3,7 @@
     (string_quote ")
     (space_in_quoted_tokens on)
     (host_cad "KiCad's Pcbnew")
-    (host_version "no-vcs-found-1929727~60~ubuntu16.04.1")
+    (host_version "5.1.0-unknown-2447933~82~ubuntu18.04.1")
   )
   (resolution um 10)
   (unit um)
@@ -33,19 +33,8 @@
     )
   )
   (placement
-    (component "stepper_controller_5x3:ECS-MPI4040"
-      (place L1 172720 -87757 back 180 (PN 90nH))
-      (place L2 167640 -87757 back 180 (PN 90nH))
-      (place L3 162560 -87757 back 180 (PN 90nH))
-      (place L4 157480 -87757 back 180 (PN 90nH))
-      (place L5 139700 -87757 back 180 (PN 90nH))
-      (place L6 134620 -87757 back 180 (PN 90nH))
-      (place L7 129540 -87757 back 180 (PN 90nH))
-      (place L8 124460 -87757 back 180 (PN 90nH))
-      (place L9 106680 -87757 back 180 (PN 90nH))
-      (place L10 101600 -87757 back 180 (PN 90nH))
-      (place L11 96520 -87757 back 180 (PN 90nH))
-      (place L12 91440 -87757 back 180 (PN 90nH))
+    (component "stepper_controller_5x3:QFN-5x5-32"
+      (place U1 115570 -114300 back 0 (PN TMC429))
     )
     (component stepper_controller_5x3:STEPSTICK
       (place SS1 165100 -99060 front 270 (PN STEPSTICK))
@@ -54,7 +43,7 @@
     )
     (component stepper_controller_5x3:C_ELEC_10
       (place C6 148590 -99060 front 90 (PN 220uF_POL))
-      (place C13 115570 -99060 front 90 (PN 220uF_POL))
+      (place C14 82550 -99060 front 90 (PN 220uF_POL))
     )
     (component stepper_controller_5x3:MODULAR_DEVICE_BASE_5X3_MALE
       (place MDB1 91440 -105410 front 0 (PN MODULAR_DEVICE_BASE_5x3_MALE))
@@ -62,18 +51,20 @@
     (component stepper_controller_5x3:SM1210
       (place C1 132715 -114300 back 90 (PN 0.1uF))
       (place C5 98425 -114300 back 90 (PN 0.1uF))
-      (place C12 170815 -128270 back 270 (PN 0.1uF))
-      (place C14 124460 -97155 back 180 (PN 10uF))
-      (place C21 91440 -97155 back 180 (PN 10uF))
-      (place R1 77470 -116840 back 0 (PN 1k))
+      (place C12 125095 -129540 back 90 (PN 0.1uF))
+      (place C8 158115 -129540 back 90 (PN 0.1uF))
+      (place C11 124460 -97790 back 180 (PN 10uF))
+      (place C13 114935 -129540 back 90 (PN 0.1uF))
+      (place C15 91440 -97790 back 180 (PN 10uF))
     )
     (component stepper_controller_5x3:SM1210::1
       (place C2 74930 -126365 back 180 (PN 10uF))
-      (place C4 107950 -114300 back 270 (PN 0.1uF))
-      (place C7 157480 -97155 back 180 (PN 10uF))
+      (place C4 108585 -114300 back 270 (PN 0.1uF))
+      (place C7 157480 -97790 back 180 (PN 10uF))
       (place C3 77470 -120015 back 0 (PN 10uF))
-      (place C19 137795 -128270 back 270 (PN 0.1uF))
-      (place C26 104775 -128270 back 270 (PN 0.1uF))
+      (place C9 147955 -129540 back 90 (PN 0.1uF))
+      (place C16 92075 -129540 back 90 (PN 0.1uF))
+      (place C17 81915 -129540 back 90 (PN 0.1uF))
     )
     (component stepper_controller_5x3:CTS_SMD_4_7X5MM
       (place CLK1 125730 -114300 back 0 (PN CLK_32MHZ))
@@ -84,102 +75,124 @@
     (component stepper_controller_5x3:DCJACK_2PIN_HIGHCURRENT
       (place P1 191135 -105410 front 270 (PN PWR_JACK_2.5x5.5))
     )
-    (component stepper_controller_5x3:TERM_BLK_HDR_4POS_VERT_0.2IN
-      (place T1 165100 -83820 front 180 (PN TERM_BLK_HDR_4POS_VERT_0.2IN))
-      (place T5 99060 -83820 front 180 (PN TERM_BLK_HDR_4POS_VERT_0.2IN))
-    )
-    (component stepper_controller_5x3:TERM_BLK_HDR_4POS_VERT_0.150IN
-      (place T2 165100 -123825 front 180 (PN TERM_BLK_HDR_4POS_VERT_0.150IN))
-    )
-    (component stepper_controller_5x3:TERM_BLK_HDR_4POS_VERT_0.2IN::1
-      (place T3 132080 -83820 front 180 (PN TERM_BLK_HDR_4POS_VERT_0.2IN))
-    )
-    (component stepper_controller_5x3:TERM_BLK_HDR_4POS_VERT_0.150IN::1
-      (place T4 132080 -123825 front 180 (PN TERM_BLK_HDR_4POS_VERT_0.150IN))
-      (place T6 99060 -123825 front 180 (PN TERM_BLK_HDR_4POS_VERT_0.150IN))
-    )
-    (component "stepper_controller_5x3:QFN-5x5-32"
-      (place U1 115570 -114300 back 0 (PN TMC429))
-    )
-    (component stepper_controller_5x3:MAX6817
-      (place U3 165100 -128270 back 90 (PN MAX6817))
-      (place U4 132080 -128270 back 90 (PN MAX6817))
-      (place U5 99060 -128270 back 90 (PN MAX6817))
-    )
-    (component stepper_controller_5x3:SM0805
-      (place C8 171450 -79375 back 270 (PN 470pF))
-      (place C10 161290 -79375 back 270 (PN 470pF))
-      (place C15 138430 -79375 back 270 (PN 470pF))
-      (place C16 135890 -79375 back 270 (PN 470pF))
-      (place C18 125730 -79375 back 270 (PN 470pF))
-      (place C23 102870 -79375 back 270 (PN 470pF))
-      (place C25 92710 -79375 back 270 (PN 470pF))
-      (place RV2 160020 -81915 back 0 (PN VAR))
-      (place RV4 166370 -79375 back 270 (PN VAR))
-      (place RV6 156210 -79375 back 270 (PN VAR))
-      (place RV10 133350 -79375 back 270 (PN VAR))
-      (place RV12 123190 -79375 back 270 (PN VAR))
-      (place RV14 93980 -81915 back 0 (PN VAR))
-      (place RV16 100330 -79375 back 270 (PN VAR))
-      (place RV18 90170 -79375 back 270 (PN VAR))
-    )
-    (component stepper_controller_5x3:SM0805::1
-      (place C9 168910 -79375 back 270 (PN 470pF))
-      (place C11 158750 -79375 back 270 (PN 470pF))
-      (place C17 128270 -79375 back 270 (PN 470pF))
-      (place C22 105410 -79375 back 270 (PN 470pF))
-      (place C24 95250 -79375 back 270 (PN 470pF))
-      (place RV1 170180 -81915 back 0 (PN VAR))
-      (place RV3 173990 -79375 back 270 (PN VAR))
-      (place RV5 163830 -79375 back 270 (PN VAR))
-      (place RV7 137160 -81915 back 0 (PN VAR))
-      (place RV8 127000 -81915 back 0 (PN VAR))
-      (place RV9 140970 -79375 back 270 (PN VAR))
-      (place RV11 130810 -79375 back 270 (PN VAR))
-      (place RV13 104140 -81915 back 0 (PN VAR))
-      (place RV15 107950 -79375 back 270 (PN VAR))
-      (place RV17 97790 -79375 back 270 (PN VAR))
-    )
-    (component stepper_controller_5x3:C_ELEC_10::1
-      (place C20 82550 -99060 front 90 (PN 220uF_POL))
-    )
     (component stepper_controller_5x3:DC_DC_CONV_R78C
       (place REG1 76200 -123190 front 0 (PN CONV_DC_DC_5V_1A))
     )
+    (component stepper_controller_5x3:C_ELEC_10::1
+      (place C10 115570 -99060 front 90 (PN 220uF_POL))
+    )
+    (component footprints:SM0805
+      (place R1 111760 -122555 back 270 (PN 10.0k))
+      (place R3 170815 -127635 back 0 (PN 845))
+      (place R6 170815 -120015 back 270 (PN 845))
+      (place R7 132080 -95885 back 180 (PN 10.0k))
+      (place R9 130175 -120015 back 270 (PN 845))
+      (place R11 137795 -120015 back 270 (PN 845))
+      (place R14 97155 -120015 back 270 (PN 845))
+      (place R16 104775 -120015 back 270 (PN 845))
+    )
+    (component footprints:SM0805::1
+      (place R2 165100 -95885 back 180 (PN 10.0k))
+      (place R4 163195 -120015 back 270 (PN 845))
+      (place R5 170815 -131445 back 0 (PN 845))
+      (place R8 137795 -127635 back 0 (PN 845))
+      (place R10 137795 -131445 back 0 (PN 845))
+      (place R12 99060 -95885 back 180 (PN 10.0k))
+      (place R13 104775 -127635 back 0 (PN 845))
+      (place R15 104775 -131445 back 0 (PN 845))
+    )
+    (component "stepper_controller_5x3:SOT-23-5"
+      (place U4 165100 -99695 back 0 (PN BUFFER_TRI_STATE))
+      (place U7 132080 -99695 back 0 (PN BUFFER_TRI_STATE))
+    )
+    (component "stepper_controller_5x3:SO-8"
+      (place U5 165100 -129540 back 90 (PN OPTOISO_2CHAN))
+      (place U11 99060 -129540 back 90 (PN OPTOISO_2CHAN))
+    )
+    (component stepper_controller_5x3:MAX6817
+      (place U6 153035 -129540 back 270 (PN MAX6817))
+      (place U9 120015 -129540 back 270 (PN MAX6817))
+    )
+    (component "stepper_controller_5x3:SO-8::1"
+      (place U8 132080 -129540 back 90 (PN OPTOISO_2CHAN))
+    )
+    (component "stepper_controller_5x3:SOT-23-5::1"
+      (place U10 99060 -99695 back 0 (PN BUFFER_TRI_STATE))
+      (place U2 115570 -122555 back 90 (PN BUFFER_TRI_STATE))
+    )
+    (component stepper_controller_5x3:MAX6817::1
+      (place U12 86995 -129540 back 270 (PN MAX6817))
+    )
+    (component stepper_controller_5x3:TERM_BLK_HDR_4POS_VERT_0.2IN
+      (place T1 165100 -83820 front 180 (PN TERM_BLK_HDR_4POS_VERT_0.2IN))
+    )
+    (component stepper_controller_5x3:TERM_BLK_HDR_4POS_VERT_0.150IN
+      (place T2 165100 -123825 front 180 (PN TERM_BLK_HDR_4POS_VERT_0.150IN))
+      (place T4 132080 -123825 front 180 (PN TERM_BLK_HDR_4POS_VERT_0.150IN))
+    )
+    (component stepper_controller_5x3:TERM_BLK_HDR_4POS_VERT_0.2IN::1
+      (place T3 132080 -83820 front 180 (PN TERM_BLK_HDR_4POS_VERT_0.2IN))
+      (place T5 99060 -83820 front 180 (PN TERM_BLK_HDR_4POS_VERT_0.2IN))
+    )
+    (component stepper_controller_5x3:TERM_BLK_HDR_4POS_VERT_0.150IN::1
+      (place T6 99060 -123825 front 180 (PN TERM_BLK_HDR_4POS_VERT_0.150IN))
+    )
     (component stepper_controller_5x3:SOIC_20
-      (place U2 89535 -114300 back 270 (PN SN74ABT541BDWR))
+      (place U3 88900 -114300 back 270 (PN SN74ABT541BDWR))
     )
   )
   (library
-    (image "stepper_controller_5x3:ECS-MPI4040"
-      (outline (path signal 381  1723.61 1700  1712.66 1630.9  1680.9 1568.57  1631.43 1519.1
-            1569.1 1487.34  1500 1476.39  1430.9 1487.34  1368.57 1519.1
-            1319.1 1568.57  1287.34 1630.9  1276.39 1700  1287.34 1769.1
-            1319.1 1831.43  1368.57 1880.9  1430.9 1912.66  1500 1923.61
-            1569.1 1912.66  1631.43 1880.9  1680.9 1831.43  1712.66 1769.1))
-      (outline (path signal 381  2030 2225  2030 -2225))
-      (outline (path signal 381  -2030 2225  -2030 -2225))
-      (outline (path signal 381  -2030 -2225  2030 -2225))
-      (outline (path signal 381  -2030 2225  2030 2225))
-      (pin Rect[T]Pad_2300x1650_um 1 0 1650)
-      (pin Rect[T]Pad_2300x1650_um 2 0 -1650)
+    (image "stepper_controller_5x3:QFN-5x5-32"
+      (outline (path signal 250  -2250 2500  -2323.22 2323.22  -2500 2250  -2676.78 2323.22
+            -2750 2500  -2676.78 2676.78  -2500 2750  -2323.22 2676.78  -2250 2500))
+      (outline (path signal 250  2500 2500  2500 2000))
+      (outline (path signal 250  2000 2500  2500 2500))
+      (outline (path signal 250  2500 -2500  2000 -2500))
+      (outline (path signal 250  2500 -2000  2500 -2500))
+      (outline (path signal 250  -2500 -2500  -2000 -2500))
+      (outline (path signal 250  -2500 -2000  -2500 -2500))
+      (outline (path signal 250  -2000 2500  -2500 2000))
+      (pin RoundRect[A]Pad_3400x3400_341.294_um PAD 0 0)
+      (pin RoundRect[T]Pad_300x700_150.571_um 25 1750 2400)
+      (pin RoundRect[T]Pad_300x700_150.571_um 26 1250 2400)
+      (pin RoundRect[T]Pad_300x700_150.571_um 27 750 2400)
+      (pin RoundRect[T]Pad_300x700_150.571_um 28 250 2400)
+      (pin RoundRect[T]Pad_300x700_150.571_um 29 -250 2400)
+      (pin RoundRect[T]Pad_300x700_150.571_um 30 -750 2400)
+      (pin RoundRect[T]Pad_300x700_150.571_um 31 -1250 2400)
+      (pin RoundRect[T]Pad_300x700_150.571_um 32 -1750 2400)
+      (pin RoundRect[T]Pad_300x700_150.571_um 9 -1750 -2400)
+      (pin RoundRect[T]Pad_300x700_150.571_um 10 -1250 -2400)
+      (pin RoundRect[T]Pad_300x700_150.571_um 11 -750 -2400)
+      (pin RoundRect[T]Pad_300x700_150.571_um 12 -250 -2400)
+      (pin RoundRect[T]Pad_300x700_150.571_um 13 250 -2400)
+      (pin RoundRect[T]Pad_300x700_150.571_um 14 750 -2400)
+      (pin RoundRect[T]Pad_300x700_150.571_um 15 1250 -2400)
+      (pin RoundRect[T]Pad_300x700_150.571_um 16 1750 -2400)
+      (pin RoundRect[T]Pad_700x300_150.571_um 1 -2400 1750)
+      (pin RoundRect[T]Pad_700x300_150.571_um 2 -2400 1250)
+      (pin RoundRect[T]Pad_700x300_150.571_um 3 -2400 750)
+      (pin RoundRect[T]Pad_700x300_150.571_um 4 -2400 250)
+      (pin RoundRect[T]Pad_700x300_150.571_um 5 -2400 -250)
+      (pin RoundRect[T]Pad_700x300_150.571_um 6 -2400 -750)
+      (pin RoundRect[T]Pad_700x300_150.571_um 7 -2400 -1250)
+      (pin RoundRect[T]Pad_700x300_150.571_um 8 -2400 -1750)
+      (pin RoundRect[T]Pad_700x300_150.571_um 17 2400 -1750)
+      (pin RoundRect[T]Pad_700x300_150.571_um 18 2400 -1250)
+      (pin RoundRect[T]Pad_700x300_150.571_um 19 2400 -750)
+      (pin RoundRect[T]Pad_700x300_150.571_um 20 2400 -250)
+      (pin RoundRect[T]Pad_700x300_150.571_um 21 2400 250)
+      (pin RoundRect[T]Pad_700x300_150.571_um 22 2400 750)
+      (pin RoundRect[T]Pad_700x300_150.571_um 23 2400 1250)
+      (pin RoundRect[T]Pad_700x300_150.571_um 24 2400 1750)
     )
     (image stepper_controller_5x3:STEPSTICK
-      (outline (path signal 228.6  2794 -7620  2781.57 -7698.49  2745.49 -7769.3  2689.3 -7825.49
-            2618.49 -7861.57  2540 -7874  2461.51 -7861.57  2390.7 -7825.49
-            2334.51 -7769.3  2298.43 -7698.49  2286 -7620  2298.43 -7541.51
-            2334.51 -7470.7  2390.7 -7414.51  2461.51 -7378.43  2540 -7366
-            2618.49 -7378.43  2689.3 -7414.51  2745.49 -7470.7  2781.57 -7541.51))
-      (outline (path signal 228.6  1524 -8890  1511.57 -8968.49  1475.49 -9039.3  1419.3 -9095.49
-            1348.49 -9131.57  1270 -9144  1191.51 -9131.57  1120.7 -9095.49
-            1064.51 -9039.3  1028.43 -8968.49  1016 -8890  1028.43 -8811.51
-            1064.51 -8740.7  1120.7 -8684.51  1191.51 -8648.43  1270 -8636
-            1348.49 -8648.43  1419.3 -8684.51  1475.49 -8740.7  1511.57 -8811.51))
-      (outline (path signal 228.6  4064 -8890  4051.57 -8968.49  4015.49 -9039.3  3959.3 -9095.49
-            3888.49 -9131.57  3810 -9144  3731.51 -9131.57  3660.7 -9095.49
-            3604.51 -9039.3  3568.43 -8968.49  3556 -8890  3568.43 -8811.51
-            3604.51 -8740.7  3660.7 -8684.51  3731.51 -8648.43  3810 -8636
-            3888.49 -8648.43  3959.3 -8684.51  4015.49 -8740.7  4051.57 -8811.51))
+      (outline (path signal 228.6  2794 -7620  2719.61 -7799.6  2540 -7874  2360.39 -7799.6
+            2286 -7620  2360.39 -7440.4  2540 -7366  2719.61 -7440.4  2794 -7620))
+      (outline (path signal 228.6  1524 -8890  1449.61 -9069.6  1270 -9144  1090.39 -9069.6
+            1016 -8890  1090.39 -8710.4  1270 -8636  1449.61 -8710.4  1524 -8890))
+      (outline (path signal 228.6  4064 -8890  3989.61 -9069.6  3810 -9144  3630.39 -9069.6
+            3556 -8890  3630.39 -8710.4  3810 -8636  3989.61 -8710.4  4064 -8890))
       (outline (path signal 228.6  -7620 10160  -7620 -10160))
       (outline (path signal 228.6  -7620 -10160  7620 -10160))
       (outline (path signal 228.6  7620 -10160  7620 10160))
@@ -214,11 +227,15 @@
       (outline (path signal 228.6  -3683 3302  -3683 -3175))
       (outline (path signal 228.6  -3556 3429  -3556 -3429))
       (outline (path signal 228.6  -3429 3556  -3429 -3556))
-      (outline (path signal 250  5000 0  4755.28 -1545.09  4045.09 -2938.93  2938.93 -4045.09
-            1545.09 -4755.28  0 -5000  -1545.09 -4755.28  -2938.93 -4045.09
-            -4045.09 -2938.93  -4755.28 -1545.09  -5000 0  -4755.28 1545.09
-            -4045.09 2938.93  -2938.93 4045.09  -1545.09 4755.28  0 5000
-            1545.09 4755.28  2938.93 4045.09  4045.09 2938.93  4755.28 1545.09))
+      (outline (path signal 250  5000 0  4919.65 -892.784  4681.17 -1756.87  4292.24 -2564.5
+            3765.36 -3289.69  3117.45 -3909.16  2369.34 -4402.98  1545.09 -4755.28
+            671.166 -4954.75  -224.324 -4994.97  -1112.61 -4874.64  -1965.12 -4597.64
+            -2754.49 -4172.87  -3455.31 -3613.97  -4045.09 -2938.93  -4504.84 -2169.42
+            -4819.81 -1330.18  -4979.87 -448.197  -4979.87 448.197  -4819.81 1330.18
+            -4504.84 2169.42  -4045.09 2938.93  -3455.31 3613.97  -2754.49 4172.87
+            -1965.12 4597.64  -1112.61 4874.64  -224.324 4994.97  671.166 4954.75
+            1545.09 4755.28  2369.34 4402.98  3117.45 3909.16  3765.36 3289.69
+            4292.24 2564.5  4681.17 1756.87  4919.65 892.784  5000 0))
       (outline (path signal 250  -5150 5150  -5150 -5150))
       (outline (path signal 50  -5100 -4350  -5100 4350))
       (outline (path signal 50  5100 -4350  -5100 -4350))
@@ -233,26 +250,34 @@
       (pin Rect[T]Pad_4100x2000_um 1 4350 0)
     )
     (image stepper_controller_5x3:MODULAR_DEVICE_BASE_5X3_MALE
-      (outline (path signal 228.6  76200 -30480  76075.7 -31264.9  75714.9 -31973  75153 -32534.9
-            74444.9 -32895.7  73660 -33020  72875.1 -32895.7  72167 -32534.9
-            71605.1 -31973  71244.3 -31264.9  71120 -30480  71244.3 -29695.1
-            71605.1 -28987  72167 -28425.1  72875.1 -28064.3  73660 -27940
-            74444.9 -28064.3  75153 -28425.1  75714.9 -28987  76075.7 -29695.1))
-      (outline (path signal 228.6  76200 30480  76075.7 29695.1  75714.9 28987  75153 28425.1
-            74444.9 28064.3  73660 27940  72875.1 28064.3  72167 28425.1
-            71605.1 28987  71244.3 29695.1  71120 30480  71244.3 31264.9
-            71605.1 31973  72167 32534.9  72875.1 32895.7  73660 33020  74444.9 32895.7
-            75153 32534.9  75714.9 31973  76075.7 31264.9))
-      (outline (path signal 228.6  -15240 -25400  -15364.3 -26184.9  -15725.1 -26893  -16287 -27454.9
-            -16995.1 -27815.7  -17780 -27940  -18564.9 -27815.7  -19273 -27454.9
-            -19834.9 -26893  -20195.7 -26184.9  -20320 -25400  -20195.7 -24615.1
-            -19834.9 -23907  -19273 -23345.1  -18564.9 -22984.3  -17780 -22860
-            -16995.1 -22984.3  -16287 -23345.1  -15725.1 -23907  -15364.3 -24615.1))
-      (outline (path signal 228.6  -15240 25400  -15364.3 24615.1  -15725.1 23907  -16287 23345.1
-            -16995.1 22984.3  -17780 22860  -18564.9 22984.3  -19273 23345.1
-            -19834.9 23907  -20195.7 24615.1  -20320 25400  -20195.7 26184.9
-            -19834.9 26893  -19273 27454.9  -18564.9 27815.7  -17780 27940
-            -16995.1 27815.7  -16287 27454.9  -15725.1 26893  -15364.3 26184.9))
+      (outline (path signal 228.6  76200 -30480  76120.2 -31111.7  75885.8 -31703.7  75511.6 -32218.8
+            75021 -32624.6  74444.9 -32895.7  73819.5 -33015  73184.1 -32975
+            72578.5 -32778.3  72040.9 -32437.1  71605.1 -31973  71298.4 -31415
+            71140 -30798.3  71140 -30161.7  71298.4 -29545  71605.1 -28987
+            72040.9 -28522.9  72578.5 -28181.7  73184.1 -27985  73819.5 -27945
+            74444.9 -28064.3  75021 -28335.4  75511.6 -28741.2  75885.8 -29256.3
+            76120.2 -29848.3  76200 -30480))
+      (outline (path signal 228.6  76200 30480  76120.2 29848.3  75885.8 29256.3  75511.6 28741.2
+            75021 28335.4  74444.9 28064.3  73819.5 27945  73184.1 27985
+            72578.5 28181.7  72040.9 28522.9  71605.1 28987  71298.4 29545
+            71140 30161.7  71140 30798.3  71298.4 31415  71605.1 31973  72040.9 32437.1
+            72578.5 32778.3  73184.1 32975  73819.5 33015  74444.9 32895.7
+            75021 32624.6  75511.6 32218.8  75885.8 31703.7  76120.2 31111.7
+            76200 30480))
+      (outline (path signal 228.6  -15240 -25400  -15319.8 -26031.7  -15554.2 -26623.7
+            -15928.4 -27138.8  -16419 -27544.6  -16995.1 -27815.7  -17620.5 -27935
+            -18255.9 -27895  -18861.5 -27698.3  -19399.1 -27357.1  -19834.9 -26893
+            -20141.6 -26335  -20300 -25718.3  -20300 -25081.7  -20141.6 -24465
+            -19834.9 -23907  -19399.1 -23442.9  -18861.5 -23101.7  -18255.9 -22905
+            -17620.5 -22865  -16995.1 -22984.3  -16419 -23255.4  -15928.4 -23661.2
+            -15554.2 -24176.3  -15319.8 -24768.3  -15240 -25400))
+      (outline (path signal 228.6  -15240 25400  -15319.8 24768.3  -15554.2 24176.3  -15928.4 23661.2
+            -16419 23255.4  -16995.1 22984.3  -17620.5 22865  -18255.9 22905
+            -18861.5 23101.7  -19399.1 23442.9  -19834.9 23907  -20141.6 24465
+            -20300 25081.7  -20300 25718.3  -20141.6 26335  -19834.9 26893
+            -19399.1 27357.1  -18861.5 27698.3  -18255.9 27895  -17620.5 27935
+            -16995.1 27815.7  -16419 27544.6  -15928.4 27138.8  -15554.2 26623.7
+            -15319.8 26031.7  -15240 25400))
       (outline (path signal 381  -20320 29210  43180 29210))
       (outline (path signal 381  -20320 31750  43180 31750))
       (outline (path signal 381  -20320 -31750  43180 -31750))
@@ -345,11 +370,9 @@
       (outline (path signal 381  3500 -2500  3500 2500))
       (outline (path signal 381  -3500 -2500  3500 -2500))
       (outline (path signal 381  -3500 2500  -3500 -2500))
-      (outline (path signal 381  -646.447 -1750  -663.751 -1859.25  -713.969 -1957.81  -792.187 -2036.03
-            -890.746 -2086.25  -1000 -2103.55  -1109.25 -2086.25  -1207.81 -2036.03
-            -1286.03 -1957.81  -1336.25 -1859.25  -1353.55 -1750  -1336.25 -1640.75
-            -1286.03 -1542.19  -1207.81 -1463.97  -1109.25 -1413.75  -1000 -1396.45
-            -890.746 -1413.75  -792.187 -1463.97  -713.969 -1542.19  -663.751 -1640.75))
+      (outline (path signal 381  -646.447 -1750  -729.162 -1977.26  -938.606 -2098.18  -1176.78 -2056.19
+            -1332.23 -1870.92  -1332.23 -1629.08  -1176.78 -1443.81  -938.606 -1401.82
+            -729.162 -1522.74  -646.447 -1750))
       (pin Rect[T]Pad_1800x2000_um 4 -2540 2100)
       (pin Rect[T]Pad_1800x2000_um 3 2540 2100)
       (pin Rect[T]Pad_1800x2000_um 2 2540 -2100)
@@ -375,305 +398,14 @@
       (pin Oval[A]Pad_3556x5080_um @2 -4495.8 -5003.8)
       (pin Oval[A]Pad_3556x5080_um @3 4495.8 -5003.8)
     )
-    (image stepper_controller_5x3:TERM_BLK_HDR_4POS_VERT_0.2IN
-      (outline (path signal 381  11176 3810  -11176 3810))
-      (outline (path signal 381  11176 3810  11176 -4800.6))
-      (outline (path signal 381  11176 -4800.6  -11176 -4800.6))
-      (outline (path signal 381  -11176 3810  -11176 -4800.6))
-      (outline (path signal 381  -11176 -11176  -11176 -4800.6))
-      (outline (path signal 381  11176 -11176  -11176 -11176))
-      (outline (path signal 381  11176 -4800.6  11176 -11176))
-      (outline (path signal 381  -10160 -3810  -10160 2540))
-      (outline (path signal 381  10160 -3810  -10160 -3810))
-      (outline (path signal 381  10160 2540  10160 -3810))
-      (outline (path signal 381  3810 -7620  3810 -11176))
-      (outline (path signal 381  1270 -7620  3810 -7620))
-      (outline (path signal 381  1270 -11176  1270 -7620))
-      (outline (path signal 381  -3810 -7620  -3810 -11176))
-      (outline (path signal 381  -1270 -7620  -3810 -7620))
-      (outline (path signal 381  -1270 -11176  -1270 -7620))
-      (outline (path signal 381  -11176 -6299.2  11176 -6299.2))
-      (outline (path signal 381  -11176 6299.2  11176 6299.2))
-      (outline (path signal 381  -11176 3810  -11176 6299.2))
-      (outline (path signal 381  11176 3810  11176 6299.2))
-      (outline (path signal 381  6350 -7620  8890 -7620))
-      (outline (path signal 381  -8890 -7620  -6350 -7620))
-      (outline (path signal 381  -8890 -7620  -8890 -11176))
-      (outline (path signal 381  -6350 -7620  -6350 -11176))
-      (outline (path signal 381  6350 -7620  6350 -11176))
-      (outline (path signal 381  8890 -7620  8890 -11176))
-      (pin Round[A]Pad_2540_um 3 -2540 0)
-      (pin Round[A]Pad_2540_um 2 2540 0)
-      (pin Round[A]Pad_2540_um 1 7620 0)
-      (pin Round[A]Pad_2540_um 4 -7620 0)
-    )
-    (image stepper_controller_5x3:TERM_BLK_HDR_4POS_VERT_0.150IN
-      (outline (path signal 381  -6858 6858  -6858 4064))
-      (outline (path signal 381  -6858 4064  -4572 4064))
-      (outline (path signal 381  -4572 4064  -4572 6858))
-      (outline (path signal 381  -3048 6858  -3048 4064))
-      (outline (path signal 381  -3048 4064  -762 4064))
-      (outline (path signal 381  -762 4064  -762 6858))
-      (outline (path signal 381  762 6858  762 4064))
-      (outline (path signal 381  762 4064  3048 4064))
-      (outline (path signal 381  3048 4064  3048 6858))
-      (outline (path signal 381  4572 6858  4572 4064))
-      (outline (path signal 381  4572 4064  6858 4064))
-      (outline (path signal 381  6858 4064  6858 6858))
-      (outline (path signal 381  -7366 -2540  -6477 -2540))
-      (outline (path signal 381  -6477 -2540  -6477 -3048))
-      (outline (path signal 381  -6477 -3048  -7366 -3048))
-      (outline (path signal 381  -7366 -3048  -7366 -3683))
-      (outline (path signal 381  -7366 -3683  -4064 -3683))
-      (outline (path signal 381  -4064 -3683  -4064 -3048))
-      (outline (path signal 381  -4064 -3048  -4953 -3048))
-      (outline (path signal 381  -4953 -3048  -4953 -2540))
-      (outline (path signal 381  -4953 -2540  -4064 -2540))
-      (outline (path signal 381  -4064 2540  -4064 -2540))
-      (outline (path signal 381  -7366 2540  -7366 -2540))
-      (outline (path signal 381  -3556 -2540  -2667 -2540))
-      (outline (path signal 381  -2667 -2540  -2667 -3048))
-      (outline (path signal 381  -2667 -3048  -3556 -3048))
-      (outline (path signal 381  -3556 -3048  -3556 -3683))
-      (outline (path signal 381  -3556 -3683  -254 -3683))
-      (outline (path signal 381  -254 -3683  -254 -3048))
-      (outline (path signal 381  -254 -3048  -1143 -3048))
-      (outline (path signal 381  -1143 -3048  -1143 -2540))
-      (outline (path signal 381  -1143 -2540  -254 -2540))
-      (outline (path signal 381  -3556 2540  -3556 -2540))
-      (outline (path signal 381  -254 2540  -254 -2540))
-      (outline (path signal 381  254 -2540  1143 -2540))
-      (outline (path signal 381  1143 -2540  1143 -3048))
-      (outline (path signal 381  1143 -3048  254 -3048))
-      (outline (path signal 381  254 -3048  254 -3683))
-      (outline (path signal 381  254 -3683  3556 -3683))
-      (outline (path signal 381  3556 -3683  3556 -3048))
-      (outline (path signal 381  3556 -3048  2667 -3048))
-      (outline (path signal 381  2667 -3048  2667 -2540))
-      (outline (path signal 381  2667 -2540  3556 -2540))
-      (outline (path signal 381  4953 -2540  4953 -3048))
-      (outline (path signal 381  4953 -3048  4064 -3048))
-      (outline (path signal 381  4064 -3048  4064 -3683))
-      (outline (path signal 381  4064 -3683  7366 -3683))
-      (outline (path signal 381  7366 -3683  7366 -3048))
-      (outline (path signal 381  7366 -3048  6477 -3048))
-      (outline (path signal 381  6477 -3048  6477 -2540))
-      (outline (path signal 381  6477 -2540  7366 -2540))
-      (outline (path signal 381  4064 -2540  4953 -2540))
-      (outline (path signal 381  3556 2540  3556 -2540))
-      (outline (path signal 381  254 2540  254 -2540))
-      (outline (path signal 381  -5715 -1500  -5715 -3250))
-      (outline (path signal 381  -1905 -1500  -1905 -3250))
-      (outline (path signal 381  1905 -1500  1905 -3250))
-      (outline (path signal 381  5715 -1500  5715 -3250))
-      (outline (path signal 381  -8015 5200  8015 5200))
-      (outline (path signal 381  -8015 -4250  -8015 -5200))
-      (outline (path signal 381  -8015 -5200  8015 -5200))
-      (outline (path signal 381  8015 -5200  8015 -4250))
-      (outline (path signal 381  -8015 6850  8015 6850))
-      (outline (path signal 381  -8015 3000  -8015 6850))
-      (outline (path signal 381  8015 6850  8015 3000))
-      (outline (path signal 381  7366 2540  7366 -2540))
-      (outline (path signal 381  4064 2540  4064 -2540))
-      (outline (path signal 381  -8315 3000  -8315 -4250))
-      (outline (path signal 381  8315 -4250  -8315 -4250))
-      (outline (path signal 381  8315 3000  8315 -4250))
-      (outline (path signal 381  8315 3000  -8315 3000))
-      (pin Round[A]Pad_2340_um 4 -5715 0)
-      (pin Round[A]Pad_2340_um 1 5715 0)
-      (pin Round[A]Pad_2340_um 2 1905 0)
-      (pin Round[A]Pad_2340_um 3 -1905 0)
-    )
-    (image stepper_controller_5x3:TERM_BLK_HDR_4POS_VERT_0.2IN::1
-      (outline (path signal 381  8890 -7620  8890 -11176))
-      (outline (path signal 381  6350 -7620  6350 -11176))
-      (outline (path signal 381  -6350 -7620  -6350 -11176))
-      (outline (path signal 381  -8890 -7620  -8890 -11176))
-      (outline (path signal 381  -8890 -7620  -6350 -7620))
-      (outline (path signal 381  6350 -7620  8890 -7620))
-      (outline (path signal 381  11176 3810  11176 6299.2))
-      (outline (path signal 381  -11176 3810  -11176 6299.2))
-      (outline (path signal 381  -11176 6299.2  11176 6299.2))
-      (outline (path signal 381  -11176 -6299.2  11176 -6299.2))
-      (outline (path signal 381  -1270 -11176  -1270 -7620))
-      (outline (path signal 381  -1270 -7620  -3810 -7620))
-      (outline (path signal 381  -3810 -7620  -3810 -11176))
-      (outline (path signal 381  1270 -11176  1270 -7620))
-      (outline (path signal 381  1270 -7620  3810 -7620))
-      (outline (path signal 381  3810 -7620  3810 -11176))
-      (outline (path signal 381  10160 2540  10160 -3810))
-      (outline (path signal 381  10160 -3810  -10160 -3810))
-      (outline (path signal 381  -10160 -3810  -10160 2540))
-      (outline (path signal 381  11176 -4800.6  11176 -11176))
-      (outline (path signal 381  11176 -11176  -11176 -11176))
-      (outline (path signal 381  -11176 -11176  -11176 -4800.6))
-      (outline (path signal 381  -11176 3810  -11176 -4800.6))
-      (outline (path signal 381  11176 -4800.6  -11176 -4800.6))
-      (outline (path signal 381  11176 3810  11176 -4800.6))
-      (outline (path signal 381  11176 3810  -11176 3810))
-      (pin Round[A]Pad_2540_um 4 -7620 0)
-      (pin Round[A]Pad_2540_um 1 7620 0)
-      (pin Round[A]Pad_2540_um 2 2540 0)
-      (pin Round[A]Pad_2540_um 3 -2540 0)
-    )
-    (image stepper_controller_5x3:TERM_BLK_HDR_4POS_VERT_0.150IN::1
-      (outline (path signal 381  8315 3000  -8315 3000))
-      (outline (path signal 381  8315 3000  8315 -4250))
-      (outline (path signal 381  8315 -4250  -8315 -4250))
-      (outline (path signal 381  -8315 3000  -8315 -4250))
-      (outline (path signal 381  4064 2540  4064 -2540))
-      (outline (path signal 381  7366 2540  7366 -2540))
-      (outline (path signal 381  8015 6850  8015 3000))
-      (outline (path signal 381  -8015 3000  -8015 6850))
-      (outline (path signal 381  -8015 6850  8015 6850))
-      (outline (path signal 381  8015 -5200  8015 -4250))
-      (outline (path signal 381  -8015 -5200  8015 -5200))
-      (outline (path signal 381  -8015 -4250  -8015 -5200))
-      (outline (path signal 381  -8015 5200  8015 5200))
-      (outline (path signal 381  5715 -1500  5715 -3250))
-      (outline (path signal 381  1905 -1500  1905 -3250))
-      (outline (path signal 381  -1905 -1500  -1905 -3250))
-      (outline (path signal 381  -5715 -1500  -5715 -3250))
-      (outline (path signal 381  254 2540  254 -2540))
-      (outline (path signal 381  3556 2540  3556 -2540))
-      (outline (path signal 381  4064 -2540  4953 -2540))
-      (outline (path signal 381  6477 -2540  7366 -2540))
-      (outline (path signal 381  6477 -3048  6477 -2540))
-      (outline (path signal 381  7366 -3048  6477 -3048))
-      (outline (path signal 381  7366 -3683  7366 -3048))
-      (outline (path signal 381  4064 -3683  7366 -3683))
-      (outline (path signal 381  4064 -3048  4064 -3683))
-      (outline (path signal 381  4953 -3048  4064 -3048))
-      (outline (path signal 381  4953 -2540  4953 -3048))
-      (outline (path signal 381  2667 -2540  3556 -2540))
-      (outline (path signal 381  2667 -3048  2667 -2540))
-      (outline (path signal 381  3556 -3048  2667 -3048))
-      (outline (path signal 381  3556 -3683  3556 -3048))
-      (outline (path signal 381  254 -3683  3556 -3683))
-      (outline (path signal 381  254 -3048  254 -3683))
-      (outline (path signal 381  1143 -3048  254 -3048))
-      (outline (path signal 381  1143 -2540  1143 -3048))
-      (outline (path signal 381  254 -2540  1143 -2540))
-      (outline (path signal 381  -254 2540  -254 -2540))
-      (outline (path signal 381  -3556 2540  -3556 -2540))
-      (outline (path signal 381  -1143 -2540  -254 -2540))
-      (outline (path signal 381  -1143 -3048  -1143 -2540))
-      (outline (path signal 381  -254 -3048  -1143 -3048))
-      (outline (path signal 381  -254 -3683  -254 -3048))
-      (outline (path signal 381  -3556 -3683  -254 -3683))
-      (outline (path signal 381  -3556 -3048  -3556 -3683))
-      (outline (path signal 381  -2667 -3048  -3556 -3048))
-      (outline (path signal 381  -2667 -2540  -2667 -3048))
-      (outline (path signal 381  -3556 -2540  -2667 -2540))
-      (outline (path signal 381  -7366 2540  -7366 -2540))
-      (outline (path signal 381  -4064 2540  -4064 -2540))
-      (outline (path signal 381  -4953 -2540  -4064 -2540))
-      (outline (path signal 381  -4953 -3048  -4953 -2540))
-      (outline (path signal 381  -4064 -3048  -4953 -3048))
-      (outline (path signal 381  -4064 -3683  -4064 -3048))
-      (outline (path signal 381  -7366 -3683  -4064 -3683))
-      (outline (path signal 381  -7366 -3048  -7366 -3683))
-      (outline (path signal 381  -6477 -3048  -7366 -3048))
-      (outline (path signal 381  -6477 -2540  -6477 -3048))
-      (outline (path signal 381  -7366 -2540  -6477 -2540))
-      (outline (path signal 381  6858 4064  6858 6858))
-      (outline (path signal 381  4572 4064  6858 4064))
-      (outline (path signal 381  4572 6858  4572 4064))
-      (outline (path signal 381  3048 4064  3048 6858))
-      (outline (path signal 381  762 4064  3048 4064))
-      (outline (path signal 381  762 6858  762 4064))
-      (outline (path signal 381  -762 4064  -762 6858))
-      (outline (path signal 381  -3048 4064  -762 4064))
-      (outline (path signal 381  -3048 6858  -3048 4064))
-      (outline (path signal 381  -4572 4064  -4572 6858))
-      (outline (path signal 381  -6858 4064  -4572 4064))
-      (outline (path signal 381  -6858 6858  -6858 4064))
-      (pin Round[A]Pad_2340_um 3 -1905 0)
-      (pin Round[A]Pad_2340_um 2 1905 0)
-      (pin Round[A]Pad_2340_um 1 5715 0)
-      (pin Round[A]Pad_2340_um 4 -5715 0)
-    )
-    (image "stepper_controller_5x3:QFN-5x5-32"
-      (outline (path signal 250  -2000 2000  -2000 -2000))
-      (outline (path signal 250  -2000 -2000  2000 -2000))
-      (outline (path signal 250  2000 -2000  2000 2000))
-      (outline (path signal 250  2000 2000  -2000 2000))
-      (outline (path signal 250  -2000 2500  -2500 2000))
-      (outline (path signal 250  -2500 -2000  -2500 -2500))
-      (outline (path signal 250  -2500 -2500  -2000 -2500))
-      (outline (path signal 250  2500 -2000  2500 -2500))
-      (outline (path signal 250  2500 -2500  2000 -2500))
-      (outline (path signal 250  2000 2500  2500 2500))
-      (outline (path signal 250  2500 2500  2500 2000))
-      (outline (path signal 250  -2250 2500  -2262.24 2422.75  -2297.75 2353.05  -2353.05 2297.75
-            -2422.75 2262.24  -2500 2250  -2577.25 2262.24  -2646.95 2297.75
-            -2702.25 2353.05  -2737.76 2422.75  -2750 2500  -2737.76 2577.25
-            -2702.25 2646.95  -2646.95 2702.25  -2577.25 2737.76  -2500 2750
-            -2422.75 2737.76  -2353.05 2702.25  -2297.75 2646.95  -2262.24 2577.25))
-      (pin Rect[T]Pad_2000x250_um 24 3000 1750)
-      (pin Rect[T]Pad_2000x250_um 23 3000 1250)
-      (pin Rect[T]Pad_2000x250_um 22 3000 750)
-      (pin Rect[T]Pad_2000x250_um 21 3000 250)
-      (pin Rect[T]Pad_2000x250_um 20 3000 -250)
-      (pin Rect[T]Pad_2000x250_um 19 3000 -750)
-      (pin Rect[T]Pad_2000x250_um 18 3000 -1250)
-      (pin Rect[T]Pad_2000x250_um 17 3000 -1750)
-      (pin Rect[T]Pad_2000x250_um 8 -3000 -1750)
-      (pin Rect[T]Pad_2000x250_um 7 -3000 -1250)
-      (pin Rect[T]Pad_2000x250_um 6 -3000 -750)
-      (pin Rect[T]Pad_2000x250_um 5 -3000 -250)
-      (pin Rect[T]Pad_2000x250_um 4 -3000 250)
-      (pin Rect[T]Pad_2000x250_um 3 -3000 750)
-      (pin Rect[T]Pad_2000x250_um 2 -3000 1250)
-      (pin Rect[T]Pad_2000x250_um 1 -3000 1750)
-      (pin Rect[T]Pad_250x2000_um 16 1750 -3000)
-      (pin Rect[T]Pad_250x2000_um 15 1250 -3000)
-      (pin Rect[T]Pad_250x2000_um 14 750 -3000)
-      (pin Rect[T]Pad_250x2000_um 13 250 -3000)
-      (pin Rect[T]Pad_250x2000_um 12 -250 -3000)
-      (pin Rect[T]Pad_250x2000_um 11 -750 -3000)
-      (pin Rect[T]Pad_250x2000_um 10 -1250 -3000)
-      (pin Rect[T]Pad_250x2000_um 9 -1750 -3000)
-      (pin Rect[T]Pad_250x2000_um 32 -1750 3000)
-      (pin Rect[T]Pad_250x2000_um 31 -1250 3000)
-      (pin Rect[T]Pad_250x2000_um 30 -750 3000)
-      (pin Rect[T]Pad_250x2000_um 29 -250 3000)
-      (pin Rect[T]Pad_250x2000_um 28 250 3000)
-      (pin Rect[T]Pad_250x2000_um 27 750 3000)
-      (pin Rect[T]Pad_250x2000_um 26 1250 3000)
-      (pin Rect[T]Pad_250x2000_um 25 1750 3000)
-      (pin Rect[A]Pad_3400x3400_um PAD 0 0)
-    )
-    (image stepper_controller_5x3:MAX6817
-      (outline (path signal 381  0 1016  0 -1016))
-      (outline (path signal 228.6  -1524 1778  -1016 1778))
-      (outline (path signal 228.6  -1270 2032  -1270 1524))
-      (pin Rect[T]Pad_1330.96x558.8_um 1 -1198.88 949.96)
-      (pin Rect[T]Pad_1330.96x558.8_um 2 -1198.88 0)
-      (pin Rect[T]Pad_1330.96x558.8_um 3 -1198.88 -949.96)
-      (pin Rect[T]Pad_1330.96x558.8_um 4 1198.88 -949.96)
-      (pin Rect[T]Pad_1330.96x558.8_um 5 1198.88 0)
-      (pin Rect[T]Pad_1330.96x558.8_um 6 1198.88 949.96)
-    )
-    (image stepper_controller_5x3:SM0805
-      (outline (path signal 127  1524 -889  635 -889))
-      (outline (path signal 127  1524 889  1524 -889))
-      (outline (path signal 127  635 889  1524 889))
-      (outline (path signal 127  -1524 -889  -635 -889))
-      (outline (path signal 127  -1524 889  -1524 -889))
-      (outline (path signal 127  -635 889  -1524 889))
-      (pin Rect[T]Pad_787.4x1600.2_um 2 1041.4 0)
-      (pin Rect[T]Pad_787.4x1600.2_um 1 -1041.4 0)
-    )
-    (image stepper_controller_5x3:SM0805::1
-      (outline (path signal 127  -635 889  -1524 889))
-      (outline (path signal 127  -1524 889  -1524 -889))
-      (outline (path signal 127  -1524 -889  -635 -889))
-      (outline (path signal 127  635 889  1524 889))
-      (outline (path signal 127  1524 889  1524 -889))
-      (outline (path signal 127  1524 -889  635 -889))
-      (pin Rect[T]Pad_787.4x1600.2_um 1 -1041.4 0)
-      (pin Rect[T]Pad_787.4x1600.2_um 2 1041.4 0)
+    (image stepper_controller_5x3:DC_DC_CONV_R78C
+      (outline (path signal 381  5715 -1905  5715 6350))
+      (outline (path signal 381  5715 6350  -5715 6350))
+      (outline (path signal 381  -5715 6350  -5715 -1905))
+      (outline (path signal 381  -5715 -1905  5715 -1905))
+      (pin Oval[A]Pad_1524x2540_um 2 0 0)
+      (pin Oval[A]Pad_1524x2540_um 3 2540 0)
+      (pin Oval[A]Pad_1524x2540_um 1 -2540 0)
     )
     (image stepper_controller_5x3:C_ELEC_10::1
       (outline (path signal 250  -5150 5150  4150 5150))
@@ -686,11 +418,15 @@
       (outline (path signal 50  5100 -4350  -5100 -4350))
       (outline (path signal 50  -5100 -4350  -5100 4350))
       (outline (path signal 250  -5150 5150  -5150 -5150))
-      (outline (path signal 250  5000 0  4755.28 -1545.09  4045.09 -2938.93  2938.93 -4045.09
-            1545.09 -4755.28  0 -5000  -1545.09 -4755.28  -2938.93 -4045.09
-            -4045.09 -2938.93  -4755.28 -1545.09  -5000 0  -4755.28 1545.09
-            -4045.09 2938.93  -2938.93 4045.09  -1545.09 4755.28  0 5000
-            1545.09 4755.28  2938.93 4045.09  4045.09 2938.93  4755.28 1545.09))
+      (outline (path signal 250  5000 0  4919.65 -892.784  4681.17 -1756.87  4292.24 -2564.5
+            3765.36 -3289.69  3117.45 -3909.16  2369.34 -4402.98  1545.09 -4755.28
+            671.166 -4954.75  -224.324 -4994.97  -1112.61 -4874.64  -1965.12 -4597.64
+            -2754.49 -4172.87  -3455.31 -3613.97  -4045.09 -2938.93  -4504.84 -2169.42
+            -4819.81 -1330.18  -4979.87 -448.197  -4979.87 448.197  -4819.81 1330.18
+            -4504.84 2169.42  -4045.09 2938.93  -3455.31 3613.97  -2754.49 4172.87
+            -1965.12 4597.64  -1112.61 4874.64  -224.324 4994.97  671.166 4954.75
+            1545.09 4755.28  2369.34 4402.98  3117.45 3909.16  3765.36 3289.69
+            4292.24 2564.5  4681.17 1756.87  4919.65 892.784  5000 0))
       (outline (path signal 228.6  -3429 3556  -3429 -3556))
       (outline (path signal 228.6  -3556 3429  -3556 -3429))
       (outline (path signal 228.6  -3683 3302  -3683 -3175))
@@ -706,21 +442,327 @@
       (pin Rect[T]Pad_4100x2000_um 1 4350 0)
       (pin Rect[T]Pad_4100x2000_um 2 -4350 0)
     )
-    (image stepper_controller_5x3:DC_DC_CONV_R78C
-      (outline (path signal 381  5715 -1905  5715 6350))
-      (outline (path signal 381  5715 6350  -5715 6350))
-      (outline (path signal 381  -5715 6350  -5715 -1905))
-      (outline (path signal 381  -5715 -1905  5715 -1905))
-      (pin Oval[A]Pad_1524x2540_um 2 0 0)
-      (pin Oval[A]Pad_1524x2540_um 3 2540 0)
-      (pin Oval[A]Pad_1524x2540_um 1 -2540 0)
+    (image footprints:SM0805
+      (outline (path signal 127  -635 889  -1524 889))
+      (outline (path signal 127  -1524 889  -1524 -889))
+      (outline (path signal 127  -1524 -889  -635 -889))
+      (outline (path signal 127  635 889  1524 889))
+      (outline (path signal 127  1524 889  1524 -889))
+      (outline (path signal 127  1524 -889  635 -889))
+      (pin Rect[T]Pad_787.4x1600.2_um 1 -1041.4 0)
+      (pin Rect[T]Pad_787.4x1600.2_um 2 1041.4 0)
+    )
+    (image footprints:SM0805::1
+      (outline (path signal 127  1524 -889  635 -889))
+      (outline (path signal 127  1524 889  1524 -889))
+      (outline (path signal 127  635 889  1524 889))
+      (outline (path signal 127  -1524 -889  -635 -889))
+      (outline (path signal 127  -1524 889  -1524 -889))
+      (outline (path signal 127  -635 889  -1524 889))
+      (pin Rect[T]Pad_787.4x1600.2_um 2 1041.4 0)
+      (pin Rect[T]Pad_787.4x1600.2_um 1 -1041.4 0)
+    )
+    (image "stepper_controller_5x3:SOT-23-5"
+      (outline (path signal 150  -100 1000  -169.098 904.894  -280.902 941.221  -280.902 1058.78
+            -169.098 1095.11  -100 1000))
+      (outline (path signal 150  500 1500  -500 1500))
+      (outline (path signal 150  500 -1500  500 1500))
+      (outline (path signal 150  -500 -1500  500 -1500))
+      (outline (path signal 150  -500 1500  -500 -1500))
+      (pin Rect[T]Pad_1100x600_um 5 1300 950)
+      (pin Rect[T]Pad_1100x600_um 4 1300 -950)
+      (pin Rect[T]Pad_1100x600_um 3 -1300 -950)
+      (pin Rect[T]Pad_1100x600_um 2 -1300 0)
+      (pin Rect[T]Pad_1100x600_um 1 -1300 950)
+    )
+    (image "stepper_controller_5x3:SO-8"
+      (outline (path signal 381  -1270 -889  -1342.77 -1112.95  -1533.27 -1251.35  -1768.73 -1251.35
+            -1959.23 -1112.95  -2032 -889  -1959.23 -665.054  -1768.73 -526.647
+            -1533.27 -526.647  -1342.77 -665.054  -1270 -889))
+      (outline (path signal 381  -2540 1968.5  -2540 -1968.5))
+      (outline (path signal 381  2540 1968.5  2540 -1968.5))
+      (pin Rect[T]Pad_640x1910_um 1 -1905 -2790)
+      (pin Rect[T]Pad_640x1910_um 2 -635 -2790)
+      (pin Rect[T]Pad_640x1910_um 3 635 -2790)
+      (pin Rect[T]Pad_640x1910_um 4 1905 -2790)
+      (pin Rect[T]Pad_640x1910_um 5 1905 2790)
+      (pin Rect[T]Pad_640x1910_um 6 635 2790)
+      (pin Rect[T]Pad_640x1910_um 7 -635 2790)
+      (pin Rect[T]Pad_640x1910_um 8 -1905 2790)
+    )
+    (image stepper_controller_5x3:MAX6817
+      (outline (path signal 381  0 1016  0 -1016))
+      (outline (path signal 228.6  -1524 1778  -1016 1778))
+      (outline (path signal 228.6  -1270 2032  -1270 1524))
+      (pin Rect[T]Pad_1330.96x558.8_um 1 -1198.88 949.96)
+      (pin Rect[T]Pad_1330.96x558.8_um 2 -1198.88 0)
+      (pin Rect[T]Pad_1330.96x558.8_um 3 -1198.88 -949.96)
+      (pin Rect[T]Pad_1330.96x558.8_um 4 1198.88 -949.96)
+      (pin Rect[T]Pad_1330.96x558.8_um 5 1198.88 0)
+      (pin Rect[T]Pad_1330.96x558.8_um 6 1198.88 949.96)
+    )
+    (image "stepper_controller_5x3:SO-8::1"
+      (outline (path signal 381  2540 1968.5  2540 -1968.5))
+      (outline (path signal 381  -2540 1968.5  -2540 -1968.5))
+      (outline (path signal 381  -1270 -889  -1342.77 -1112.95  -1533.27 -1251.35  -1768.73 -1251.35
+            -1959.23 -1112.95  -2032 -889  -1959.23 -665.054  -1768.73 -526.647
+            -1533.27 -526.647  -1342.77 -665.054  -1270 -889))
+      (pin Rect[T]Pad_640x1910_um 8 -1905 2790)
+      (pin Rect[T]Pad_640x1910_um 7 -635 2790)
+      (pin Rect[T]Pad_640x1910_um 6 635 2790)
+      (pin Rect[T]Pad_640x1910_um 5 1905 2790)
+      (pin Rect[T]Pad_640x1910_um 4 1905 -2790)
+      (pin Rect[T]Pad_640x1910_um 3 635 -2790)
+      (pin Rect[T]Pad_640x1910_um 2 -635 -2790)
+      (pin Rect[T]Pad_640x1910_um 1 -1905 -2790)
+    )
+    (image "stepper_controller_5x3:SOT-23-5::1"
+      (outline (path signal 150  -500 1500  -500 -1500))
+      (outline (path signal 150  -500 -1500  500 -1500))
+      (outline (path signal 150  500 -1500  500 1500))
+      (outline (path signal 150  500 1500  -500 1500))
+      (outline (path signal 150  -100 1000  -169.098 904.894  -280.902 941.221  -280.902 1058.78
+            -169.098 1095.11  -100 1000))
+      (pin Rect[T]Pad_1100x600_um 1 -1300 950)
+      (pin Rect[T]Pad_1100x600_um 2 -1300 0)
+      (pin Rect[T]Pad_1100x600_um 3 -1300 -950)
+      (pin Rect[T]Pad_1100x600_um 4 1300 -950)
+      (pin Rect[T]Pad_1100x600_um 5 1300 950)
+    )
+    (image stepper_controller_5x3:MAX6817::1
+      (outline (path signal 228.6  -1270 2032  -1270 1524))
+      (outline (path signal 228.6  -1524 1778  -1016 1778))
+      (outline (path signal 381  0 1016  0 -1016))
+      (pin Rect[T]Pad_1330.96x558.8_um 6 1198.88 949.96)
+      (pin Rect[T]Pad_1330.96x558.8_um 5 1198.88 0)
+      (pin Rect[T]Pad_1330.96x558.8_um 4 1198.88 -949.96)
+      (pin Rect[T]Pad_1330.96x558.8_um 3 -1198.88 -949.96)
+      (pin Rect[T]Pad_1330.96x558.8_um 2 -1198.88 0)
+      (pin Rect[T]Pad_1330.96x558.8_um 1 -1198.88 949.96)
+    )
+    (image stepper_controller_5x3:TERM_BLK_HDR_4POS_VERT_0.2IN
+      (outline (path signal 381  8890 -7620  8890 -11176))
+      (outline (path signal 381  6350 -7620  6350 -11176))
+      (outline (path signal 381  -6350 -7620  -6350 -11176))
+      (outline (path signal 381  -8890 -7620  -8890 -11176))
+      (outline (path signal 381  -8890 -7620  -6350 -7620))
+      (outline (path signal 381  6350 -7620  8890 -7620))
+      (outline (path signal 381  11176 3810  11176 6299.2))
+      (outline (path signal 381  -11176 3810  -11176 6299.2))
+      (outline (path signal 381  -11176 6299.2  11176 6299.2))
+      (outline (path signal 381  -11176 -6299.2  11176 -6299.2))
+      (outline (path signal 381  -1270 -11176  -1270 -7620))
+      (outline (path signal 381  -1270 -7620  -3810 -7620))
+      (outline (path signal 381  -3810 -7620  -3810 -11176))
+      (outline (path signal 381  1270 -11176  1270 -7620))
+      (outline (path signal 381  1270 -7620  3810 -7620))
+      (outline (path signal 381  3810 -7620  3810 -11176))
+      (outline (path signal 381  10160 2540  10160 -3810))
+      (outline (path signal 381  10160 -3810  -10160 -3810))
+      (outline (path signal 381  -10160 -3810  -10160 2540))
+      (outline (path signal 381  11176 -4800.6  11176 -11176))
+      (outline (path signal 381  11176 -11176  -11176 -11176))
+      (outline (path signal 381  -11176 -11176  -11176 -4800.6))
+      (outline (path signal 381  -11176 3810  -11176 -4800.6))
+      (outline (path signal 381  11176 -4800.6  -11176 -4800.6))
+      (outline (path signal 381  11176 3810  11176 -4800.6))
+      (outline (path signal 381  11176 3810  -11176 3810))
+      (pin Round[A]Pad_2540_um 4 -7620 0)
+      (pin Round[A]Pad_2540_um 1 7620 0)
+      (pin Round[A]Pad_2540_um 2 2540 0)
+      (pin Round[A]Pad_2540_um 3 -2540 0)
+    )
+    (image stepper_controller_5x3:TERM_BLK_HDR_4POS_VERT_0.150IN
+      (outline (path signal 381  8315 3000  -8315 3000))
+      (outline (path signal 381  8315 3000  8315 -4250))
+      (outline (path signal 381  8315 -4250  -8315 -4250))
+      (outline (path signal 381  -8315 3000  -8315 -4250))
+      (outline (path signal 381  4064 2540  4064 -2540))
+      (outline (path signal 381  7366 2540  7366 -2540))
+      (outline (path signal 381  8015 6850  8015 3000))
+      (outline (path signal 381  -8015 3000  -8015 6850))
+      (outline (path signal 381  -8015 6850  8015 6850))
+      (outline (path signal 381  8015 -5200  8015 -4250))
+      (outline (path signal 381  -8015 -5200  8015 -5200))
+      (outline (path signal 381  -8015 -4250  -8015 -5200))
+      (outline (path signal 381  -8015 5200  8015 5200))
+      (outline (path signal 381  5715 -1500  5715 -3250))
+      (outline (path signal 381  1905 -1500  1905 -3250))
+      (outline (path signal 381  -1905 -1500  -1905 -3250))
+      (outline (path signal 381  -5715 -1500  -5715 -3250))
+      (outline (path signal 381  254 2540  254 -2540))
+      (outline (path signal 381  3556 2540  3556 -2540))
+      (outline (path signal 381  4064 -2540  4953 -2540))
+      (outline (path signal 381  6477 -2540  7366 -2540))
+      (outline (path signal 381  6477 -3048  6477 -2540))
+      (outline (path signal 381  7366 -3048  6477 -3048))
+      (outline (path signal 381  7366 -3683  7366 -3048))
+      (outline (path signal 381  4064 -3683  7366 -3683))
+      (outline (path signal 381  4064 -3048  4064 -3683))
+      (outline (path signal 381  4953 -3048  4064 -3048))
+      (outline (path signal 381  4953 -2540  4953 -3048))
+      (outline (path signal 381  2667 -2540  3556 -2540))
+      (outline (path signal 381  2667 -3048  2667 -2540))
+      (outline (path signal 381  3556 -3048  2667 -3048))
+      (outline (path signal 381  3556 -3683  3556 -3048))
+      (outline (path signal 381  254 -3683  3556 -3683))
+      (outline (path signal 381  254 -3048  254 -3683))
+      (outline (path signal 381  1143 -3048  254 -3048))
+      (outline (path signal 381  1143 -2540  1143 -3048))
+      (outline (path signal 381  254 -2540  1143 -2540))
+      (outline (path signal 381  -254 2540  -254 -2540))
+      (outline (path signal 381  -3556 2540  -3556 -2540))
+      (outline (path signal 381  -1143 -2540  -254 -2540))
+      (outline (path signal 381  -1143 -3048  -1143 -2540))
+      (outline (path signal 381  -254 -3048  -1143 -3048))
+      (outline (path signal 381  -254 -3683  -254 -3048))
+      (outline (path signal 381  -3556 -3683  -254 -3683))
+      (outline (path signal 381  -3556 -3048  -3556 -3683))
+      (outline (path signal 381  -2667 -3048  -3556 -3048))
+      (outline (path signal 381  -2667 -2540  -2667 -3048))
+      (outline (path signal 381  -3556 -2540  -2667 -2540))
+      (outline (path signal 381  -7366 2540  -7366 -2540))
+      (outline (path signal 381  -4064 2540  -4064 -2540))
+      (outline (path signal 381  -4953 -2540  -4064 -2540))
+      (outline (path signal 381  -4953 -3048  -4953 -2540))
+      (outline (path signal 381  -4064 -3048  -4953 -3048))
+      (outline (path signal 381  -4064 -3683  -4064 -3048))
+      (outline (path signal 381  -7366 -3683  -4064 -3683))
+      (outline (path signal 381  -7366 -3048  -7366 -3683))
+      (outline (path signal 381  -6477 -3048  -7366 -3048))
+      (outline (path signal 381  -6477 -2540  -6477 -3048))
+      (outline (path signal 381  -7366 -2540  -6477 -2540))
+      (outline (path signal 381  6858 4064  6858 6858))
+      (outline (path signal 381  4572 4064  6858 4064))
+      (outline (path signal 381  4572 6858  4572 4064))
+      (outline (path signal 381  3048 4064  3048 6858))
+      (outline (path signal 381  762 4064  3048 4064))
+      (outline (path signal 381  762 6858  762 4064))
+      (outline (path signal 381  -762 4064  -762 6858))
+      (outline (path signal 381  -3048 4064  -762 4064))
+      (outline (path signal 381  -3048 6858  -3048 4064))
+      (outline (path signal 381  -4572 4064  -4572 6858))
+      (outline (path signal 381  -6858 4064  -4572 4064))
+      (outline (path signal 381  -6858 6858  -6858 4064))
+      (pin Round[A]Pad_2340_um 3 -1905 0)
+      (pin Round[A]Pad_2340_um 2 1905 0)
+      (pin Round[A]Pad_2340_um 1 5715 0)
+      (pin Round[A]Pad_2340_um 4 -5715 0)
+    )
+    (image stepper_controller_5x3:TERM_BLK_HDR_4POS_VERT_0.2IN::1
+      (outline (path signal 381  11176 3810  -11176 3810))
+      (outline (path signal 381  11176 3810  11176 -4800.6))
+      (outline (path signal 381  11176 -4800.6  -11176 -4800.6))
+      (outline (path signal 381  -11176 3810  -11176 -4800.6))
+      (outline (path signal 381  -11176 -11176  -11176 -4800.6))
+      (outline (path signal 381  11176 -11176  -11176 -11176))
+      (outline (path signal 381  11176 -4800.6  11176 -11176))
+      (outline (path signal 381  -10160 -3810  -10160 2540))
+      (outline (path signal 381  10160 -3810  -10160 -3810))
+      (outline (path signal 381  10160 2540  10160 -3810))
+      (outline (path signal 381  3810 -7620  3810 -11176))
+      (outline (path signal 381  1270 -7620  3810 -7620))
+      (outline (path signal 381  1270 -11176  1270 -7620))
+      (outline (path signal 381  -3810 -7620  -3810 -11176))
+      (outline (path signal 381  -1270 -7620  -3810 -7620))
+      (outline (path signal 381  -1270 -11176  -1270 -7620))
+      (outline (path signal 381  -11176 -6299.2  11176 -6299.2))
+      (outline (path signal 381  -11176 6299.2  11176 6299.2))
+      (outline (path signal 381  -11176 3810  -11176 6299.2))
+      (outline (path signal 381  11176 3810  11176 6299.2))
+      (outline (path signal 381  6350 -7620  8890 -7620))
+      (outline (path signal 381  -8890 -7620  -6350 -7620))
+      (outline (path signal 381  -8890 -7620  -8890 -11176))
+      (outline (path signal 381  -6350 -7620  -6350 -11176))
+      (outline (path signal 381  6350 -7620  6350 -11176))
+      (outline (path signal 381  8890 -7620  8890 -11176))
+      (pin Round[A]Pad_2540_um 3 -2540 0)
+      (pin Round[A]Pad_2540_um 2 2540 0)
+      (pin Round[A]Pad_2540_um 1 7620 0)
+      (pin Round[A]Pad_2540_um 4 -7620 0)
+    )
+    (image stepper_controller_5x3:TERM_BLK_HDR_4POS_VERT_0.150IN::1
+      (outline (path signal 381  -6858 6858  -6858 4064))
+      (outline (path signal 381  -6858 4064  -4572 4064))
+      (outline (path signal 381  -4572 4064  -4572 6858))
+      (outline (path signal 381  -3048 6858  -3048 4064))
+      (outline (path signal 381  -3048 4064  -762 4064))
+      (outline (path signal 381  -762 4064  -762 6858))
+      (outline (path signal 381  762 6858  762 4064))
+      (outline (path signal 381  762 4064  3048 4064))
+      (outline (path signal 381  3048 4064  3048 6858))
+      (outline (path signal 381  4572 6858  4572 4064))
+      (outline (path signal 381  4572 4064  6858 4064))
+      (outline (path signal 381  6858 4064  6858 6858))
+      (outline (path signal 381  -7366 -2540  -6477 -2540))
+      (outline (path signal 381  -6477 -2540  -6477 -3048))
+      (outline (path signal 381  -6477 -3048  -7366 -3048))
+      (outline (path signal 381  -7366 -3048  -7366 -3683))
+      (outline (path signal 381  -7366 -3683  -4064 -3683))
+      (outline (path signal 381  -4064 -3683  -4064 -3048))
+      (outline (path signal 381  -4064 -3048  -4953 -3048))
+      (outline (path signal 381  -4953 -3048  -4953 -2540))
+      (outline (path signal 381  -4953 -2540  -4064 -2540))
+      (outline (path signal 381  -4064 2540  -4064 -2540))
+      (outline (path signal 381  -7366 2540  -7366 -2540))
+      (outline (path signal 381  -3556 -2540  -2667 -2540))
+      (outline (path signal 381  -2667 -2540  -2667 -3048))
+      (outline (path signal 381  -2667 -3048  -3556 -3048))
+      (outline (path signal 381  -3556 -3048  -3556 -3683))
+      (outline (path signal 381  -3556 -3683  -254 -3683))
+      (outline (path signal 381  -254 -3683  -254 -3048))
+      (outline (path signal 381  -254 -3048  -1143 -3048))
+      (outline (path signal 381  -1143 -3048  -1143 -2540))
+      (outline (path signal 381  -1143 -2540  -254 -2540))
+      (outline (path signal 381  -3556 2540  -3556 -2540))
+      (outline (path signal 381  -254 2540  -254 -2540))
+      (outline (path signal 381  254 -2540  1143 -2540))
+      (outline (path signal 381  1143 -2540  1143 -3048))
+      (outline (path signal 381  1143 -3048  254 -3048))
+      (outline (path signal 381  254 -3048  254 -3683))
+      (outline (path signal 381  254 -3683  3556 -3683))
+      (outline (path signal 381  3556 -3683  3556 -3048))
+      (outline (path signal 381  3556 -3048  2667 -3048))
+      (outline (path signal 381  2667 -3048  2667 -2540))
+      (outline (path signal 381  2667 -2540  3556 -2540))
+      (outline (path signal 381  4953 -2540  4953 -3048))
+      (outline (path signal 381  4953 -3048  4064 -3048))
+      (outline (path signal 381  4064 -3048  4064 -3683))
+      (outline (path signal 381  4064 -3683  7366 -3683))
+      (outline (path signal 381  7366 -3683  7366 -3048))
+      (outline (path signal 381  7366 -3048  6477 -3048))
+      (outline (path signal 381  6477 -3048  6477 -2540))
+      (outline (path signal 381  6477 -2540  7366 -2540))
+      (outline (path signal 381  4064 -2540  4953 -2540))
+      (outline (path signal 381  3556 2540  3556 -2540))
+      (outline (path signal 381  254 2540  254 -2540))
+      (outline (path signal 381  -5715 -1500  -5715 -3250))
+      (outline (path signal 381  -1905 -1500  -1905 -3250))
+      (outline (path signal 381  1905 -1500  1905 -3250))
+      (outline (path signal 381  5715 -1500  5715 -3250))
+      (outline (path signal 381  -8015 5200  8015 5200))
+      (outline (path signal 381  -8015 -4250  -8015 -5200))
+      (outline (path signal 381  -8015 -5200  8015 -5200))
+      (outline (path signal 381  8015 -5200  8015 -4250))
+      (outline (path signal 381  -8015 6850  8015 6850))
+      (outline (path signal 381  -8015 3000  -8015 6850))
+      (outline (path signal 381  8015 6850  8015 3000))
+      (outline (path signal 381  7366 2540  7366 -2540))
+      (outline (path signal 381  4064 2540  4064 -2540))
+      (outline (path signal 381  -8315 3000  -8315 -4250))
+      (outline (path signal 381  8315 -4250  -8315 -4250))
+      (outline (path signal 381  8315 3000  8315 -4250))
+      (outline (path signal 381  8315 3000  -8315 3000))
+      (pin Round[A]Pad_2340_um 4 -5715 0)
+      (pin Round[A]Pad_2340_um 1 5715 0)
+      (pin Round[A]Pad_2340_um 2 1905 0)
+      (pin Round[A]Pad_2340_um 3 -1905 0)
     )
     (image stepper_controller_5x3:SOIC_20
-      (outline (path signal 381  -1905 5080  -1936.08 4883.77  -2026.27 4706.76  -2166.76 4566.27
-            -2343.77 4476.08  -2540 4445  -2736.23 4476.08  -2913.24 4566.27
-            -3053.73 4706.76  -3143.92 4883.77  -3175 5080  -3143.92 5276.23
-            -3053.73 5453.24  -2913.24 5593.73  -2736.23 5683.92  -2540 5715
-            -2343.77 5683.92  -2166.76 5593.73  -2026.27 5453.24  -1936.08 5276.23))
+      (outline (path signal 381  -1905 5080  -1990.07 4762.5  -2222.5 4530.07  -2540 4445
+            -2857.5 4530.07  -3089.93 4762.5  -3175 5080  -3089.93 5397.5
+            -2857.5 5629.93  -2540 5715  -2222.5 5629.93  -1990.07 5397.5
+            -1905 5080))
       (outline (path signal 381  -3750 6500  -3750 -6500))
       (outline (path signal 381  -3750 -6500  3750 -6500))
       (outline (path signal 381  3750 -6500  3750 6500))
@@ -796,25 +838,61 @@
       (shape (path B.Cu 4064  -508 0  508 0))
       (attach off)
     )
-    (padstack Rect[T]Pad_2000x250_um
-      (shape (rect F.Cu -1000 -125 1000 125))
+    (padstack RoundRect[A]Pad_3400x3400_341.294_um
+      (shape (polygon F.Cu 0  1419.27 1696.11  1476.73 1680.71  1530.65 1655.57  1579.38 1621.45
+            1621.45 1579.38  1655.57 1530.65  1680.71 1476.73  1696.11 1419.27
+            1701.29 1360  1701.29 -1360  1696.11 -1419.27  1680.71 -1476.73
+            1655.57 -1530.65  1621.45 -1579.38  1579.38 -1621.45  1530.65 -1655.57
+            1476.73 -1680.71  1419.27 -1696.11  1360 -1701.29  -1360 -1701.29
+            -1419.27 -1696.11  -1476.73 -1680.71  -1530.65 -1655.57  -1579.38 -1621.45
+            -1621.45 -1579.38  -1655.57 -1530.65  -1680.71 -1476.73  -1696.11 -1419.27
+            -1701.29 -1360  -1701.29 1360  -1696.11 1419.27  -1680.71 1476.73
+            -1655.57 1530.65  -1621.45 1579.38  -1579.38 1621.45  -1530.65 1655.57
+            -1476.73 1680.71  -1419.27 1696.11  -1360 1701.29  1360 1701.29
+            1419.27 1696.11))
+      (shape (polygon B.Cu 0  1419.27 1696.11  1476.73 1680.71  1530.65 1655.57  1579.38 1621.45
+            1621.45 1579.38  1655.57 1530.65  1680.71 1476.73  1696.11 1419.27
+            1701.29 1360  1701.29 -1360  1696.11 -1419.27  1680.71 -1476.73
+            1655.57 -1530.65  1621.45 -1579.38  1579.38 -1621.45  1530.65 -1655.57
+            1476.73 -1680.71  1419.27 -1696.11  1360 -1701.29  -1360 -1701.29
+            -1419.27 -1696.11  -1476.73 -1680.71  -1530.65 -1655.57  -1579.38 -1621.45
+            -1621.45 -1579.38  -1655.57 -1530.65  -1680.71 -1476.73  -1696.11 -1419.27
+            -1701.29 -1360  -1701.29 1360  -1696.11 1419.27  -1680.71 1476.73
+            -1655.57 1530.65  -1621.45 1579.38  -1579.38 1621.45  -1530.65 1655.57
+            -1476.73 1680.71  -1419.27 1696.11  -1360 1701.29  1360 1701.29
+            1419.27 1696.11))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_700x300_150.571_um
+      (shape (polygon F.Cu 0  226.146 148.284  251.498 141.491  275.285 130.399  296.785 115.345
+            315.344 96.786  330.398 75.287  341.49 51.499  348.283 26.147
+            350.571 0.001  350.571 -0.001  348.283 -26.147  341.49 -51.499
+            330.398 -75.286  315.344 -96.786  296.785 -115.345  275.286 -130.399
+            251.498 -141.491  226.146 -148.284  200 -150.572  -200 -150.572
+            -226.146 -148.284  -251.498 -141.491  -275.285 -130.399  -296.785 -115.345
+            -315.344 -96.786  -330.398 -75.287  -341.49 -51.499  -348.283 -26.147
+            -350.571 -0.001  -350.571 0.001  -348.283 26.147  -341.49 51.499
+            -330.398 75.286  -315.344 96.786  -296.785 115.345  -275.286 130.399
+            -251.498 141.491  -226.146 148.284  -200 150.572  200 150.572
+            226.146 148.284))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_300x700_150.571_um
+      (shape (polygon F.Cu 0  26.147 348.283  51.499 341.49  75.286 330.398  96.786 315.344
+            115.345 296.785  130.399 275.286  141.491 251.498  148.284 226.146
+            150.572 200  150.572 -200  148.284 -226.146  141.491 -251.498
+            130.399 -275.285  115.345 -296.785  96.786 -315.344  75.287 -330.398
+            51.499 -341.49  26.147 -348.283  0.001 -350.571  -0.001 -350.571
+            -26.147 -348.283  -51.499 -341.49  -75.286 -330.398  -96.786 -315.344
+            -115.345 -296.785  -130.399 -275.286  -141.491 -251.498  -148.284 -226.146
+            -150.572 -200  -150.572 200  -148.284 226.146  -141.491 251.498
+            -130.399 275.285  -115.345 296.785  -96.786 315.344  -75.287 330.398
+            -51.499 341.49  -26.147 348.283  -0.001 350.571  0.001 350.571
+            26.147 348.283))
       (attach off)
     )
     (padstack Rect[T]Pad_2000x600_um
       (shape (rect F.Cu -1000 -300 1000 300))
-      (attach off)
-    )
-    (padstack Rect[T]Pad_2300x1650_um
-      (shape (rect F.Cu -1150 -825 1150 825))
-      (attach off)
-    )
-    (padstack Rect[T]Pad_250x2000_um
-      (shape (rect F.Cu -125 -1000 125 1000))
-      (attach off)
-    )
-    (padstack Rect[A]Pad_3400x3400_um
-      (shape (rect F.Cu -1700 -1700 1700 1700))
-      (shape (rect B.Cu -1700 -1700 1700 1700))
       (attach off)
     )
     (padstack Rect[T]Pad_3800x4960_um
@@ -825,8 +903,16 @@
       (shape (rect F.Cu -2050 -1000 2050 1000))
       (attach off)
     )
+    (padstack Rect[T]Pad_640x1910_um
+      (shape (rect F.Cu -320 -955 320 955))
+      (attach off)
+    )
     (padstack Rect[T]Pad_787.4x1600.2_um
       (shape (rect F.Cu -393.7 -800.1 393.7 800.1))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1100x600_um
+      (shape (rect F.Cu -550 -300 550 300))
       (attach off)
     )
     (padstack Rect[T]Pad_1270x2540_um
@@ -858,217 +944,251 @@
   )
   (network
     (net +3V3
-      (pins MDB1-3V3 C1-1 C4-1 CLK1-4 CLK1-1 U1-22 U1-21 U1-3 U3-5 U4-5 C12-1 C19-1
-        C26-1 U5-5)
+      (pins U1-3 U1-21 U1-22 MDB1-3V3 C1-1 C4-1 CLK1-4 CLK1-1 C12-1 C8-1 C9-1 C13-1
+        C16-1 C17-1 R1-1 R2-1 R7-1 R12-1 U4-5 U5-8 U6-5 U7-5 U8-8 U9-5 U10-5 U11-8
+        U12-5 U2-5)
     )
     (net GND
-      (pins SS1-10 SS1-16 SS2-10 SS2-16 SS3-10 SS3-16 C6-2 MDB1-GND C1-2 C2-2 C4-2
-        C5-2 C7-2 CLK1-2 P1-2 T2-4 T2-2 T4-2 T4-4 T6-2 T6-4 U1-23 U1-6 U1-4 U1-25
-        U1-PAD U3-2 U4-2 C3-2 C8-2 C9-2 C10-2 C11-2 C12-2 C13-2 C14-2 C15-2 C16-2
-        C17-2 C18-2 C19-2 C20-2 C21-2 C22-2 C23-2 C24-2 C25-2 C26-2 R1-2 REG1-2 RV3-2
-        RV4-2 RV5-2 RV6-2 RV9-2 RV10-2 RV11-2 RV12-2 RV15-2 RV16-2 RV17-2 RV18-2 U2-19
-        U2-10 U2-1 U5-2)
+      (pins U1-PAD U1-25 U1-4 U1-6 U1-23 SS1-10 SS1-16 SS2-10 SS2-16 SS3-10 SS3-16
+        C6-2 MDB1-GND C1-2 C2-2 C4-2 C5-2 C7-2 CLK1-2 P1-2 C3-2 C12-2 REG1-2 C8-2
+        C9-2 C10-2 C11-2 C13-2 C14-2 C15-2 C16-2 C17-2 R4-2 R6-2 R9-2 R11-2 R14-2
+        R16-2 U4-3 U5-5 U6-2 U7-3 U8-5 U9-2 U10-3 U11-5 U12-2 U2-3 U3-19 U3-10 U3-1)
     )
     (net VDD
       (pins MDB1-VDD D1-1)
     )
     (net /CLK
-      (pins CLK1-3 U1-5)
+      (pins U1-5 CLK1-3)
     )
     (net VAA
-      (pins SS1-9 SS2-9 SS3-9 C6-1 C2-1 C7-1 D1-2 D1-2@1 P1-1 C13-1 C14-1 C20-1 C21-1
-        REG1-1)
+      (pins SS1-9 SS2-9 SS3-9 C6-1 C2-1 C7-1 D1-2 D1-2@1 P1-1 REG1-1 C10-1 C11-1 C14-1
+        C15-1)
     )
     (net /CS_DRIVER_2
-      (pins MDB1-18 U2-9)
+      (pins MDB1-18 U3-9)
     )
     (net /CS_DRIVER_1
-      (pins MDB1-17 U2-7)
+      (pins MDB1-17 U3-7)
     )
     (net /CS_DRIVER_0
-      (pins MDB1-16 U2-5)
+      (pins MDB1-16 U3-5)
     )
     (net /CS_429
-      (pins MDB1-15 U1-7)
+      (pins U1-7 MDB1-15 R1-2 U2-1)
     )
     (net /SCK
-      (pins MDB1-13 U1-8 U2-2)
+      (pins U1-8 MDB1-13 U3-2)
     )
     (net /MISO
-      (pins SS1-4 SS2-4 SS3-4 MDB1-12 U1-12)
+      (pins MDB1-12 U4-4 U7-4 U10-4 U2-4)
     )
     (net /MOSI
-      (pins MDB1-11 U1-10 U2-3)
+      (pins U1-10 MDB1-11 U3-3)
     )
     (net /ENABLE_2
-      (pins MDB1-42 U2-8)
+      (pins MDB1-42 U3-8)
     )
     (net /ENABLE_1
-      (pins MDB1-41 U2-6)
+      (pins MDB1-41 U3-6)
     )
     (net /ENABLE_0
-      (pins MDB1-40 U2-4)
+      (pins MDB1-40 U3-4)
     )
     (net /POSCOMP
-      (pins MDB1-6 U1-30)
+      (pins U1-30 MDB1-6)
     )
     (net /INT
-      (pins MDB1-5 U1-14)
+      (pins U1-14 MDB1-5)
     )
     (net "/tmc429_driver_0/stepper_0/A_-"
-      (pins L2-1 SS1-14)
+      (pins SS1-14 T1-3)
     )
     (net /tmc429_driver_0/stepper_0/A_+
-      (pins L1-1 SS1-13)
+      (pins SS1-13 T1-4)
     )
     (net /tmc429_driver_0/stepper_0/B_+
-      (pins L3-1 SS1-12)
+      (pins SS1-12 T1-2)
     )
     (net "/tmc429_driver_0/stepper_0/B_-"
-      (pins L4-1 SS1-11)
+      (pins SS1-11 T1-1)
     )
     (net /tmc429_driver_0/STEP_0
-      (pins SS1-2 U1-15)
+      (pins U1-15 SS1-2)
     )
     (net /tmc429_driver_0/DIR_0
-      (pins SS1-1 U1-17)
+      (pins U1-17 SS1-1)
     )
     (net /tmc429_driver_0/DIR_1
-      (pins SS2-1 U1-27)
+      (pins U1-27 SS2-1)
     )
     (net /tmc429_driver_0/STEP_1
-      (pins SS2-2 U1-18)
+      (pins U1-18 SS2-2)
     )
     (net "/tmc429_driver_0/stepper_1/B_-"
-      (pins L8-1 SS2-11)
+      (pins SS2-11 T3-1)
     )
     (net /tmc429_driver_0/stepper_1/B_+
-      (pins L7-1 SS2-12)
+      (pins SS2-12 T3-2)
     )
     (net /tmc429_driver_0/stepper_1/A_+
-      (pins L5-1 SS2-13)
+      (pins SS2-13 T3-4)
     )
     (net "/tmc429_driver_0/stepper_1/A_-"
-      (pins L6-1 SS2-14)
+      (pins SS2-14 T3-3)
     )
     (net "/tmc429_driver_0/stepper_2/A_-"
-      (pins L10-1 SS3-14)
+      (pins SS3-14 T5-3)
     )
     (net /tmc429_driver_0/stepper_2/A_+
-      (pins L9-1 SS3-13)
+      (pins SS3-13 T5-4)
     )
     (net /tmc429_driver_0/stepper_2/B_+
-      (pins L11-1 SS3-12)
+      (pins SS3-12 T5-2)
     )
     (net "/tmc429_driver_0/stepper_2/B_-"
-      (pins L12-1 SS3-11)
+      (pins SS3-11 T5-1)
     )
     (net /tmc429_driver_0/STEP_2
-      (pins SS3-2 U1-19)
+      (pins U1-19 SS3-2)
     )
     (net /tmc429_driver_0/DIR_2
-      (pins SS3-1 U1-20)
+      (pins U1-20 SS3-1)
     )
     (net /tmc429_driver_0/stepper_0/REF_B
-      (pins T2-1 U3-1)
+      (pins U5-2 T2-1)
     )
     (net /tmc429_driver_0/stepper_0/REFR_B
-      (pins T2-3 U3-3)
+      (pins U5-3 T2-3)
     )
     (net /tmc429_driver_0/stepper_1/REFR_B
-      (pins T4-3 U4-3)
+      (pins U8-3 T4-3)
     )
     (net /tmc429_driver_0/stepper_1/REF_B
-      (pins T4-1 U4-1)
+      (pins U8-2 T4-1)
     )
     (net /tmc429_driver_0/stepper_2/REFR_B
-      (pins T6-3 U5-3)
+      (pins U11-3 T6-3)
     )
     (net /tmc429_driver_0/stepper_2/REF_B
-      (pins T6-1 U5-1)
+      (pins U11-2 T6-1)
     )
     (net /tmc429_driver_0/REF_2
-      (pins U1-2 U5-6)
+      (pins U1-2 U12-6)
     )
     (net /tmc429_driver_0/REF_1
-      (pins U1-1 U4-6)
+      (pins U1-1 U9-6)
     )
     (net /tmc429_driver_0/REFR_1
-      (pins U1-13 U4-4)
+      (pins U1-13 U9-4)
     )
     (net /tmc429_driver_0/REF_0
-      (pins U1-31 U3-6)
+      (pins U1-31 U6-6)
     )
     (net /tmc429_driver_0/REFR_2
-      (pins U1-29 U5-4)
+      (pins U1-29 U12-4)
     )
     (net /tmc429_driver_0/REFR_0
-      (pins U1-28 U3-4)
-    )
-    (net /tmc429_driver_0/stepper_0/A_+F
-      (pins L1-2 T1-4 C8-1 RV1-1 RV3-1)
-    )
-    (net "/tmc429_driver_0/stepper_0/A_-F"
-      (pins L2-2 T1-3 C9-1 RV1-2 RV4-1)
-    )
-    (net /tmc429_driver_0/stepper_0/B_+F
-      (pins L3-2 T1-2 C10-1 RV2-1 RV5-1)
-    )
-    (net "/tmc429_driver_0/stepper_0/B_-F"
-      (pins L4-2 T1-1 C11-1 RV2-2 RV6-1)
-    )
-    (net /tmc429_driver_0/stepper_1/A_+F
-      (pins L5-2 T3-4 C15-1 RV7-1 RV9-1)
-    )
-    (net "/tmc429_driver_0/stepper_1/A_-F"
-      (pins L6-2 T3-3 C16-1 RV7-2 RV10-1)
-    )
-    (net /tmc429_driver_0/stepper_1/B_+F
-      (pins L7-2 T3-2 C17-1 RV8-1 RV11-1)
-    )
-    (net "/tmc429_driver_0/stepper_1/B_-F"
-      (pins L8-2 T3-1 C18-1 RV8-2 RV12-1)
-    )
-    (net /tmc429_driver_0/stepper_2/A_+F
-      (pins L9-2 T5-4 C22-1 RV13-1 RV15-1)
-    )
-    (net "/tmc429_driver_0/stepper_2/A_-F"
-      (pins L10-2 T5-3 C23-1 RV13-2 RV16-1)
-    )
-    (net /tmc429_driver_0/stepper_2/B_+F
-      (pins L11-2 T5-2 C24-1 RV14-1 RV17-1)
-    )
-    (net "/tmc429_driver_0/stepper_2/B_-F"
-      (pins L12-2 T5-1 C25-1 RV14-2 RV18-1)
+      (pins U1-28 U6-4)
     )
     (net +5V
-      (pins SS1-15 SS2-15 SS3-15 MDB1-23 C5-1 C3-1 R1-1 REG1-3 U2-20)
+      (pins SS1-15 SS2-15 SS3-15 C5-1 C3-1 REG1-3 R3-1 R5-1 R8-1 R10-1 R13-1 R15-1
+        U3-20)
     )
     (net /tmc429_driver_0/~CS_DRIVER_0_B
-      (pins SS1-5 U2-15)
+      (pins SS1-5 R2-2 U4-1 U3-15)
     )
     (net /tmc429_driver_0/SCK_B
-      (pins SS1-6 SS2-6 SS3-6 U2-18)
+      (pins SS1-6 SS2-6 SS3-6 U3-18)
     )
     (net /tmc429_driver_0/MOSI_B
-      (pins SS1-7 SS2-7 SS3-7 U2-17)
+      (pins SS1-7 SS2-7 SS3-7 U3-17)
     )
     (net /tmc429_driver_0/~ENABLE_0_B
-      (pins SS1-8 U2-16)
+      (pins SS1-8 U3-16)
     )
     (net /tmc429_driver_0/~CS_DRIVER_1_B
-      (pins SS2-5 U2-13)
+      (pins SS2-5 R7-2 U7-1 U3-13)
     )
     (net /tmc429_driver_0/~ENABLE_1_B
-      (pins SS2-8 U2-14)
+      (pins SS2-8 U3-14)
     )
     (net /tmc429_driver_0/~CS_DRIVER_2_B
-      (pins SS3-5 U2-11)
+      (pins SS3-5 R12-2 U10-1 U3-11)
     )
     (net /tmc429_driver_0/~ENABLE_2_B
-      (pins SS3-8 U2-12)
+      (pins SS3-8 U3-12)
     )
-    (class kicad_default ""
+    (net /tmc429_driver_0/stepper_0/REF_PWR
+      (pins R3-2 U5-1)
+    )
+    (net /tmc429_driver_0/stepper_0/REF_GND
+      (pins R4-1 T2-2)
+    )
+    (net /tmc429_driver_0/stepper_0/REFR_PWR
+      (pins R5-2 U5-4)
+    )
+    (net /tmc429_driver_0/stepper_0/REFR_GND
+      (pins R6-1 T2-4)
+    )
+    (net /tmc429_driver_0/stepper_1/REF_PWR
+      (pins R8-2 U8-1)
+    )
+    (net /tmc429_driver_0/stepper_1/REF_GND
+      (pins R9-1 T4-2)
+    )
+    (net /tmc429_driver_0/stepper_1/REFR_PWR
+      (pins R10-2 U8-4)
+    )
+    (net /tmc429_driver_0/stepper_1/REFR_GND
+      (pins R11-1 T4-4)
+    )
+    (net /tmc429_driver_0/stepper_2/REF_PWR
+      (pins R13-2 U11-1)
+    )
+    (net /tmc429_driver_0/stepper_2/REF_GND
+      (pins R14-1 T6-2)
+    )
+    (net /tmc429_driver_0/stepper_2/REFR_PWR
+      (pins R15-2 U11-4)
+    )
+    (net /tmc429_driver_0/stepper_2/REFR_GND
+      (pins R16-1 T6-4)
+    )
+    (net /tmc429_driver_0/stepper_0/MISO_UB
+      (pins SS1-4 U4-2)
+    )
+    (net /tmc429_driver_0/stepper_1/MISO_UB
+      (pins SS2-4 U7-2)
+    )
+    (net /tmc429_driver_0/stepper_2/MISO_UB
+      (pins SS3-4 U10-2)
+    )
+    (net /tmc429_driver_0/MISO_UB
+      (pins U1-12 U2-2)
+    )
+    (net /tmc429_driver_0/stepper_0/REFR_BI
+      (pins U5-6 U6-3)
+    )
+    (net /tmc429_driver_0/stepper_0/REF_BI
+      (pins U5-7 U6-1)
+    )
+    (net /tmc429_driver_0/stepper_1/REF_BI
+      (pins U8-7 U9-1)
+    )
+    (net /tmc429_driver_0/stepper_1/REFR_BI
+      (pins U8-6 U9-3)
+    )
+    (net /tmc429_driver_0/stepper_2/REFR_BI
+      (pins U11-6 U12-3)
+    )
+    (net /tmc429_driver_0/stepper_2/REF_BI
+      (pins U11-7 U12-1)
+    )
+    (class kicad_default "" /tmc429_driver_0/stepper_0/A_+F "/tmc429_driver_0/stepper_0/A_-F"
+      /tmc429_driver_0/stepper_0/B_+F "/tmc429_driver_0/stepper_0/B_-F" /tmc429_driver_0/stepper_1/A_+F
+      "/tmc429_driver_0/stepper_1/A_-F" /tmc429_driver_0/stepper_1/B_+F "/tmc429_driver_0/stepper_1/B_-F"
+      /tmc429_driver_0/stepper_2/A_+F "/tmc429_driver_0/stepper_2/A_-F" /tmc429_driver_0/stepper_2/B_+F
+      "/tmc429_driver_0/stepper_2/B_-F"
       (circuit
         (use_via Via[0-1]_889:635_um)
       )
@@ -1077,7 +1197,10 @@
         (clearance 25.5)
       )
     )
-    (class GND GND
+    (class GND /tmc429_driver_0/stepper_0/REFR_GND /tmc429_driver_0/stepper_0/REF_GND
+      /tmc429_driver_0/stepper_1/REFR_GND /tmc429_driver_0/stepper_1/REF_GND
+      /tmc429_driver_0/stepper_2/REFR_GND /tmc429_driver_0/stepper_2/REF_GND
+      GND
       (circuit
         (use_via Via[0-1]_889:635_um)
       )
@@ -1095,7 +1218,10 @@
         (clearance 254.1)
       )
     )
-    (class POWER +3V3 +5V
+    (class POWER +3V3 +5V /tmc429_driver_0/stepper_0/REFR_PWR /tmc429_driver_0/stepper_0/REF_PWR
+      /tmc429_driver_0/stepper_1/REFR_PWR /tmc429_driver_0/stepper_1/REF_PWR
+      /tmc429_driver_0/stepper_2/REFR_PWR /tmc429_driver_0/stepper_2/REF_PWR
+      VEE
       (circuit
         (use_via Via[0-1]_889:635_um)
       )
@@ -1106,15 +1232,28 @@
     )
     (class SIGNAL /CLK /CS_429 /CS_DRIVER_0 /CS_DRIVER_1 /CS_DRIVER_2 /ENABLE_0
       /ENABLE_1 /ENABLE_2 /INT /MISO /MOSI /POSCOMP /SCK /tmc429_driver_0/DIR_0
-      /tmc429_driver_0/DIR_1 /tmc429_driver_0/DIR_2 /tmc429_driver_0/MOSI_B
-      /tmc429_driver_0/REFR_0 /tmc429_driver_0/REFR_1 /tmc429_driver_0/REFR_2
-      /tmc429_driver_0/REF_0 /tmc429_driver_0/REF_1 /tmc429_driver_0/REF_2
-      /tmc429_driver_0/SCK_B /tmc429_driver_0/STEP_0 /tmc429_driver_0/STEP_1
-      /tmc429_driver_0/STEP_2 /tmc429_driver_0/stepper_0/REFR_B /tmc429_driver_0/stepper_0/REF_B
-      /tmc429_driver_0/stepper_1/REFR_B /tmc429_driver_0/stepper_1/REF_B /tmc429_driver_0/stepper_2/REFR_B
-      /tmc429_driver_0/stepper_2/REF_B /tmc429_driver_0/~CS_DRIVER_0_B /tmc429_driver_0/~CS_DRIVER_1_B
-      /tmc429_driver_0/~CS_DRIVER_2_B /tmc429_driver_0/~ENABLE_0_B /tmc429_driver_0/~ENABLE_1_B
-      /tmc429_driver_0/~ENABLE_2_B
+      /tmc429_driver_0/DIR_1 /tmc429_driver_0/DIR_2 /tmc429_driver_0/MISO_UB
+      /tmc429_driver_0/MOSI_B /tmc429_driver_0/REFR_0 /tmc429_driver_0/REFR_1
+      /tmc429_driver_0/REFR_2 /tmc429_driver_0/REF_0 /tmc429_driver_0/REF_1
+      /tmc429_driver_0/REF_2 /tmc429_driver_0/SCK_B /tmc429_driver_0/STEP_0
+      /tmc429_driver_0/STEP_1 /tmc429_driver_0/STEP_2 /tmc429_driver_0/stepper_0/MISO_UB
+      /tmc429_driver_0/stepper_0/REFR_B /tmc429_driver_0/stepper_0/REFR_BI
+      /tmc429_driver_0/stepper_0/REF_B /tmc429_driver_0/stepper_0/REF_BI /tmc429_driver_0/stepper_1/MISO_UB
+      /tmc429_driver_0/stepper_1/REFR_B /tmc429_driver_0/stepper_1/REFR_BI
+      /tmc429_driver_0/stepper_1/REF_B /tmc429_driver_0/stepper_1/REF_BI /tmc429_driver_0/stepper_2/MISO_UB
+      /tmc429_driver_0/stepper_2/REFR_B /tmc429_driver_0/stepper_2/REFR_BI
+      /tmc429_driver_0/stepper_2/REF_B /tmc429_driver_0/stepper_2/REF_BI /tmc429_driver_0/~CS_DRIVER_0_B
+      /tmc429_driver_0/~CS_DRIVER_1_B /tmc429_driver_0/~CS_DRIVER_2_B /tmc429_driver_0/~ENABLE_0_B
+      /tmc429_driver_0/~ENABLE_1_B /tmc429_driver_0/~ENABLE_2_B "Net-(MDB1-Pad14)"
+      "Net-(MDB1-Pad19)" "Net-(MDB1-Pad2)" "Net-(MDB1-Pad20)" "Net-(MDB1-Pad21)"
+      "Net-(MDB1-Pad22)" "Net-(MDB1-Pad23)" "Net-(MDB1-Pad29)" "Net-(MDB1-Pad30)"
+      "Net-(MDB1-Pad33)" "Net-(MDB1-Pad34)" "Net-(MDB1-Pad35)" "Net-(MDB1-Pad36)"
+      "Net-(MDB1-Pad37)" "Net-(MDB1-Pad38)" "Net-(MDB1-Pad43)" "Net-(MDB1-Pad44)"
+      "Net-(MDB1-Pad45)" "Net-(MDB1-Pad46)" "Net-(MDB1-Pad47)" "Net-(MDB1-Pad48)"
+      "Net-(MDB1-Pad49)" "Net-(MDB1-Pad50)" "Net-(MDB1-Pad51)" "Net-(MDB1-Pad52)"
+      "Net-(MDB1-Pad53)" "Net-(MDB1-Pad54)" "Net-(MDB1-Pad55)" "Net-(MDB1-PadA10)"
+      "Net-(MDB1-PadA11)" "Net-(MDB1-PadAGND)" "Net-(MDB1-PadAREF)" "Net-(MDB1-PadDAC0)"
+      "Net-(MDB1-PadDAC1)"
       (circuit
         (use_via Via[0-1]_889:635_um)
       )
@@ -1123,15 +1262,11 @@
         (clearance 101.7)
       )
     )
-    (class SUPERPOWER /tmc429_driver_0/stepper_0/A_+ /tmc429_driver_0/stepper_0/A_+F
-      "/tmc429_driver_0/stepper_0/A_-" "/tmc429_driver_0/stepper_0/A_-F" /tmc429_driver_0/stepper_0/B_+
-      /tmc429_driver_0/stepper_0/B_+F "/tmc429_driver_0/stepper_0/B_-" "/tmc429_driver_0/stepper_0/B_-F"
-      /tmc429_driver_0/stepper_1/A_+ /tmc429_driver_0/stepper_1/A_+F "/tmc429_driver_0/stepper_1/A_-"
-      "/tmc429_driver_0/stepper_1/A_-F" /tmc429_driver_0/stepper_1/B_+ /tmc429_driver_0/stepper_1/B_+F
-      "/tmc429_driver_0/stepper_1/B_-" "/tmc429_driver_0/stepper_1/B_-F" /tmc429_driver_0/stepper_2/A_+
-      /tmc429_driver_0/stepper_2/A_+F "/tmc429_driver_0/stepper_2/A_-" "/tmc429_driver_0/stepper_2/A_-F"
-      /tmc429_driver_0/stepper_2/B_+ /tmc429_driver_0/stepper_2/B_+F "/tmc429_driver_0/stepper_2/B_-"
-      "/tmc429_driver_0/stepper_2/B_-F" VAA VDD
+    (class SUPERPOWER /tmc429_driver_0/stepper_0/A_+ "/tmc429_driver_0/stepper_0/A_-"
+      /tmc429_driver_0/stepper_0/B_+ "/tmc429_driver_0/stepper_0/B_-" /tmc429_driver_0/stepper_1/A_+
+      "/tmc429_driver_0/stepper_1/A_-" /tmc429_driver_0/stepper_1/B_+ "/tmc429_driver_0/stepper_1/B_-"
+      /tmc429_driver_0/stepper_2/A_+ "/tmc429_driver_0/stepper_2/A_-" /tmc429_driver_0/stepper_2/B_+
+      "/tmc429_driver_0/stepper_2/B_-" VAA VDD
       (circuit
         (use_via Via[0-1]_889:635_um)
       )
@@ -1142,46 +1277,5 @@
     )
   )
   (wiring
-    (wire (path B.Cu 304.8  112570 -113550  112570 -114050)(net +3V3)(type protect))
-    (wire (path B.Cu 304.8  90170 -78333.6  92710 -78333.6  95250 -78333.6  97790 -78333.6
-            100330 -78333.6  102870 -78333.6  105410 -78333.6  107950 -78333.6)(net GND)(type protect))
-    (wire (path B.Cu 304.8  123190 -78333.6  125730 -78333.6  128270 -78333.6  130810 -78333.6
-            133350 -78333.6  135890 -78333.6  138430 -78333.6  140970 -78333.6)(net GND)(type protect))
-    (wire (path B.Cu 304.8  156210 -78333.6  158750 -78333.6  161290 -78333.6  163830 -78333.6
-            166370 -78333.6  168910 -78333.6  171450 -78333.6  173990 -78333.6)(net GND)(type protect))
-    (wire (path B.Cu 1066.8  72595 -92315  74725 -92315)(net VAA)(type protect))
-    (wire (path B.Cu 1066.8  168910 -92710  168910 -90677  167640 -89407)(net "/tmc429_driver_0/stepper_0/A_-")(type protect))
-    (wire (path B.Cu 1066.8  163830 -92710  163830 -90677  162560 -89407)(net /tmc429_driver_0/stepper_0/B_+)(type protect))
-    (wire (path B.Cu 1066.8  161290 -92710  161290 -91440  159257 -89407  157480 -89407)(net "/tmc429_driver_0/stepper_0/B_-")(type protect))
-    (wire (path B.Cu 1066.8  128270 -92710  128270 -91440  126237 -89407  124460 -89407)(net "/tmc429_driver_0/stepper_1/B_-")(type protect))
-    (wire (path B.Cu 1066.8  130810 -92710  130810 -90677  129540 -89407)(net /tmc429_driver_0/stepper_1/B_+)(type protect))
-    (wire (path B.Cu 1066.8  135890 -92710  135890 -90677  134620 -89407)(net "/tmc429_driver_0/stepper_1/A_-")(type protect))
-    (wire (path B.Cu 1066.8  102870 -92710  102870 -90677  101600 -89407)(net "/tmc429_driver_0/stepper_2/A_-")(type protect))
-    (wire (path B.Cu 1066.8  97790 -92710  97790 -90677  96520 -89407)(net /tmc429_driver_0/stepper_2/B_+)(type protect))
-    (wire (path B.Cu 1066.8  95250 -92710  95250 -91440  93217 -89407  91440 -89407)(net "/tmc429_driver_0/stepper_2/B_-")(type protect))
-    (wire (path B.Cu 1066.8  172720 -83820  172720 -83413.6  171450 -82143.6  171450 -80416.4
-            173990 -80416.4)(net /tmc429_driver_0/stepper_0/A_+F)(type protect))
-    (wire (path B.Cu 1066.8  167640 -83820  167640 -83413.6  168910 -82143.6  168910 -80416.4
-            166370 -80416.4)(net "/tmc429_driver_0/stepper_0/A_-F")(type protect))
-    (wire (path B.Cu 1066.8  162560 -83820  162560 -83413.6  161290 -82143.6  161290 -80416.4
-            163830 -80416.4)(net /tmc429_driver_0/stepper_0/B_+F)(type protect))
-    (wire (path B.Cu 1066.8  157480 -83820  157480 -83413.6  158750 -82143.6  158750 -80416.4
-            156210 -80416.4)(net "/tmc429_driver_0/stepper_0/B_-F")(type protect))
-    (wire (path B.Cu 1066.8  139700 -83820  139700 -83413.6  138430 -82143.6  138430 -80416.4
-            140970 -80416.4)(net /tmc429_driver_0/stepper_1/A_+F)(type protect))
-    (wire (path B.Cu 1066.8  134620 -83820  134620 -83413.6  135890 -82143.6  135890 -80416.4
-            133350 -80416.4)(net "/tmc429_driver_0/stepper_1/A_-F")(type protect))
-    (wire (path B.Cu 1066.8  129540 -83820  129540 -83413.6  128270 -82143.6  128270 -80416.4
-            130810 -80416.4)(net /tmc429_driver_0/stepper_1/B_+F)(type protect))
-    (wire (path B.Cu 1066.8  124460 -83820  124460 -83413.6  125730 -82143.6  125730 -80416.4
-            123190 -80416.4)(net "/tmc429_driver_0/stepper_1/B_-F")(type protect))
-    (wire (path B.Cu 1066.8  106680 -83820  106680 -83413.6  105410 -82143.6  105410 -80416.4
-            107950 -80416.4)(net /tmc429_driver_0/stepper_2/A_+F)(type protect))
-    (wire (path B.Cu 1066.8  101600 -83820  101600 -83413.6  102870 -82143.6  102870 -80416.4
-            100330 -80416.4)(net "/tmc429_driver_0/stepper_2/A_-F")(type protect))
-    (wire (path B.Cu 1066.8  96520 -83820  96520 -83413.6  95250 -82143.6  95250 -80416.4
-            97790 -80416.4)(net /tmc429_driver_0/stepper_2/B_+F)(type protect))
-    (wire (path B.Cu 1066.8  91440 -83820  91440 -83413.6  92710 -82143.6  92710 -80416.4
-            90170 -80416.4)(net "/tmc429_driver_0/stepper_2/B_-F")(type protect))
   )
 )

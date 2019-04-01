@@ -169,13 +169,13 @@ Wire Wire Line
 	1400 2100 1300 2100
 Wire Wire Line
 	1400 2200 1300 2200
-Text Label 1300 2100 2    60   ~ 0
+Text Label 1300 2100 2    60   ~ 6
 MOSI
-Text Label 1300 2200 2    60   ~ 0
+Text Label 1300 2200 2    60   ~ 6
 MISO
 Wire Wire Line
 	4300 2000 4400 2000
-Text Label 4400 2000 0    60   ~ 0
+Text Label 4400 2000 0    60   ~ 6
 CS_429
 $Comp
 L stepper_controller_5x3:0.1uF C1
@@ -303,15 +303,15 @@ Wire Wire Line
 	4600 4750 4600 4700
 Wire Wire Line
 	4950 4350 5050 4350
-Text Label 5050 4350 0    60   ~ 0
+Text Label 5050 4350 0    60   ~ 6
 CLK
 Wire Wire Line
 	5750 1750 5650 1750
-Text Label 5650 1750 2    60   ~ 0
+Text Label 5650 1750 2    60   ~ 6
 CLK
 Wire Wire Line
 	4300 2200 4400 2200
-Text Label 4400 2200 0    60   ~ 0
+Text Label 4400 2200 0    60   ~ 6
 SCK
 Wire Wire Line
 	5750 1950 5650 1950
@@ -331,43 +331,43 @@ Wire Wire Line
 	5750 2750 5650 2750
 Wire Wire Line
 	5750 2850 5650 2850
-Text Label 5650 1950 2    60   ~ 0
+Text Label 5650 1950 2    60   ~ 6
 SCK
-Text Label 5650 2050 2    60   ~ 0
+Text Label 5650 2050 2    60   ~ 6
 MOSI
-Text Label 5650 2150 2    60   ~ 0
+Text Label 5650 2150 2    60   ~ 6
 CS_429
-Text Label 5650 2250 2    60   ~ 0
+Text Label 5650 2250 2    60   ~ 6
 CS_DRIVER_0
-Text Label 5650 2350 2    60   ~ 0
+Text Label 5650 2350 2    60   ~ 6
 CS_DRIVER_1
-Text Label 5650 2450 2    60   ~ 0
+Text Label 5650 2450 2    60   ~ 6
 CS_DRIVER_2
-Text Label 5650 2650 2    60   ~ 0
+Text Label 5650 2650 2    60   ~ 6
 ENABLE_0
-Text Label 5650 2750 2    60   ~ 0
+Text Label 5650 2750 2    60   ~ 6
 ENABLE_1
-Text Label 5650 2850 2    60   ~ 0
+Text Label 5650 2850 2    60   ~ 6
 ENABLE_2
 Wire Wire Line
 	6900 1750 6800 1750
-Text Label 6900 1750 0    60   ~ 0
+Text Label 6900 1750 0    60   ~ 6
 MISO
 Wire Wire Line
 	6800 1950 6900 1950
 Wire Wire Line
 	6800 2050 6900 2050
-Text Label 6900 1950 0    60   ~ 0
+Text Label 6900 1950 0    60   ~ 6
 INT
-Text Label 6900 2050 0    60   ~ 0
+Text Label 6900 2050 0    60   ~ 6
 POSCOMP
 Wire Wire Line
 	1400 1500 1300 1500
 Wire Wire Line
 	1400 1600 1300 1600
-Text Label 1300 1500 2    60   ~ 0
+Text Label 1300 1500 2    60   ~ 6
 INT
-Text Label 1300 1600 2    60   ~ 0
+Text Label 1300 1600 2    60   ~ 6
 POSCOMP
 Wire Wire Line
 	1400 1800 1300 1800
@@ -375,11 +375,11 @@ Wire Wire Line
 	1400 1900 1300 1900
 Wire Wire Line
 	1400 2000 1300 2000
-Text Label 1300 1800 2    60   ~ 0
+Text Label 1300 1800 2    60   ~ 6
 ENABLE_0
-Text Label 1300 1900 2    60   ~ 0
+Text Label 1300 1900 2    60   ~ 6
 ENABLE_1
-Text Label 1300 2000 2    60   ~ 0
+Text Label 1300 2000 2    60   ~ 6
 ENABLE_2
 Wire Wire Line
 	4300 1900 4400 1900
@@ -387,11 +387,11 @@ Wire Wire Line
 	4300 1800 4400 1800
 Wire Wire Line
 	4300 1700 4400 1700
-Text Label 4400 1700 0    60   ~ 0
+Text Label 4400 1700 0    60   ~ 6
 CS_DRIVER_2
-Text Label 4400 1800 0    60   ~ 0
+Text Label 4400 1800 0    60   ~ 6
 CS_DRIVER_1
-Text Label 4400 1900 0    60   ~ 0
+Text Label 4400 1900 0    60   ~ 6
 CS_DRIVER_0
 $Comp
 L stepper_controller_5x3:PWR_JACK_2.5x5.5 P1
@@ -546,10 +546,10 @@ Wire Wire Line
 Wire Wire Line
 	3300 5500 3300 5550
 $Comp
-L power:GND #PWR018
+L power:GND #PWR017
 U 1 1 59EF811F
 P 2100 6050
-F 0 "#PWR018" H 1400 4800 50  0001 C CNN
+F 0 "#PWR017" H 1400 4800 50  0001 C CNN
 F 1 "GND" H 2105 5877 50  0000 C CNN
 F 2 "" H 1400 5050 50  0001 C CNN
 F 3 "" H 1400 5050 50  0001 C CNN
@@ -557,10 +557,10 @@ F 3 "" H 1400 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR017
+L power:GND #PWR016
 U 1 1 59EF81BF
 P 2700 5950
-F 0 "#PWR017" H 2000 4700 50  0001 C CNN
+F 0 "#PWR016" H 2000 4700 50  0001 C CNN
 F 1 "GND" H 2705 5777 50  0000 C CNN
 F 2 "" H 2000 4950 50  0001 C CNN
 F 3 "" H 2000 4950 50  0001 C CNN
@@ -568,10 +568,10 @@ F 3 "" H 2000 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR019
+L power:GND #PWR018
 U 1 1 59EF825F
 P 3300 6050
-F 0 "#PWR019" H 2600 4800 50  0001 C CNN
+F 0 "#PWR018" H 2600 4800 50  0001 C CNN
 F 1 "GND" H 3305 5877 50  0000 C CNN
 F 2 "" H 2600 5050 50  0001 C CNN
 F 3 "" H 2600 5050 50  0001 C CNN
@@ -585,10 +585,10 @@ Wire Wire Line
 Wire Wire Line
 	3300 6000 3300 6050
 $Comp
-L power:VAA #PWR015
+L power:VAA #PWR014
 U 1 1 59EF87C9
 P 2100 5500
-F 0 "#PWR015" H 2100 5350 50  0001 C CNN
+F 0 "#PWR014" H 2100 5350 50  0001 C CNN
 F 1 "VAA" H 2117 5673 50  0000 C CNN
 F 2 "" H 2100 5500 50  0001 C CNN
 F 3 "" H 2100 5500 50  0001 C CNN
@@ -597,10 +597,10 @@ F 3 "" H 2100 5500 50  0001 C CNN
 $EndComp
 Connection ~ 2100 5550
 $Comp
-L power:+5V #PWR016
+L power:+5V #PWR015
 U 1 1 59EF8CBE
 P 3300 5500
-F 0 "#PWR016" H 3300 5350 50  0001 C CNN
+F 0 "#PWR015" H 3300 5350 50  0001 C CNN
 F 1 "+5V" H 3315 5673 50  0000 C CNN
 F 2 "" H 3300 5500 50  0001 C CNN
 F 3 "" H 3300 5500 50  0001 C CNN
@@ -608,41 +608,6 @@ F 3 "" H 3300 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 3300 5550
-$Comp
-L power:GND #PWR020
-U 1 1 59EFB511
-P 3900 6100
-F 0 "#PWR020" H 3200 4850 50  0001 C CNN
-F 1 "GND" H 3905 5927 50  0000 C CNN
-F 2 "" H 3200 5100 50  0001 C CNN
-F 3 "" H 3200 5100 50  0001 C CNN
-	1    3900 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR014
-U 1 1 59EFB5B5
-P 3900 5450
-F 0 "#PWR014" H 3900 5300 50  0001 C CNN
-F 1 "+5V" H 3915 5623 50  0000 C CNN
-F 2 "" H 3900 5450 50  0001 C CNN
-F 3 "" H 3900 5450 50  0001 C CNN
-	1    3900 5450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3900 5450 3900 5500
-Wire Wire Line
-	3900 6050 3900 6100
-Wire Wire Line
-	3900 5500 4000 5500
-Connection ~ 3900 5500
-Text Label 4000 5500 0    60   ~ 0
-PWR_DRV
-Wire Wire Line
-	4300 1200 4400 1200
-Text Label 4400 1200 0    60   ~ 0
-PWR_DRV
 Wire Wire Line
 	700  900  700  950 
 Wire Wire Line
@@ -657,20 +622,5 @@ Wire Wire Line
 	2100 5550 2100 5600
 Wire Wire Line
 	3300 5550 3300 5600
-Wire Wire Line
-	3900 5500 3900 5550
-$Comp
-L stepper_controller_5x3:10.0k R?
-U 1 1 5CA32D84
-P 3900 5800
-F 0 "R?" H 3950 5800 40  0000 L CNN
-F 1 "10.0k" V 3900 5700 40  0000 L CNN
-F 2 "footprints:SM0805" V 3830 5800 30  0001 C CNN
-F 3 "" H 3900 5800 30  0000 C CNN
-F 4 "digikey" V 4080 5900 60  0001 C CNN "Vendor"
-F 5 "P10.0KCCT-ND" V 4180 6000 60  0001 C CNN "PartNumber"
-F 6 "RES SMD 10K OHM 1% 1/8W 0805" V 4280 6100 60  0001 C CNN "Description"
-	1    3900 5800
-	1    0    0    -1  
-$EndComp
+NoConn ~ 4300 1200
 $EndSCHEMATC
