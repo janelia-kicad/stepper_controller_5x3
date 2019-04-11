@@ -230,7 +230,7 @@
     </comp>
     <comp ref="R1">
       <value>10.0k</value>
-      <footprint>footprints:SM0805</footprint>
+      <footprint>stepper_controller_5x3:SM0805</footprint>
       <fields>
         <field name="Description">RES SMD 10K OHM 1% 1/8W 0805</field>
         <field name="PartNumber">P10.0KCCT-ND</field>

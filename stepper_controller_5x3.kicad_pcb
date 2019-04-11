@@ -1298,7 +1298,7 @@
     )
   )
 
-  (module "footprints:SM0805" (layer "B.Cu") (tedit 5553B059) (tstamp 5CA23723)
+  (module "stepper_controller_5x3:SM0805" (layer "B.Cu") (tedit 5553B059) (tstamp 5CA23723)
     (at 119.38 104.14 270)
     (tags "CMS SM")
     (path "/58DAAD90/5CA471D0")
