@@ -654,7 +654,7 @@ F 6 "IC BUF NON-INVERT 5.5V SOT23-5" H 3100 2650 60  0001 C CNN "Description"
 $EndComp
 $Comp
 L stepper_controller_5x3:10.0k R2
-U 0 0 5CA173E2
+U 1 1 5CA173E2
 P 1600 2600
 AR Path="/58DAAD90/58DB6271/5CA173E2" Ref="R2"  Part="0" 
 AR Path="/58DAAD90/58DF1FF3/5CA173E2" Ref="R7"  Part="1" 
@@ -666,7 +666,7 @@ F 3 "" H 1600 2600 30  0000 C CNN
 F 4 "digikey" V 1780 2700 60  0001 C CNN "Vendor"
 F 5 "P10.0KCCT-ND" V 1880 2800 60  0001 C CNN "PartNumber"
 F 6 "RES SMD 10K OHM 1% 1/8W 0805" V 1980 2900 60  0001 C CNN "Description"
-	0    1600 2600
+	1    1600 2600
 	1    0    0    -1  
 $EndComp
 $Comp
