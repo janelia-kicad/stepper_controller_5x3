@@ -6,11 +6,11 @@ EESchema-LIBRARY Version 2.4
 DEF 0.1uF C 0 10 N Y 1 F N
 F0 "C" 0 100 40 H V L CNN
 F1 "0.1uF" 0 0 30 H V C CNN
-F2 "stepper_controller_5x3:SM1210" 38 -150 30 H I C CNN
-F3 "" 0 0 60 H V C CNN
+F2 "stepper_controller_5x3:SM0805" 38 -150 30 H I C CNN
+F3 "" 0 0 60 H I C CNN
 F4 "digikey" 100 200 60 H I C CNN "Vendor"
-F5 "399-13229-1-ND" 200 300 60 H I C CNN "PartNumber"
-F6 "CAP CER 0.1UF 100V X7R 1210" 300 400 60 H I C CNN "Description"
+F5 "399-14636-1-ND" 200 300 60 H I C CNN "PartNumber"
+F6 "CAP CER 0.1UF 50V X7R 0805" 300 400 60 H I C CNN "Description"
 $FPLIST
  SM*
  C?
@@ -29,7 +29,7 @@ ENDDEF
 DEF 10.0k R 0 0 N Y 1 F N
 F0 "R" 80 0 40 V V C CNN
 F1 "10.0k" 7 1 40 V V C CNN
-F2 "footprints:SM0805" -70 0 30 V I C CNN
+F2 "stepper_controller_5x3:SM0805" -70 0 30 V I C CNN
 F3 "" 0 0 30 H V C CNN
 F4 "digikey" 180 100 60 V I C CNN "Vendor"
 F5 "P10.0KCCT-ND" 280 200 60 V I C CNN "PartNumber"
@@ -53,11 +53,11 @@ ENDDEF
 DEF 10uF C 0 10 N Y 1 F N
 F0 "C" 0 100 40 H V L CNN
 F1 "10uF" 0 0 30 H V C CNN
-F2 "stepper_controller_5x3:SM1210" 38 -150 30 H I C CNN
+F2 "stepper_controller_5x3:SM0805" 38 -150 30 H I C CNN
 F3 "" 0 0 60 H V C CNN
 F4 "digikey" 100 200 60 H I C CNN "Vendor"
-F5 "445-4536-1-ND" 200 300 60 H I C CNN "PartNumber"
-F6 "CAP CER 10UF 50V 10% X7S 1210" 300 400 60 H I C CNN "Description"
+F5 "445-14419-1-ND" 200 300 60 H I C CNN "PartNumber"
+F6 "CAP CER 10UF 35V X5R 0805" 300 400 60 H I C CNN "Description"
 $FPLIST
  SM*
  C?
@@ -529,7 +529,7 @@ ENDDEF
 #
 # diode_schottky_45V_10A
 #
-DEF ~diode_schottky_45V_10A D 0 10 N N 1 F N
+DEF diode_schottky_45V_10A D 0 10 N N 1 F N
 F0 "D" -50 80 50 H V L CNN
 F1 "diode_schottky_45V_10A" -280 -80 50 H I L CNN
 F2 "stepper_controller_5x3:CFP15" -150 -20 60 H I C CNN

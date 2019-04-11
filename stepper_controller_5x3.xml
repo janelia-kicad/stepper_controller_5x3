@@ -2,13 +2,13 @@
 <export version="D">
   <design>
     <source>/home/polidorop/git/kicad/stepper_controller_5x3/stepper_controller_5x3.sch</source>
-    <date>Tue 02 Apr 2019 11:06:35 AM EDT</date>
-    <tool>Eeschema 5.1.0-unknown-2447933~82~ubuntu18.04.1</tool>
+    <date>Thu 11 Apr 2019 01:07:37 PM EDT</date>
+    <tool>Eeschema 5.1.0-unknown-e90452d~82~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>stepper_controller_5x3</title>
         <company>Janelia</company>
-        <rev>1.2</rev>
+        <rev>1.3</rev>
         <date/>
         <source>stepper_controller_5x3.sch</source>
         <comment number="1" value=""/>
@@ -21,7 +21,7 @@
       <title_block>
         <title/>
         <company/>
-        <rev>1.2</rev>
+        <rev>1.3</rev>
         <date/>
         <source>tmc429_driver.sch</source>
         <comment number="1" value=""/>
@@ -34,7 +34,7 @@
       <title_block>
         <title/>
         <company/>
-        <rev>1.2</rev>
+        <rev>1.3</rev>
         <date/>
         <source>stepper.sch</source>
         <comment number="1" value=""/>
@@ -47,7 +47,7 @@
       <title_block>
         <title/>
         <company/>
-        <rev>1.2</rev>
+        <rev>1.3</rev>
         <date/>
         <source>stepper.sch</source>
         <comment number="1" value=""/>
@@ -60,7 +60,7 @@
       <title_block>
         <title/>
         <company/>
-        <rev>1.2</rev>
+        <rev>1.3</rev>
         <date/>
         <source>stepper.sch</source>
         <comment number="1" value=""/>
@@ -86,10 +86,10 @@
     </comp>
     <comp ref="C1">
       <value>0.1uF</value>
-      <footprint>stepper_controller_5x3:SM1210</footprint>
+      <footprint>stepper_controller_5x3:SM0805</footprint>
       <fields>
-        <field name="Description">CAP CER 0.1UF 100V X7R 1210</field>
-        <field name="PartNumber">399-13229-1-ND</field>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="PartNumber">399-14636-1-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="stepper_controller_5x3" part="0.1uF" description=""/>
@@ -134,10 +134,10 @@
     </comp>
     <comp ref="C2">
       <value>10uF</value>
-      <footprint>stepper_controller_5x3:SM1210</footprint>
+      <footprint>stepper_controller_5x3:SM0805</footprint>
       <fields>
-        <field name="Description">CAP CER 10UF 50V 10% X7S 1210</field>
-        <field name="PartNumber">445-4536-1-ND</field>
+        <field name="Description">CAP CER 10UF 35V X5R 0805</field>
+        <field name="PartNumber">445-14419-1-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="stepper_controller_5x3" part="10uF" description=""/>
@@ -158,10 +158,10 @@
     </comp>
     <comp ref="C3">
       <value>10uF</value>
-      <footprint>stepper_controller_5x3:SM1210</footprint>
+      <footprint>stepper_controller_5x3:SM0805</footprint>
       <fields>
-        <field name="Description">CAP CER 10UF 50V 10% X7S 1210</field>
-        <field name="PartNumber">445-4536-1-ND</field>
+        <field name="Description">CAP CER 10UF 35V X5R 0805</field>
+        <field name="PartNumber">445-14419-1-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="stepper_controller_5x3" part="10uF" description=""/>
@@ -182,10 +182,10 @@
     </comp>
     <comp ref="C4">
       <value>0.1uF</value>
-      <footprint>stepper_controller_5x3:SM1210</footprint>
+      <footprint>stepper_controller_5x3:SM0805</footprint>
       <fields>
-        <field name="Description">CAP CER 0.1UF 100V X7R 1210</field>
-        <field name="PartNumber">399-13229-1-ND</field>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="PartNumber">399-14636-1-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="stepper_controller_5x3" part="0.1uF" description=""/>
@@ -206,10 +206,10 @@
     </comp>
     <comp ref="C5">
       <value>0.1uF</value>
-      <footprint>stepper_controller_5x3:SM1210</footprint>
+      <footprint>stepper_controller_5x3:SM0805</footprint>
       <fields>
-        <field name="Description">CAP CER 0.1UF 100V X7R 1210</field>
-        <field name="PartNumber">399-13229-1-ND</field>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="PartNumber">399-14636-1-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="stepper_controller_5x3" part="0.1uF" description=""/>
@@ -240,7 +240,7 @@
       <sheetpath names="/tmc429_driver_0/" tstamps="/58DAAD90/"/>
       <tstamp>5CA471D0</tstamp>
     </comp>
-    <comp ref="U6">
+    <comp ref="U5">
       <value>MAX6817</value>
       <footprint>stepper_controller_5x3:MAX6817</footprint>
       <fields>
@@ -251,18 +251,6 @@
       <libsource lib="stepper_controller_5x3" part="MAX6817" description=""/>
       <sheetpath names="/tmc429_driver_0/stepper_0/" tstamps="/58DAAD90/58DB6271/"/>
       <tstamp>58DB7355</tstamp>
-    </comp>
-    <comp ref="C9">
-      <value>0.1uF</value>
-      <footprint>stepper_controller_5x3:SM1210</footprint>
-      <fields>
-        <field name="Description">CAP CER 0.1UF 100V X7R 1210</field>
-        <field name="PartNumber">399-13229-1-ND</field>
-        <field name="Vendor">digikey</field>
-      </fields>
-      <libsource lib="stepper_controller_5x3" part="0.1uF" description=""/>
-      <sheetpath names="/tmc429_driver_0/stepper_0/" tstamps="/58DAAD90/58DB6271/"/>
-      <tstamp>58DB75FF</tstamp>
     </comp>
     <comp ref="T2">
       <value>TERM_BLK_HDR_4POS_VERT_0.150IN</value>
@@ -291,10 +279,10 @@
     </comp>
     <comp ref="C7">
       <value>10uF</value>
-      <footprint>stepper_controller_5x3:SM1210</footprint>
+      <footprint>stepper_controller_5x3:SM0805</footprint>
       <fields>
-        <field name="Description">CAP CER 10UF 50V 10% X7S 1210</field>
-        <field name="PartNumber">445-4536-1-ND</field>
+        <field name="Description">CAP CER 10UF 35V X5R 0805</field>
+        <field name="PartNumber">445-14419-1-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="stepper_controller_5x3" part="10uF" description=""/>
@@ -325,7 +313,7 @@
       <sheetpath names="/tmc429_driver_0/stepper_0/" tstamps="/58DAAD90/58DB6271/"/>
       <tstamp>5947FBC7</tstamp>
     </comp>
-    <comp ref="U5">
+    <comp ref="U6">
       <value>OPTOISO_2CHAN</value>
       <footprint>stepper_controller_5x3:SO-8</footprint>
       <fields>
@@ -339,10 +327,10 @@
     </comp>
     <comp ref="C8">
       <value>0.1uF</value>
-      <footprint>stepper_controller_5x3:SM1210</footprint>
+      <footprint>stepper_controller_5x3:SM0805</footprint>
       <fields>
-        <field name="Description">CAP CER 0.1UF 100V X7R 1210</field>
-        <field name="PartNumber">399-13229-1-ND</field>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="PartNumber">399-14636-1-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="stepper_controller_5x3" part="0.1uF" description=""/>
@@ -411,7 +399,7 @@
     </comp>
     <comp ref="R2">
       <value>10.0k</value>
-      <footprint>footprints:SM0805</footprint>
+      <footprint>stepper_controller_5x3:SM0805</footprint>
       <fields>
         <field name="Description">RES SMD 10K OHM 1% 1/8W 0805</field>
         <field name="PartNumber">P10.0KCCT-ND</field>
@@ -421,7 +409,43 @@
       <sheetpath names="/tmc429_driver_0/stepper_0/" tstamps="/58DAAD90/58DB6271/"/>
       <tstamp>5CA173E2</tstamp>
     </comp>
-    <comp ref="U9">
+    <comp ref="C11">
+      <value>0.1uF</value>
+      <footprint>stepper_controller_5x3:SM0805</footprint>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="PartNumber">399-14636-1-ND</field>
+        <field name="Vendor">digikey</field>
+      </fields>
+      <libsource lib="stepper_controller_5x3" part="0.1uF" description=""/>
+      <sheetpath names="/tmc429_driver_0/stepper_0/" tstamps="/58DAAD90/58DB6271/"/>
+      <tstamp>58DB75FF</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>0.1uF</value>
+      <footprint>stepper_controller_5x3:SM0805</footprint>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="PartNumber">399-14636-1-ND</field>
+        <field name="Vendor">digikey</field>
+      </fields>
+      <libsource lib="stepper_controller_5x3" part="0.1uF" description=""/>
+      <sheetpath names="/tmc429_driver_0/stepper_0/" tstamps="/58DAAD90/58DB6271/"/>
+      <tstamp>5CB1203F</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>0.1uF</value>
+      <footprint>stepper_controller_5x3:SM0805</footprint>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="PartNumber">399-14636-1-ND</field>
+        <field name="Vendor">digikey</field>
+      </fields>
+      <libsource lib="stepper_controller_5x3" part="0.1uF" description=""/>
+      <sheetpath names="/tmc429_driver_0/stepper_0/" tstamps="/58DAAD90/58DB6271/"/>
+      <tstamp>5CB171EC</tstamp>
+    </comp>
+    <comp ref="U8">
       <value>MAX6817</value>
       <footprint>stepper_controller_5x3:MAX6817</footprint>
       <fields>
@@ -432,18 +456,6 @@
       <libsource lib="stepper_controller_5x3" part="MAX6817" description=""/>
       <sheetpath names="/tmc429_driver_0/stepper_1/" tstamps="/58DAAD90/58DF1FF3/"/>
       <tstamp>58DB7355</tstamp>
-    </comp>
-    <comp ref="C13">
-      <value>0.1uF</value>
-      <footprint>stepper_controller_5x3:SM1210</footprint>
-      <fields>
-        <field name="Description">CAP CER 0.1UF 100V X7R 1210</field>
-        <field name="PartNumber">399-13229-1-ND</field>
-        <field name="Vendor">digikey</field>
-      </fields>
-      <libsource lib="stepper_controller_5x3" part="0.1uF" description=""/>
-      <sheetpath names="/tmc429_driver_0/stepper_1/" tstamps="/58DAAD90/58DF1FF3/"/>
-      <tstamp>58DB75FF</tstamp>
     </comp>
     <comp ref="T4">
       <value>TERM_BLK_HDR_4POS_VERT_0.150IN</value>
@@ -470,12 +482,12 @@
       <sheetpath names="/tmc429_driver_0/stepper_1/" tstamps="/58DAAD90/58DF1FF3/"/>
       <tstamp>59433757</tstamp>
     </comp>
-    <comp ref="C11">
+    <comp ref="C13">
       <value>10uF</value>
-      <footprint>stepper_controller_5x3:SM1210</footprint>
+      <footprint>stepper_controller_5x3:SM0805</footprint>
       <fields>
-        <field name="Description">CAP CER 10UF 50V 10% X7S 1210</field>
-        <field name="PartNumber">445-4536-1-ND</field>
+        <field name="Description">CAP CER 10UF 35V X5R 0805</field>
+        <field name="PartNumber">445-14419-1-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="stepper_controller_5x3" part="10uF" description=""/>
@@ -494,7 +506,7 @@
       <sheetpath names="/tmc429_driver_0/stepper_1/" tstamps="/58DAAD90/58DF1FF3/"/>
       <tstamp>594392CD</tstamp>
     </comp>
-    <comp ref="C10">
+    <comp ref="C12">
       <value>220uF_POL</value>
       <footprint>stepper_controller_5x3:C_ELEC_10</footprint>
       <fields>
@@ -506,7 +518,7 @@
       <sheetpath names="/tmc429_driver_0/stepper_1/" tstamps="/58DAAD90/58DF1FF3/"/>
       <tstamp>5947FBC7</tstamp>
     </comp>
-    <comp ref="U8">
+    <comp ref="U9">
       <value>OPTOISO_2CHAN</value>
       <footprint>stepper_controller_5x3:SO-8</footprint>
       <fields>
@@ -518,12 +530,12 @@
       <sheetpath names="/tmc429_driver_0/stepper_1/" tstamps="/58DAAD90/58DF1FF3/"/>
       <tstamp>5C9B5633</tstamp>
     </comp>
-    <comp ref="C12">
+    <comp ref="C14">
       <value>0.1uF</value>
-      <footprint>stepper_controller_5x3:SM1210</footprint>
+      <footprint>stepper_controller_5x3:SM0805</footprint>
       <fields>
-        <field name="Description">CAP CER 0.1UF 100V X7R 1210</field>
-        <field name="PartNumber">399-13229-1-ND</field>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="PartNumber">399-14636-1-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="stepper_controller_5x3" part="0.1uF" description=""/>
@@ -592,7 +604,7 @@
     </comp>
     <comp ref="R7">
       <value>10.0k</value>
-      <footprint>footprints:SM0805</footprint>
+      <footprint>stepper_controller_5x3:SM0805</footprint>
       <fields>
         <field name="Description">RES SMD 10K OHM 1% 1/8W 0805</field>
         <field name="PartNumber">P10.0KCCT-ND</field>
@@ -602,7 +614,43 @@
       <sheetpath names="/tmc429_driver_0/stepper_1/" tstamps="/58DAAD90/58DF1FF3/"/>
       <tstamp>5CA173E2</tstamp>
     </comp>
-    <comp ref="U12">
+    <comp ref="C17">
+      <value>0.1uF</value>
+      <footprint>stepper_controller_5x3:SM0805</footprint>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="PartNumber">399-14636-1-ND</field>
+        <field name="Vendor">digikey</field>
+      </fields>
+      <libsource lib="stepper_controller_5x3" part="0.1uF" description=""/>
+      <sheetpath names="/tmc429_driver_0/stepper_1/" tstamps="/58DAAD90/58DF1FF3/"/>
+      <tstamp>58DB75FF</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>0.1uF</value>
+      <footprint>stepper_controller_5x3:SM0805</footprint>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="PartNumber">399-14636-1-ND</field>
+        <field name="Vendor">digikey</field>
+      </fields>
+      <libsource lib="stepper_controller_5x3" part="0.1uF" description=""/>
+      <sheetpath names="/tmc429_driver_0/stepper_1/" tstamps="/58DAAD90/58DF1FF3/"/>
+      <tstamp>5CB1203F</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>0.1uF</value>
+      <footprint>stepper_controller_5x3:SM0805</footprint>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="PartNumber">399-14636-1-ND</field>
+        <field name="Vendor">digikey</field>
+      </fields>
+      <libsource lib="stepper_controller_5x3" part="0.1uF" description=""/>
+      <sheetpath names="/tmc429_driver_0/stepper_1/" tstamps="/58DAAD90/58DF1FF3/"/>
+      <tstamp>5CB171EC</tstamp>
+    </comp>
+    <comp ref="U11">
       <value>MAX6817</value>
       <footprint>stepper_controller_5x3:MAX6817</footprint>
       <fields>
@@ -613,18 +661,6 @@
       <libsource lib="stepper_controller_5x3" part="MAX6817" description=""/>
       <sheetpath names="/tmc429_driver_0/stepper_2/" tstamps="/58DAAD90/58DF28B3/"/>
       <tstamp>58DB7355</tstamp>
-    </comp>
-    <comp ref="C17">
-      <value>0.1uF</value>
-      <footprint>stepper_controller_5x3:SM1210</footprint>
-      <fields>
-        <field name="Description">CAP CER 0.1UF 100V X7R 1210</field>
-        <field name="PartNumber">399-13229-1-ND</field>
-        <field name="Vendor">digikey</field>
-      </fields>
-      <libsource lib="stepper_controller_5x3" part="0.1uF" description=""/>
-      <sheetpath names="/tmc429_driver_0/stepper_2/" tstamps="/58DAAD90/58DF28B3/"/>
-      <tstamp>58DB75FF</tstamp>
     </comp>
     <comp ref="T6">
       <value>TERM_BLK_HDR_4POS_VERT_0.150IN</value>
@@ -651,12 +687,12 @@
       <sheetpath names="/tmc429_driver_0/stepper_2/" tstamps="/58DAAD90/58DF28B3/"/>
       <tstamp>59433757</tstamp>
     </comp>
-    <comp ref="C15">
+    <comp ref="C19">
       <value>10uF</value>
-      <footprint>stepper_controller_5x3:SM1210</footprint>
+      <footprint>stepper_controller_5x3:SM0805</footprint>
       <fields>
-        <field name="Description">CAP CER 10UF 50V 10% X7S 1210</field>
-        <field name="PartNumber">445-4536-1-ND</field>
+        <field name="Description">CAP CER 10UF 35V X5R 0805</field>
+        <field name="PartNumber">445-14419-1-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="stepper_controller_5x3" part="10uF" description=""/>
@@ -675,7 +711,7 @@
       <sheetpath names="/tmc429_driver_0/stepper_2/" tstamps="/58DAAD90/58DF28B3/"/>
       <tstamp>594392CD</tstamp>
     </comp>
-    <comp ref="C14">
+    <comp ref="C18">
       <value>220uF_POL</value>
       <footprint>stepper_controller_5x3:C_ELEC_10</footprint>
       <fields>
@@ -687,7 +723,7 @@
       <sheetpath names="/tmc429_driver_0/stepper_2/" tstamps="/58DAAD90/58DF28B3/"/>
       <tstamp>5947FBC7</tstamp>
     </comp>
-    <comp ref="U11">
+    <comp ref="U12">
       <value>OPTOISO_2CHAN</value>
       <footprint>stepper_controller_5x3:SO-8</footprint>
       <fields>
@@ -699,12 +735,12 @@
       <sheetpath names="/tmc429_driver_0/stepper_2/" tstamps="/58DAAD90/58DF28B3/"/>
       <tstamp>5C9B5633</tstamp>
     </comp>
-    <comp ref="C16">
+    <comp ref="C20">
       <value>0.1uF</value>
-      <footprint>stepper_controller_5x3:SM1210</footprint>
+      <footprint>stepper_controller_5x3:SM0805</footprint>
       <fields>
-        <field name="Description">CAP CER 0.1UF 100V X7R 1210</field>
-        <field name="PartNumber">399-13229-1-ND</field>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="PartNumber">399-14636-1-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
       <libsource lib="stepper_controller_5x3" part="0.1uF" description=""/>
@@ -773,7 +809,7 @@
     </comp>
     <comp ref="R12">
       <value>10.0k</value>
-      <footprint>footprints:SM0805</footprint>
+      <footprint>stepper_controller_5x3:SM0805</footprint>
       <fields>
         <field name="Description">RES SMD 10K OHM 1% 1/8W 0805</field>
         <field name="PartNumber">P10.0KCCT-ND</field>
@@ -782,6 +818,42 @@
       <libsource lib="stepper_controller_5x3" part="10.0k" description=""/>
       <sheetpath names="/tmc429_driver_0/stepper_2/" tstamps="/58DAAD90/58DF28B3/"/>
       <tstamp>5CA173E2</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>0.1uF</value>
+      <footprint>stepper_controller_5x3:SM0805</footprint>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="PartNumber">399-14636-1-ND</field>
+        <field name="Vendor">digikey</field>
+      </fields>
+      <libsource lib="stepper_controller_5x3" part="0.1uF" description=""/>
+      <sheetpath names="/tmc429_driver_0/stepper_2/" tstamps="/58DAAD90/58DF28B3/"/>
+      <tstamp>58DB75FF</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>0.1uF</value>
+      <footprint>stepper_controller_5x3:SM0805</footprint>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="PartNumber">399-14636-1-ND</field>
+        <field name="Vendor">digikey</field>
+      </fields>
+      <libsource lib="stepper_controller_5x3" part="0.1uF" description=""/>
+      <sheetpath names="/tmc429_driver_0/stepper_2/" tstamps="/58DAAD90/58DF28B3/"/>
+      <tstamp>5CB1203F</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>0.1uF</value>
+      <footprint>stepper_controller_5x3:SM0805</footprint>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0805</field>
+        <field name="PartNumber">399-14636-1-ND</field>
+        <field name="Vendor">digikey</field>
+      </fields>
+      <libsource lib="stepper_controller_5x3" part="0.1uF" description=""/>
+      <sheetpath names="/tmc429_driver_0/stepper_2/" tstamps="/58DAAD90/58DF28B3/"/>
+      <tstamp>5CB171EC</tstamp>
     </comp>
   </components>
   <libparts>
@@ -794,10 +866,10 @@
       <fields>
         <field name="Reference">C</field>
         <field name="Value">0.1uF</field>
-        <field name="Footprint">stepper_controller_5x3:SM1210</field>
+        <field name="Footprint">stepper_controller_5x3:SM0805</field>
         <field name="Vendor">digikey</field>
-        <field name="PartNumber">399-13229-1-ND</field>
-        <field name="Description">CAP CER 0.1UF 100V X7R 1210</field>
+        <field name="PartNumber">399-14636-1-ND</field>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0805</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
@@ -815,7 +887,7 @@
       <fields>
         <field name="Reference">R</field>
         <field name="Value">10.0k</field>
-        <field name="Footprint">footprints:SM0805</field>
+        <field name="Footprint">stepper_controller_5x3:SM0805</field>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">P10.0KCCT-ND</field>
         <field name="Description">RES SMD 10K OHM 1% 1/8W 0805</field>
@@ -834,10 +906,10 @@
       <fields>
         <field name="Reference">C</field>
         <field name="Value">10uF</field>
-        <field name="Footprint">stepper_controller_5x3:SM1210</field>
+        <field name="Footprint">stepper_controller_5x3:SM0805</field>
         <field name="Vendor">digikey</field>
-        <field name="PartNumber">445-4536-1-ND</field>
-        <field name="Description">CAP CER 10UF 50V 10% X7S 1210</field>
+        <field name="PartNumber">445-14419-1-ND</field>
+        <field name="Description">CAP CER 10UF 35V X5R 0805</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
@@ -1228,536 +1300,548 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="/MISO">
-      <node ref="U4" pin="4"/>
-      <node ref="MDB1" pin="12"/>
-      <node ref="U2" pin="4"/>
-      <node ref="U7" pin="4"/>
-      <node ref="U10" pin="4"/>
+    <net code="1" name="/tmc429_driver_0/stepper_2/REFR_BI">
+      <node ref="C22" pin="1"/>
+      <node ref="U12" pin="6"/>
+      <node ref="U11" pin="3"/>
     </net>
-    <net code="2" name="/CS_DRIVER_0">
-      <node ref="MDB1" pin="16"/>
-      <node ref="U3" pin="5"/>
+    <net code="2" name="/tmc429_driver_0/stepper_0/REFR_BI">
+      <node ref="C10" pin="1"/>
+      <node ref="U6" pin="6"/>
+      <node ref="U5" pin="3"/>
     </net>
-    <net code="3" name="/CS_DRIVER_1">
-      <node ref="U3" pin="7"/>
-      <node ref="MDB1" pin="17"/>
+    <net code="3" name="/tmc429_driver_0/stepper_1/REFR_BI">
+      <node ref="C16" pin="1"/>
+      <node ref="U9" pin="6"/>
+      <node ref="U8" pin="3"/>
     </net>
-    <net code="4" name="/CS_DRIVER_2">
-      <node ref="MDB1" pin="18"/>
-      <node ref="U3" pin="9"/>
+    <net code="4" name="GND">
+      <node ref="C22" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C23" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="U10" pin="3"/>
+      <node ref="U4" pin="3"/>
+      <node ref="U7" pin="3"/>
+      <node ref="R16" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="U12" pin="5"/>
+      <node ref="U6" pin="5"/>
+      <node ref="U9" pin="5"/>
+      <node ref="R14" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="SS3" pin="16"/>
+      <node ref="SS3" pin="10"/>
+      <node ref="SS1" pin="16"/>
+      <node ref="SS1" pin="10"/>
+      <node ref="SS2" pin="16"/>
+      <node ref="SS2" pin="10"/>
+      <node ref="U11" pin="2"/>
+      <node ref="U5" pin="2"/>
+      <node ref="U8" pin="2"/>
+      <node ref="U2" pin="3"/>
+      <node ref="U3" pin="19"/>
+      <node ref="U3" pin="1"/>
+      <node ref="U1" pin="PAD"/>
+      <node ref="U1" pin="25"/>
+      <node ref="U1" pin="23"/>
+      <node ref="U1" pin="6"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U3" pin="10"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="MDB1" pin="GND"/>
+      <node ref="C3" pin="2"/>
+      <node ref="REG1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="P1" pin="2"/>
+      <node ref="CLK1" pin="2"/>
+      <node ref="C1" pin="2"/>
     </net>
-    <net code="5" name="/ENABLE_0">
-      <node ref="U3" pin="4"/>
-      <node ref="MDB1" pin="40"/>
+    <net code="5" name="/tmc429_driver_0/stepper_2/REF_BI">
+      <node ref="C21" pin="1"/>
+      <node ref="U12" pin="7"/>
+      <node ref="U11" pin="1"/>
     </net>
-    <net code="6" name="/ENABLE_1">
-      <node ref="MDB1" pin="41"/>
-      <node ref="U3" pin="6"/>
+    <net code="6" name="/tmc429_driver_0/stepper_0/REF_BI">
+      <node ref="C9" pin="1"/>
+      <node ref="U6" pin="7"/>
+      <node ref="U5" pin="1"/>
     </net>
-    <net code="7" name="/ENABLE_2">
-      <node ref="MDB1" pin="42"/>
-      <node ref="U3" pin="8"/>
+    <net code="7" name="/tmc429_driver_0/stepper_1/REF_BI">
+      <node ref="C15" pin="1"/>
+      <node ref="U9" pin="7"/>
+      <node ref="U8" pin="1"/>
     </net>
-    <net code="8" name="/SCK">
-      <node ref="U3" pin="2"/>
-      <node ref="U1" pin="8"/>
-      <node ref="MDB1" pin="13"/>
-    </net>
-    <net code="9" name="/MOSI">
-      <node ref="U1" pin="10"/>
-      <node ref="U3" pin="3"/>
-      <node ref="MDB1" pin="11"/>
-    </net>
-    <net code="10" name="/CS_429">
-      <node ref="MDB1" pin="15"/>
-      <node ref="U1" pin="7"/>
-      <node ref="U2" pin="1"/>
-      <node ref="R1" pin="2"/>
-    </net>
-    <net code="11" name="/INT">
-      <node ref="MDB1" pin="5"/>
-      <node ref="U1" pin="14"/>
-    </net>
-    <net code="12" name="/POSCOMP">
-      <node ref="U1" pin="30"/>
-      <node ref="MDB1" pin="6"/>
-    </net>
-    <net code="13" name="+3V3">
+    <net code="8" name="+3V3">
+      <node ref="C23" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="U10" pin="5"/>
+      <node ref="U4" pin="5"/>
+      <node ref="U7" pin="5"/>
+      <node ref="R12" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="C20" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="U12" pin="8"/>
+      <node ref="U6" pin="8"/>
+      <node ref="U9" pin="8"/>
+      <node ref="U11" pin="5"/>
+      <node ref="U5" pin="5"/>
+      <node ref="U8" pin="5"/>
       <node ref="U2" pin="5"/>
       <node ref="R1" pin="1"/>
-      <node ref="R12" pin="1"/>
-      <node ref="R7" pin="1"/>
-      <node ref="U7" pin="5"/>
-      <node ref="U8" pin="8"/>
-      <node ref="C12" pin="1"/>
-      <node ref="C9" pin="1"/>
-      <node ref="U11" pin="8"/>
-      <node ref="C16" pin="1"/>
-      <node ref="C13" pin="1"/>
-      <node ref="U9" pin="5"/>
-      <node ref="U10" pin="5"/>
-      <node ref="U12" pin="5"/>
-      <node ref="U5" pin="8"/>
-      <node ref="C8" pin="1"/>
-      <node ref="U4" pin="5"/>
-      <node ref="C17" pin="1"/>
       <node ref="U1" pin="3"/>
       <node ref="U1" pin="21"/>
       <node ref="U1" pin="22"/>
       <node ref="C4" pin="1"/>
-      <node ref="U6" pin="5"/>
-      <node ref="R2" pin="1"/>
       <node ref="MDB1" pin="3V3"/>
-      <node ref="CLK1" pin="4"/>
       <node ref="CLK1" pin="1"/>
+      <node ref="CLK1" pin="4"/>
       <node ref="C1" pin="1"/>
     </net>
-    <net code="14" name="GND">
-      <node ref="U1" pin="PAD"/>
-      <node ref="U1" pin="6"/>
-      <node ref="U1" pin="4"/>
-      <node ref="MDB1" pin="GND"/>
-      <node ref="R11" pin="2"/>
-      <node ref="C11" pin="2"/>
-      <node ref="C4" pin="2"/>
-      <node ref="U1" pin="23"/>
-      <node ref="U9" pin="2"/>
-      <node ref="C3" pin="2"/>
-      <node ref="C13" pin="2"/>
-      <node ref="C9" pin="2"/>
-      <node ref="U5" pin="5"/>
-      <node ref="U6" pin="2"/>
-      <node ref="C6" pin="2"/>
-      <node ref="R4" pin="2"/>
-      <node ref="C7" pin="2"/>
-      <node ref="R6" pin="2"/>
-      <node ref="U4" pin="3"/>
-      <node ref="P1" pin="2"/>
-      <node ref="C12" pin="2"/>
-      <node ref="R9" pin="2"/>
-      <node ref="C10" pin="2"/>
-      <node ref="U8" pin="5"/>
-      <node ref="REG1" pin="2"/>
-      <node ref="U1" pin="25"/>
-      <node ref="U7" pin="3"/>
-      <node ref="C8" pin="2"/>
-      <node ref="C2" pin="2"/>
-      <node ref="SS1" pin="10"/>
-      <node ref="SS1" pin="16"/>
-      <node ref="U3" pin="10"/>
-      <node ref="U3" pin="1"/>
-      <node ref="C5" pin="2"/>
-      <node ref="R14" pin="2"/>
-      <node ref="R16" pin="2"/>
-      <node ref="C1" pin="2"/>
-      <node ref="CLK1" pin="2"/>
-      <node ref="U2" pin="3"/>
-      <node ref="U3" pin="19"/>
-      <node ref="C15" pin="2"/>
-      <node ref="C17" pin="2"/>
-      <node ref="U12" pin="2"/>
-      <node ref="SS3" pin="10"/>
-      <node ref="U11" pin="5"/>
-      <node ref="C16" pin="2"/>
-      <node ref="SS3" pin="16"/>
-      <node ref="U10" pin="3"/>
-      <node ref="SS2" pin="10"/>
-      <node ref="SS2" pin="16"/>
-      <node ref="C14" pin="2"/>
-    </net>
-    <net code="15" name="/CLK">
-      <node ref="CLK1" pin="3"/>
-      <node ref="U1" pin="5"/>
-    </net>
-    <net code="16" name="+5V">
-      <node ref="SS2" pin="15"/>
-      <node ref="R3" pin="1"/>
-      <node ref="SS3" pin="15"/>
-      <node ref="C5" pin="1"/>
-      <node ref="SS1" pin="15"/>
-      <node ref="U3" pin="20"/>
-      <node ref="R5" pin="1"/>
-      <node ref="R13" pin="1"/>
-      <node ref="C3" pin="1"/>
-      <node ref="R8" pin="1"/>
-      <node ref="R10" pin="1"/>
-      <node ref="REG1" pin="3"/>
-      <node ref="R15" pin="1"/>
-    </net>
-    <net code="17" name="VAA">
-      <node ref="SS3" pin="9"/>
-      <node ref="D1" pin="2"/>
-      <node ref="P1" pin="1"/>
-      <node ref="C15" pin="1"/>
-      <node ref="C14" pin="1"/>
-      <node ref="SS2" pin="9"/>
-      <node ref="C11" pin="1"/>
-      <node ref="C10" pin="1"/>
-      <node ref="C7" pin="1"/>
-      <node ref="C2" pin="1"/>
-      <node ref="REG1" pin="1"/>
-      <node ref="SS1" pin="9"/>
-      <node ref="C6" pin="1"/>
-    </net>
-    <net code="18" name="Net-(MDB1-Pad23)">
-      <node ref="MDB1" pin="23"/>
-    </net>
-    <net code="19" name="VDD">
-      <node ref="D1" pin="1"/>
-      <node ref="MDB1" pin="VDD"/>
-    </net>
-    <net code="20" name="Net-(MDB1-Pad50)">
-      <node ref="MDB1" pin="50"/>
-    </net>
-    <net code="21" name="Net-(MDB1-Pad51)">
-      <node ref="MDB1" pin="51"/>
-    </net>
-    <net code="22" name="Net-(MDB1-Pad52)">
-      <node ref="MDB1" pin="52"/>
-    </net>
-    <net code="23" name="Net-(MDB1-Pad53)">
-      <node ref="MDB1" pin="53"/>
-    </net>
-    <net code="24" name="Net-(MDB1-Pad54)">
-      <node ref="MDB1" pin="54"/>
-    </net>
-    <net code="25" name="Net-(MDB1-Pad55)">
-      <node ref="MDB1" pin="55"/>
-    </net>
-    <net code="26" name="Net-(MDB1-PadA10)">
-      <node ref="MDB1" pin="A10"/>
-    </net>
-    <net code="27" name="Net-(MDB1-PadA11)">
-      <node ref="MDB1" pin="A11"/>
-    </net>
-    <net code="28" name="Net-(MDB1-PadAGND)">
-      <node ref="MDB1" pin="AGND"/>
-    </net>
-    <net code="29" name="Net-(MDB1-PadAREF)">
-      <node ref="MDB1" pin="AREF"/>
-    </net>
-    <net code="30" name="Net-(MDB1-PadDAC0)">
-      <node ref="MDB1" pin="DAC0"/>
-    </net>
-    <net code="31" name="Net-(MDB1-PadDAC1)">
-      <node ref="MDB1" pin="DAC1"/>
-    </net>
-    <net code="32" name="Net-(MDB1-Pad49)">
-      <node ref="MDB1" pin="49"/>
-    </net>
-    <net code="33" name="Net-(MDB1-Pad33)">
-      <node ref="MDB1" pin="33"/>
-    </net>
-    <net code="34" name="Net-(MDB1-Pad14)">
-      <node ref="MDB1" pin="14"/>
-    </net>
-    <net code="35" name="Net-(MDB1-Pad19)">
-      <node ref="MDB1" pin="19"/>
-    </net>
-    <net code="36" name="Net-(MDB1-Pad2)">
-      <node ref="MDB1" pin="2"/>
-    </net>
-    <net code="37" name="Net-(MDB1-Pad20)">
-      <node ref="MDB1" pin="20"/>
-    </net>
-    <net code="38" name="Net-(MDB1-Pad21)">
-      <node ref="MDB1" pin="21"/>
-    </net>
-    <net code="39" name="Net-(MDB1-Pad22)">
-      <node ref="MDB1" pin="22"/>
-    </net>
-    <net code="40" name="Net-(MDB1-Pad29)">
-      <node ref="MDB1" pin="29"/>
-    </net>
-    <net code="41" name="Net-(MDB1-Pad30)">
-      <node ref="MDB1" pin="30"/>
-    </net>
-    <net code="42" name="Net-(MDB1-Pad34)">
-      <node ref="MDB1" pin="34"/>
-    </net>
-    <net code="43" name="Net-(MDB1-Pad35)">
-      <node ref="MDB1" pin="35"/>
-    </net>
-    <net code="44" name="Net-(MDB1-Pad36)">
-      <node ref="MDB1" pin="36"/>
-    </net>
-    <net code="45" name="Net-(MDB1-Pad37)">
-      <node ref="MDB1" pin="37"/>
-    </net>
-    <net code="46" name="Net-(MDB1-Pad38)">
-      <node ref="MDB1" pin="38"/>
-    </net>
-    <net code="47" name="Net-(MDB1-Pad43)">
-      <node ref="MDB1" pin="43"/>
-    </net>
-    <net code="48" name="Net-(MDB1-Pad44)">
-      <node ref="MDB1" pin="44"/>
-    </net>
-    <net code="49" name="Net-(MDB1-Pad45)">
-      <node ref="MDB1" pin="45"/>
-    </net>
-    <net code="50" name="Net-(MDB1-Pad46)">
-      <node ref="MDB1" pin="46"/>
-    </net>
-    <net code="51" name="Net-(MDB1-Pad47)">
-      <node ref="MDB1" pin="47"/>
-    </net>
-    <net code="52" name="Net-(MDB1-Pad48)">
-      <node ref="MDB1" pin="48"/>
-    </net>
-    <net code="53" name="VEE">
-      <node ref="MDB1" pin="VEE"/>
-    </net>
-    <net code="54" name="/tmc429_driver_0/DIR_1">
-      <node ref="U1" pin="27"/>
-      <node ref="SS2" pin="1"/>
-    </net>
-    <net code="55" name="/tmc429_driver_0/~CS_DRIVER_2_B">
-      <node ref="R12" pin="2"/>
-      <node ref="U10" pin="1"/>
-      <node ref="SS3" pin="5"/>
-      <node ref="U3" pin="11"/>
-    </net>
-    <net code="56" name="/tmc429_driver_0/DIR_2">
-      <node ref="U1" pin="20"/>
-      <node ref="SS3" pin="1"/>
-    </net>
-    <net code="57" name="/tmc429_driver_0/STEP_2">
-      <node ref="U1" pin="19"/>
-      <node ref="SS3" pin="2"/>
-    </net>
-    <net code="58" name="/tmc429_driver_0/REFR_1">
-      <node ref="U1" pin="13"/>
-      <node ref="U9" pin="4"/>
-    </net>
-    <net code="59" name="/tmc429_driver_0/REF_1">
-      <node ref="U9" pin="6"/>
-      <node ref="U1" pin="1"/>
-    </net>
-    <net code="60" name="/tmc429_driver_0/~CS_DRIVER_1_B">
-      <node ref="R7" pin="2"/>
-      <node ref="U7" pin="1"/>
-      <node ref="U3" pin="13"/>
-      <node ref="SS2" pin="5"/>
-    </net>
-    <net code="61" name="/tmc429_driver_0/~ENABLE_1_B">
-      <node ref="U3" pin="14"/>
-      <node ref="SS2" pin="8"/>
-    </net>
-    <net code="62" name="/tmc429_driver_0/REF_2">
-      <node ref="U1" pin="2"/>
-      <node ref="U12" pin="6"/>
-    </net>
-    <net code="63" name="/tmc429_driver_0/STEP_1">
-      <node ref="SS2" pin="2"/>
-      <node ref="U1" pin="18"/>
-    </net>
-    <net code="64" name="/tmc429_driver_0/SCK_B">
-      <node ref="SS2" pin="6"/>
-      <node ref="U3" pin="18"/>
-      <node ref="SS3" pin="6"/>
-      <node ref="SS1" pin="6"/>
-    </net>
-    <net code="65" name="/tmc429_driver_0/REFR_2">
-      <node ref="U1" pin="29"/>
-      <node ref="U12" pin="4"/>
-    </net>
-    <net code="66" name="/tmc429_driver_0/~ENABLE_2_B">
-      <node ref="SS3" pin="8"/>
-      <node ref="U3" pin="12"/>
-    </net>
-    <net code="67" name="/tmc429_driver_0/MISO_UB">
-      <node ref="U2" pin="2"/>
-      <node ref="U1" pin="12"/>
-    </net>
-    <net code="68" name="/tmc429_driver_0/MOSI_B">
-      <node ref="SS2" pin="7"/>
-      <node ref="SS3" pin="7"/>
-      <node ref="U3" pin="17"/>
-      <node ref="SS1" pin="7"/>
-    </net>
-    <net code="69" name="/tmc429_driver_0/~CS_DRIVER_0_B">
-      <node ref="R2" pin="2"/>
-      <node ref="U3" pin="15"/>
-      <node ref="U4" pin="1"/>
-      <node ref="SS1" pin="5"/>
-    </net>
-    <net code="70" name="/tmc429_driver_0/DIR_0">
-      <node ref="U1" pin="17"/>
-      <node ref="SS1" pin="1"/>
-    </net>
-    <net code="71" name="/tmc429_driver_0/STEP_0">
-      <node ref="SS1" pin="2"/>
-      <node ref="U1" pin="15"/>
-    </net>
-    <net code="72" name="/tmc429_driver_0/REFR_0">
-      <node ref="U6" pin="4"/>
-      <node ref="U1" pin="28"/>
-    </net>
-    <net code="73" name="/tmc429_driver_0/REF_0">
-      <node ref="U1" pin="31"/>
-      <node ref="U6" pin="6"/>
-    </net>
-    <net code="74" name="/tmc429_driver_0/~ENABLE_0_B">
-      <node ref="U3" pin="16"/>
-      <node ref="SS1" pin="8"/>
-    </net>
-    <net code="75" name="/tmc429_driver_0/stepper_0/REFR_GND">
-      <node ref="R6" pin="1"/>
-      <node ref="T2" pin="4"/>
-    </net>
-    <net code="76" name="/tmc429_driver_0/stepper_0/REF_GND">
-      <node ref="R4" pin="1"/>
-      <node ref="T2" pin="2"/>
-    </net>
-    <net code="77" name="/tmc429_driver_0/stepper_0/REFR_BI">
-      <node ref="U5" pin="6"/>
-      <node ref="U6" pin="3"/>
-    </net>
-    <net code="78" name="/tmc429_driver_0/stepper_0/REF_BI">
-      <node ref="U5" pin="7"/>
-      <node ref="U6" pin="1"/>
-    </net>
-    <net code="79" name="/tmc429_driver_0/stepper_0/REF_PWR">
-      <node ref="U5" pin="1"/>
-      <node ref="R3" pin="2"/>
-    </net>
-    <net code="80" name="/tmc429_driver_0/stepper_0/REF_B">
-      <node ref="T2" pin="1"/>
-      <node ref="U5" pin="2"/>
-    </net>
-    <net code="81" name="/tmc429_driver_0/stepper_0/REFR_B">
-      <node ref="U5" pin="3"/>
-      <node ref="T2" pin="3"/>
-    </net>
-    <net code="82" name="/tmc429_driver_0/stepper_0/REFR_PWR">
-      <node ref="R5" pin="2"/>
-      <node ref="U5" pin="4"/>
-    </net>
-    <net code="83" name="/tmc429_driver_0/stepper_0/MISO_UB">
+    <net code="9" name="/tmc429_driver_0/stepper_2/MISO_UB">
+      <node ref="SS3" pin="4"/>
+      <node ref="U10" pin="2"/>
+    </net>
+    <net code="10" name="/tmc429_driver_0/stepper_0/MISO_UB">
       <node ref="SS1" pin="4"/>
       <node ref="U4" pin="2"/>
     </net>
-    <net code="84" name="/tmc429_driver_0/stepper_0/A_+">
-      <node ref="T1" pin="4"/>
-      <node ref="SS1" pin="13"/>
-    </net>
-    <net code="85" name="/tmc429_driver_0/stepper_0/B_-">
-      <node ref="T1" pin="1"/>
-      <node ref="SS1" pin="11"/>
-    </net>
-    <net code="86" name="/tmc429_driver_0/stepper_0/B_+">
-      <node ref="SS1" pin="12"/>
-      <node ref="T1" pin="2"/>
-    </net>
-    <net code="87" name="/tmc429_driver_0/stepper_0/A_-">
-      <node ref="T1" pin="3"/>
-      <node ref="SS1" pin="14"/>
-    </net>
-    <net code="88" name="/tmc429_driver_0/stepper_1/REFR_BI">
-      <node ref="U8" pin="6"/>
-      <node ref="U9" pin="3"/>
-    </net>
-    <net code="89" name="/tmc429_driver_0/stepper_1/REF_BI">
-      <node ref="U9" pin="1"/>
-      <node ref="U8" pin="7"/>
-    </net>
-    <net code="90" name="/tmc429_driver_0/stepper_1/REF_GND">
-      <node ref="T4" pin="2"/>
-      <node ref="R9" pin="1"/>
-    </net>
-    <net code="91" name="/tmc429_driver_0/stepper_1/REFR_GND">
-      <node ref="R11" pin="1"/>
-      <node ref="T4" pin="4"/>
-    </net>
-    <net code="92" name="/tmc429_driver_0/stepper_1/REF_PWR">
-      <node ref="U8" pin="1"/>
-      <node ref="R8" pin="2"/>
-    </net>
-    <net code="93" name="/tmc429_driver_0/stepper_1/REF_B">
-      <node ref="T4" pin="1"/>
-      <node ref="U8" pin="2"/>
-    </net>
-    <net code="94" name="/tmc429_driver_0/stepper_1/REFR_B">
-      <node ref="T4" pin="3"/>
-      <node ref="U8" pin="3"/>
-    </net>
-    <net code="95" name="/tmc429_driver_0/stepper_1/REFR_PWR">
-      <node ref="U8" pin="4"/>
-      <node ref="R10" pin="2"/>
-    </net>
-    <net code="96" name="/tmc429_driver_0/stepper_1/MISO_UB">
+    <net code="11" name="/tmc429_driver_0/stepper_1/MISO_UB">
       <node ref="SS2" pin="4"/>
       <node ref="U7" pin="2"/>
     </net>
-    <net code="97" name="/tmc429_driver_0/stepper_1/B_+">
-      <node ref="T3" pin="2"/>
-      <node ref="SS2" pin="12"/>
+    <net code="13" name="+5V">
+      <node ref="R13" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R15" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="SS3" pin="15"/>
+      <node ref="SS1" pin="15"/>
+      <node ref="SS2" pin="15"/>
+      <node ref="U3" pin="20"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="REG1" pin="3"/>
     </net>
-    <net code="98" name="/tmc429_driver_0/stepper_1/A_-">
-      <node ref="T3" pin="3"/>
-      <node ref="SS2" pin="14"/>
+    <net code="14" name="/tmc429_driver_0/stepper_2/REFR_PWR">
+      <node ref="R15" pin="2"/>
+      <node ref="U12" pin="4"/>
     </net>
-    <net code="99" name="/tmc429_driver_0/stepper_1/A_+">
-      <node ref="T3" pin="4"/>
-      <node ref="SS2" pin="13"/>
+    <net code="15" name="/tmc429_driver_0/stepper_0/REFR_PWR">
+      <node ref="R5" pin="2"/>
+      <node ref="U6" pin="4"/>
     </net>
-    <net code="100" name="/tmc429_driver_0/stepper_1/B_-">
-      <node ref="T3" pin="1"/>
-      <node ref="SS2" pin="11"/>
+    <net code="16" name="/tmc429_driver_0/stepper_1/REFR_PWR">
+      <node ref="R10" pin="2"/>
+      <node ref="U9" pin="4"/>
     </net>
-    <net code="101" name="/tmc429_driver_0/stepper_2/REFR_BI">
-      <node ref="U12" pin="3"/>
-      <node ref="U11" pin="6"/>
-    </net>
-    <net code="102" name="/tmc429_driver_0/stepper_2/REF_BI">
-      <node ref="U12" pin="1"/>
-      <node ref="U11" pin="7"/>
-    </net>
-    <net code="103" name="/tmc429_driver_0/stepper_2/REF_GND">
-      <node ref="T6" pin="2"/>
-      <node ref="R14" pin="1"/>
-    </net>
-    <net code="104" name="/tmc429_driver_0/stepper_2/REFR_GND">
+    <net code="17" name="/tmc429_driver_0/stepper_2/REFR_GND">
       <node ref="R16" pin="1"/>
       <node ref="T6" pin="4"/>
     </net>
-    <net code="105" name="/tmc429_driver_0/stepper_2/REF_PWR">
-      <node ref="U11" pin="1"/>
+    <net code="18" name="/tmc429_driver_0/stepper_0/REFR_GND">
+      <node ref="R6" pin="1"/>
+      <node ref="T2" pin="4"/>
+    </net>
+    <net code="19" name="/tmc429_driver_0/stepper_1/REFR_GND">
+      <node ref="R11" pin="1"/>
+      <node ref="T4" pin="4"/>
+    </net>
+    <net code="20" name="/tmc429_driver_0/stepper_2/REF_PWR">
       <node ref="R13" pin="2"/>
+      <node ref="U12" pin="1"/>
     </net>
-    <net code="106" name="/tmc429_driver_0/stepper_2/REF_B">
-      <node ref="T6" pin="1"/>
-      <node ref="U11" pin="2"/>
+    <net code="21" name="/tmc429_driver_0/stepper_0/REF_PWR">
+      <node ref="R3" pin="2"/>
+      <node ref="U6" pin="1"/>
     </net>
-    <net code="107" name="/tmc429_driver_0/stepper_2/REFR_B">
-      <node ref="U11" pin="3"/>
+    <net code="22" name="/tmc429_driver_0/stepper_1/REF_PWR">
+      <node ref="R8" pin="2"/>
+      <node ref="U9" pin="1"/>
+    </net>
+    <net code="23" name="/tmc429_driver_0/stepper_2/REF_GND">
+      <node ref="R14" pin="1"/>
+      <node ref="T6" pin="2"/>
+    </net>
+    <net code="24" name="/tmc429_driver_0/stepper_0/REF_GND">
+      <node ref="R4" pin="1"/>
+      <node ref="T2" pin="2"/>
+    </net>
+    <net code="25" name="/tmc429_driver_0/stepper_1/REF_GND">
+      <node ref="R9" pin="1"/>
+      <node ref="T4" pin="2"/>
+    </net>
+    <net code="26" name="/tmc429_driver_0/stepper_2/REFR_B">
+      <node ref="U12" pin="3"/>
       <node ref="T6" pin="3"/>
     </net>
-    <net code="108" name="/tmc429_driver_0/stepper_2/REFR_PWR">
-      <node ref="R15" pin="2"/>
-      <node ref="U11" pin="4"/>
+    <net code="27" name="/tmc429_driver_0/stepper_0/REFR_B">
+      <node ref="U6" pin="3"/>
+      <node ref="T2" pin="3"/>
     </net>
-    <net code="109" name="/tmc429_driver_0/stepper_2/MISO_UB">
-      <node ref="U10" pin="2"/>
-      <node ref="SS3" pin="4"/>
+    <net code="28" name="/tmc429_driver_0/stepper_1/REFR_B">
+      <node ref="U9" pin="3"/>
+      <node ref="T4" pin="3"/>
     </net>
-    <net code="110" name="/tmc429_driver_0/stepper_2/B_-">
-      <node ref="SS3" pin="11"/>
+    <net code="29" name="/tmc429_driver_0/stepper_2/REF_B">
+      <node ref="U12" pin="2"/>
+      <node ref="T6" pin="1"/>
+    </net>
+    <net code="30" name="/tmc429_driver_0/stepper_0/REF_B">
+      <node ref="U6" pin="2"/>
+      <node ref="T2" pin="1"/>
+    </net>
+    <net code="31" name="/tmc429_driver_0/stepper_1/REF_B">
+      <node ref="U9" pin="2"/>
+      <node ref="T4" pin="1"/>
+    </net>
+    <net code="32" name="/MISO">
+      <node ref="U10" pin="4"/>
+      <node ref="U4" pin="4"/>
+      <node ref="U7" pin="4"/>
+      <node ref="U2" pin="4"/>
+      <node ref="MDB1" pin="12"/>
+    </net>
+    <net code="33" name="VAA">
+      <node ref="C19" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="SS3" pin="9"/>
+      <node ref="SS1" pin="9"/>
+      <node ref="SS2" pin="9"/>
+      <node ref="P1" pin="1"/>
+      <node ref="REG1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="35" name="/tmc429_driver_0/stepper_2/B_-">
       <node ref="T5" pin="1"/>
+      <node ref="SS3" pin="11"/>
     </net>
-    <net code="111" name="/tmc429_driver_0/stepper_2/B_+">
-      <node ref="SS3" pin="12"/>
-      <node ref="T5" pin="2"/>
+    <net code="36" name="/tmc429_driver_0/stepper_0/B_-">
+      <node ref="T1" pin="1"/>
+      <node ref="SS1" pin="11"/>
     </net>
-    <net code="112" name="/tmc429_driver_0/stepper_2/A_-">
+    <net code="37" name="/tmc429_driver_0/stepper_1/B_-">
+      <node ref="T3" pin="1"/>
+      <node ref="SS2" pin="11"/>
+    </net>
+    <net code="38" name="/tmc429_driver_0/stepper_2/A_-">
       <node ref="T5" pin="3"/>
       <node ref="SS3" pin="14"/>
     </net>
-    <net code="113" name="/tmc429_driver_0/stepper_2/A_+">
+    <net code="39" name="/tmc429_driver_0/stepper_0/A_-">
+      <node ref="T1" pin="3"/>
+      <node ref="SS1" pin="14"/>
+    </net>
+    <net code="40" name="/tmc429_driver_0/stepper_1/A_-">
+      <node ref="T3" pin="3"/>
+      <node ref="SS2" pin="14"/>
+    </net>
+    <net code="41" name="/tmc429_driver_0/stepper_2/A_+">
       <node ref="T5" pin="4"/>
       <node ref="SS3" pin="13"/>
+    </net>
+    <net code="42" name="/tmc429_driver_0/stepper_0/A_+">
+      <node ref="T1" pin="4"/>
+      <node ref="SS1" pin="13"/>
+    </net>
+    <net code="43" name="/tmc429_driver_0/stepper_1/A_+">
+      <node ref="T3" pin="4"/>
+      <node ref="SS2" pin="13"/>
+    </net>
+    <net code="46" name="/tmc429_driver_0/stepper_2/B_+">
+      <node ref="SS3" pin="12"/>
+      <node ref="T5" pin="2"/>
+    </net>
+    <net code="47" name="/tmc429_driver_0/stepper_0/B_+">
+      <node ref="SS1" pin="12"/>
+      <node ref="T1" pin="2"/>
+    </net>
+    <net code="48" name="/tmc429_driver_0/stepper_1/B_+">
+      <node ref="SS2" pin="12"/>
+      <node ref="T3" pin="2"/>
+    </net>
+    <net code="54" name="/tmc429_driver_0/MISO_UB">
+      <node ref="U1" pin="12"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="55" name="/tmc429_driver_0/~CS_DRIVER_2_B">
+      <node ref="SS3" pin="5"/>
+      <node ref="R12" pin="2"/>
+      <node ref="U10" pin="1"/>
+      <node ref="U3" pin="11"/>
+    </net>
+    <net code="56" name="/tmc429_driver_0/~ENABLE_2_B">
+      <node ref="SS3" pin="8"/>
+      <node ref="U3" pin="12"/>
+    </net>
+    <net code="57" name="/tmc429_driver_0/~ENABLE_1_B">
+      <node ref="SS2" pin="8"/>
+      <node ref="U3" pin="14"/>
+    </net>
+    <net code="58" name="/tmc429_driver_0/~CS_DRIVER_1_B">
+      <node ref="SS2" pin="5"/>
+      <node ref="R7" pin="2"/>
+      <node ref="U7" pin="1"/>
+      <node ref="U3" pin="13"/>
+    </net>
+    <net code="59" name="/tmc429_driver_0/~CS_DRIVER_0_B">
+      <node ref="SS1" pin="5"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U4" pin="1"/>
+      <node ref="U3" pin="15"/>
+    </net>
+    <net code="60" name="/tmc429_driver_0/~ENABLE_0_B">
+      <node ref="SS1" pin="8"/>
+      <node ref="U3" pin="16"/>
+    </net>
+    <net code="61" name="/tmc429_driver_0/MOSI_B">
+      <node ref="SS3" pin="7"/>
+      <node ref="SS1" pin="7"/>
+      <node ref="SS2" pin="7"/>
+      <node ref="U3" pin="17"/>
+    </net>
+    <net code="62" name="/tmc429_driver_0/SCK_B">
+      <node ref="SS3" pin="6"/>
+      <node ref="SS1" pin="6"/>
+      <node ref="SS2" pin="6"/>
+      <node ref="U3" pin="18"/>
+    </net>
+    <net code="66" name="/MOSI">
+      <node ref="U3" pin="3"/>
+      <node ref="U1" pin="10"/>
+      <node ref="MDB1" pin="11"/>
+    </net>
+    <net code="67" name="/SCK">
+      <node ref="U3" pin="2"/>
+      <node ref="U1" pin="8"/>
+      <node ref="MDB1" pin="13"/>
+    </net>
+    <net code="71" name="/tmc429_driver_0/REFR_2">
+      <node ref="U11" pin="4"/>
+      <node ref="U1" pin="29"/>
+    </net>
+    <net code="72" name="/tmc429_driver_0/REF_2">
+      <node ref="U11" pin="6"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="73" name="/tmc429_driver_0/REFR_1">
+      <node ref="U8" pin="4"/>
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="74" name="/tmc429_driver_0/REF_1">
+      <node ref="U8" pin="6"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="75" name="/tmc429_driver_0/DIR_1">
+      <node ref="SS2" pin="1"/>
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="76" name="/tmc429_driver_0/STEP_1">
+      <node ref="SS2" pin="2"/>
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="77" name="/tmc429_driver_0/DIR_2">
+      <node ref="SS3" pin="1"/>
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="78" name="/tmc429_driver_0/STEP_2">
+      <node ref="SS3" pin="2"/>
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="79" name="/tmc429_driver_0/REF_0">
+      <node ref="U5" pin="6"/>
+      <node ref="U1" pin="31"/>
+    </net>
+    <net code="80" name="/tmc429_driver_0/REFR_0">
+      <node ref="U5" pin="4"/>
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="81" name="/tmc429_driver_0/DIR_0">
+      <node ref="SS1" pin="1"/>
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="82" name="/tmc429_driver_0/STEP_0">
+      <node ref="SS1" pin="2"/>
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="83" name="/CLK">
+      <node ref="U1" pin="5"/>
+      <node ref="CLK1" pin="3"/>
+    </net>
+    <net code="85" name="Net-(MDB1-Pad23)">
+      <node ref="MDB1" pin="23"/>
+    </net>
+    <net code="86" name="VEE">
+      <node ref="MDB1" pin="VEE"/>
+    </net>
+    <net code="87" name="VDD">
+      <node ref="MDB1" pin="VDD"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="88" name="/CS_DRIVER_0">
+      <node ref="U3" pin="5"/>
+      <node ref="MDB1" pin="16"/>
+    </net>
+    <net code="89" name="/ENABLE_2">
+      <node ref="U3" pin="8"/>
+      <node ref="MDB1" pin="42"/>
+    </net>
+    <net code="90" name="/ENABLE_1">
+      <node ref="U3" pin="6"/>
+      <node ref="MDB1" pin="41"/>
+    </net>
+    <net code="91" name="/ENABLE_0">
+      <node ref="U3" pin="4"/>
+      <node ref="MDB1" pin="40"/>
+    </net>
+    <net code="92" name="/INT">
+      <node ref="U1" pin="14"/>
+      <node ref="MDB1" pin="5"/>
+    </net>
+    <net code="93" name="/POSCOMP">
+      <node ref="MDB1" pin="6"/>
+      <node ref="U1" pin="30"/>
+    </net>
+    <net code="94" name="/CS_DRIVER_2">
+      <node ref="U3" pin="9"/>
+      <node ref="MDB1" pin="18"/>
+    </net>
+    <net code="95" name="/CS_429">
+      <node ref="U1" pin="7"/>
+      <node ref="U2" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="MDB1" pin="15"/>
+    </net>
+    <net code="96" name="/CS_DRIVER_1">
+      <node ref="U3" pin="7"/>
+      <node ref="MDB1" pin="17"/>
+    </net>
+    <net code="97" name="Net-(MDB1-Pad33)">
+      <node ref="MDB1" pin="33"/>
+    </net>
+    <net code="98" name="Net-(MDB1-Pad35)">
+      <node ref="MDB1" pin="35"/>
+    </net>
+    <net code="99" name="Net-(MDB1-Pad36)">
+      <node ref="MDB1" pin="36"/>
+    </net>
+    <net code="100" name="Net-(MDB1-Pad37)">
+      <node ref="MDB1" pin="37"/>
+    </net>
+    <net code="101" name="Net-(MDB1-Pad51)">
+      <node ref="MDB1" pin="51"/>
+    </net>
+    <net code="102" name="Net-(MDB1-PadDAC0)">
+      <node ref="MDB1" pin="DAC0"/>
+    </net>
+    <net code="103" name="Net-(MDB1-PadDAC1)">
+      <node ref="MDB1" pin="DAC1"/>
+    </net>
+    <net code="104" name="Net-(MDB1-Pad53)">
+      <node ref="MDB1" pin="53"/>
+    </net>
+    <net code="105" name="Net-(MDB1-Pad14)">
+      <node ref="MDB1" pin="14"/>
+    </net>
+    <net code="106" name="Net-(MDB1-Pad19)">
+      <node ref="MDB1" pin="19"/>
+    </net>
+    <net code="107" name="Net-(MDB1-Pad20)">
+      <node ref="MDB1" pin="20"/>
+    </net>
+    <net code="108" name="Net-(MDB1-Pad22)">
+      <node ref="MDB1" pin="22"/>
+    </net>
+    <net code="109" name="Net-(MDB1-PadAGND)">
+      <node ref="MDB1" pin="AGND"/>
+    </net>
+    <net code="110" name="Net-(MDB1-PadAREF)">
+      <node ref="MDB1" pin="AREF"/>
+    </net>
+    <net code="111" name="Net-(MDB1-Pad46)">
+      <node ref="MDB1" pin="46"/>
+    </net>
+    <net code="112" name="Net-(MDB1-Pad45)">
+      <node ref="MDB1" pin="45"/>
+    </net>
+    <net code="113" name="Net-(MDB1-Pad30)">
+      <node ref="MDB1" pin="30"/>
+    </net>
+    <net code="114" name="Net-(MDB1-Pad29)">
+      <node ref="MDB1" pin="29"/>
+    </net>
+    <net code="115" name="Net-(MDB1-Pad44)">
+      <node ref="MDB1" pin="44"/>
+    </net>
+    <net code="116" name="Net-(MDB1-Pad43)">
+      <node ref="MDB1" pin="43"/>
+    </net>
+    <net code="117" name="Net-(MDB1-Pad48)">
+      <node ref="MDB1" pin="48"/>
+    </net>
+    <net code="118" name="Net-(MDB1-Pad49)">
+      <node ref="MDB1" pin="49"/>
+    </net>
+    <net code="119" name="Net-(MDB1-Pad50)">
+      <node ref="MDB1" pin="50"/>
+    </net>
+    <net code="120" name="Net-(MDB1-Pad54)">
+      <node ref="MDB1" pin="54"/>
+    </net>
+    <net code="121" name="Net-(MDB1-Pad55)">
+      <node ref="MDB1" pin="55"/>
+    </net>
+    <net code="122" name="Net-(MDB1-Pad2)">
+      <node ref="MDB1" pin="2"/>
+    </net>
+    <net code="123" name="Net-(MDB1-PadA11)">
+      <node ref="MDB1" pin="A11"/>
+    </net>
+    <net code="124" name="Net-(MDB1-PadA10)">
+      <node ref="MDB1" pin="A10"/>
+    </net>
+    <net code="125" name="Net-(MDB1-Pad38)">
+      <node ref="MDB1" pin="38"/>
+    </net>
+    <net code="126" name="Net-(MDB1-Pad34)">
+      <node ref="MDB1" pin="34"/>
+    </net>
+    <net code="127" name="Net-(MDB1-Pad21)">
+      <node ref="MDB1" pin="21"/>
+    </net>
+    <net code="128" name="Net-(MDB1-Pad52)">
+      <node ref="MDB1" pin="52"/>
+    </net>
+    <net code="129" name="Net-(MDB1-Pad47)">
+      <node ref="MDB1" pin="47"/>
     </net>
   </nets>
 </export>

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 5
 EELAYER 29 0
 EELAYER END
 $Descr A 11000 8500
@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 5
 Title "stepper_controller_5x3"
 Date ""
-Rev "1.2"
+Rev "1.3"
 Comp "Janelia"
 Comment1 ""
 Comment2 ""
@@ -169,13 +169,13 @@ Wire Wire Line
 	1400 2100 1300 2100
 Wire Wire Line
 	1400 2200 1300 2200
-Text Label 1300 2100 2    60   ~ 6
+Text Label 1300 2100 2    60   ~ 12
 MOSI
-Text Label 1300 2200 2    60   ~ 6
+Text Label 1300 2200 2    60   ~ 12
 MISO
 Wire Wire Line
 	4300 2000 4400 2000
-Text Label 4400 2000 0    60   ~ 6
+Text Label 4400 2000 0    60   ~ 12
 CS_429
 $Comp
 L stepper_controller_5x3:0.1uF C1
@@ -183,11 +183,11 @@ U 1 1 58DEC5B9
 P 3500 4350
 F 0 "C1" H 3500 4450 40  0000 L CNN
 F 1 "0.1uF" H 3500 4350 30  0000 C CNN
-F 2 "stepper_controller_5x3:SM1210" H 3538 4200 30  0001 C CNN
+F 2 "stepper_controller_5x3:SM0805" H 3538 4200 30  0001 C CNN
 F 3 "" H 3500 4350 60  0000 C CNN
 F 4 "digikey" H 3600 4550 60  0001 C CNN "Vendor"
-F 5 "399-13229-1-ND" H 3700 4650 60  0001 C CNN "PartNumber"
-F 6 "CAP CER 0.1UF 100V X7R 1210" H 3800 4750 60  0001 C CNN "Description"
+F 5 "399-14636-1-ND" H 3700 4650 60  0001 C CNN "PartNumber"
+F 6 "CAP CER 0.1UF 50V X7R 0805" H 3800 4750 60  0001 C CNN "Description"
 	1    3500 4350
 	1    0    0    -1  
 $EndComp
@@ -303,15 +303,15 @@ Wire Wire Line
 	4600 4750 4600 4700
 Wire Wire Line
 	4950 4350 5050 4350
-Text Label 5050 4350 0    60   ~ 6
+Text Label 5050 4350 0    60   ~ 12
 CLK
 Wire Wire Line
 	5750 1750 5650 1750
-Text Label 5650 1750 2    60   ~ 6
+Text Label 5650 1750 2    60   ~ 12
 CLK
 Wire Wire Line
 	4300 2200 4400 2200
-Text Label 4400 2200 0    60   ~ 6
+Text Label 4400 2200 0    60   ~ 12
 SCK
 Wire Wire Line
 	5750 1950 5650 1950
@@ -331,43 +331,43 @@ Wire Wire Line
 	5750 2750 5650 2750
 Wire Wire Line
 	5750 2850 5650 2850
-Text Label 5650 1950 2    60   ~ 6
+Text Label 5650 1950 2    60   ~ 12
 SCK
-Text Label 5650 2050 2    60   ~ 6
+Text Label 5650 2050 2    60   ~ 12
 MOSI
-Text Label 5650 2150 2    60   ~ 6
+Text Label 5650 2150 2    60   ~ 12
 CS_429
-Text Label 5650 2250 2    60   ~ 6
+Text Label 5650 2250 2    60   ~ 12
 CS_DRIVER_0
-Text Label 5650 2350 2    60   ~ 6
+Text Label 5650 2350 2    60   ~ 12
 CS_DRIVER_1
-Text Label 5650 2450 2    60   ~ 6
+Text Label 5650 2450 2    60   ~ 12
 CS_DRIVER_2
-Text Label 5650 2650 2    60   ~ 6
+Text Label 5650 2650 2    60   ~ 12
 ENABLE_0
-Text Label 5650 2750 2    60   ~ 6
+Text Label 5650 2750 2    60   ~ 12
 ENABLE_1
-Text Label 5650 2850 2    60   ~ 6
+Text Label 5650 2850 2    60   ~ 12
 ENABLE_2
 Wire Wire Line
 	6900 1750 6800 1750
-Text Label 6900 1750 0    60   ~ 6
+Text Label 6900 1750 0    60   ~ 12
 MISO
 Wire Wire Line
 	6800 1950 6900 1950
 Wire Wire Line
 	6800 2050 6900 2050
-Text Label 6900 1950 0    60   ~ 6
+Text Label 6900 1950 0    60   ~ 12
 INT
-Text Label 6900 2050 0    60   ~ 6
+Text Label 6900 2050 0    60   ~ 12
 POSCOMP
 Wire Wire Line
 	1400 1500 1300 1500
 Wire Wire Line
 	1400 1600 1300 1600
-Text Label 1300 1500 2    60   ~ 6
+Text Label 1300 1500 2    60   ~ 12
 INT
-Text Label 1300 1600 2    60   ~ 6
+Text Label 1300 1600 2    60   ~ 12
 POSCOMP
 Wire Wire Line
 	1400 1800 1300 1800
@@ -375,11 +375,11 @@ Wire Wire Line
 	1400 1900 1300 1900
 Wire Wire Line
 	1400 2000 1300 2000
-Text Label 1300 1800 2    60   ~ 6
+Text Label 1300 1800 2    60   ~ 12
 ENABLE_0
-Text Label 1300 1900 2    60   ~ 6
+Text Label 1300 1900 2    60   ~ 12
 ENABLE_1
-Text Label 1300 2000 2    60   ~ 6
+Text Label 1300 2000 2    60   ~ 12
 ENABLE_2
 Wire Wire Line
 	4300 1900 4400 1900
@@ -387,11 +387,11 @@ Wire Wire Line
 	4300 1800 4400 1800
 Wire Wire Line
 	4300 1700 4400 1700
-Text Label 4400 1700 0    60   ~ 6
+Text Label 4400 1700 0    60   ~ 12
 CS_DRIVER_2
-Text Label 4400 1800 0    60   ~ 6
+Text Label 4400 1800 0    60   ~ 12
 CS_DRIVER_1
-Text Label 4400 1900 0    60   ~ 6
+Text Label 4400 1900 0    60   ~ 12
 CS_DRIVER_0
 $Comp
 L stepper_controller_5x3:PWR_JACK_2.5x5.5 P1
@@ -501,11 +501,11 @@ U 1 1 59EF68C7
 P 2100 5800
 F 0 "C2" H 2215 5830 40  0000 L CNN
 F 1 "10uF" H 2100 5800 30  0000 C CNN
-F 2 "stepper_controller_5x3:SM1210" H 2138 5650 30  0001 C CNN
+F 2 "stepper_controller_5x3:SM0805" H 2138 5650 30  0001 C CNN
 F 3 "" H 2100 5800 60  0000 C CNN
 F 4 "digikey" H 2200 6000 60  0001 C CNN "Vendor"
-F 5 "445-4536-1-ND" H 2300 6100 60  0001 C CNN "PartNumber"
-F 6 "CAP CER 10UF 50V 10% X7S 1210" H 2400 6200 60  0001 C CNN "Description"
+F 5 "445-14419-1-ND" H 2300 6100 60  0001 C CNN "PartNumber"
+F 6 "CAP CER 10UF 35V X5R 0805" H 2400 6200 60  0001 C CNN "Description"
 	1    2100 5800
 	1    0    0    -1  
 $EndComp
@@ -529,11 +529,11 @@ U 1 1 59EF7B54
 P 3300 5800
 F 0 "C3" H 3415 5830 40  0000 L CNN
 F 1 "10uF" H 3300 5800 30  0000 C CNN
-F 2 "stepper_controller_5x3:SM1210" H 3338 5650 30  0001 C CNN
+F 2 "stepper_controller_5x3:SM0805" H 3338 5650 30  0001 C CNN
 F 3 "" H 3300 5800 60  0000 C CNN
 F 4 "digikey" H 3400 6000 60  0001 C CNN "Vendor"
-F 5 "445-4536-1-ND" H 3500 6100 60  0001 C CNN "PartNumber"
-F 6 "CAP CER 10UF 50V 10% X7S 1210" H 3600 6200 60  0001 C CNN "Description"
+F 5 "445-14419-1-ND" H 3500 6100 60  0001 C CNN "PartNumber"
+F 6 "CAP CER 10UF 35V X5R 0805" H 3600 6200 60  0001 C CNN "Description"
 	1    3300 5800
 	1    0    0    -1  
 $EndComp

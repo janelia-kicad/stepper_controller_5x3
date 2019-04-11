@@ -1,23 +1,23 @@
-# Created 2019-04-02 Tue 12:58
+# Created 2019-04-11 Thu 14:58
 * Bill of Materials
 #+RESULTS: pcb-parts
-| Item | Reference(s)                              | Quantity | PartNumber        | Vendor  | Description                                                               |
-|------+-------------------------------------------+----------+-------------------+---------+---------------------------------------------------------------------------|
-|    1 | C1 C12 C13 C16 C17 C4 C5 C8 C9            |        9 | 399-13229-1-ND    | digikey | CAP CER 0.1UF 100V X7R 1210                                               |
-|    2 | C10 C14 C6                                |        3 | PCE3812CT-ND      | digikey | CAP ALUM 220UF 20% 50V SMD                                                |
-|    3 | C11 C15 C2 C3 C7                          |        5 | 445-4536-1-ND     | digikey | CAP CER 10UF 50V 10% X7S 1210                                             |
-|    4 | CLK1                                      |        1 | CTX277LVCT-ND     | digikey | OSC XO 32.000MHZ HCMOS TTL SMD                                            |
-|    5 | D1                                        |        1 | 568-11697-1-ND    | digikey | DIODE SCHOTTKY 45V 10A CFP15                                              |
-|    6 | MDB1                                      |        2 | S1011E-25-ND      | digikey | 25 Positions Header Breakaway Connector 0.1in                             |
-|    7 | P1                                        |        1 | CP-063BH-ND       | digikey | CONN PWR JACK DC 2.5X5.5 8A T/H                                           |
-|    8 | R1 R12 R2 R7                              |        4 | P10.0KCCT-ND      | digikey | RES SMD 10K OHM 1% 1/8W 0805                                              |
-|    9 | R10 R11 R13 R14 R15 R16 R3 R4 R5 R6 R8 R9 |       12 | P845CCT-ND        | digikey | RES SMD 845 OHM 1% 1/8W 0805                                              |
-|   10 | REG1                                      |        1 | 945-1395-5-ND     | digikey | CONV DC/DC 1A 5V OUT SIP VERT                                             |
-|   11 | SS1 SS2 SS3                               |       48 | ED90331-ND        | digikey | CONN PIN RCPT .025-.037 SOLDER                                            |
-|   12 | T1 T3 T5                                  |        3 | 277-1152-ND       | digikey | TERM BLOCK HDR 4POS VERT 5.08MM                                           |
-|   13 | T2 T4 T6                                  |        3 | 277-1223-ND       | digikey | TERM BLOCK HDR 4POS VERT 3.81MM                                           |
-|   14 | U1                                        |        1 | 1460-1071-1-ND    | digikey | IC MOTOR CONTROLLER SPI 32QFN                                             |
-|   15 | U10 U2 U4 U7                              |        4 | 296-11603-1-ND    | digikey | IC BUF NON-INVERT 5.5V SOT23-5                                            |
-|   16 | U11 U5 U8                                 |        3 | 516-2614-1-ND     | digikey | OPTOISO 3.75KV 2CH PUSH PULL 8SO                                          |
-|   17 | U12 U6 U9                                 |        3 | MAX6817EUT+TCT-ND | digikey | IC DEBOUNCER SWITCH DUAL SOT23-6                                          |
-|   18 | U3                                        |        1 | 296-14668-1-ND    | digikey | Buffer Non-Inverting 1 Element 8 Bit per Element Push-Pull Output 20-SOIC |
+| Item | Reference(s)                                           | Quantity | PartNumber        | Vendor  | Description                                                               |
+|------+--------------------------------------------------------+----------+-------------------+---------+---------------------------------------------------------------------------|
+|    1 | C1 C10 C11 C14 C15 C16 C17 C20 C21 C22 C23 C4 C5 C8 C9 |       15 | 399-14636-1-ND    | digikey | CAP CER 0.1UF 50V X7R 0805                                                |
+|    2 | C12 C18 C6                                             |        3 | PCE3812CT-ND      | digikey | CAP ALUM 220UF 20% 50V SMD                                                |
+|    3 | C13 C19 C2 C3 C7                                       |        5 | 445-14419-1-ND    | digikey | CAP CER 10UF 35V X5R 0805                                                 |
+|    4 | CLK1                                                   |        1 | CTX277LVCT-ND     | digikey | OSC XO 32.000MHZ HCMOS TTL SMD                                            |
+|    5 | D1                                                     |        1 | 568-11697-1-ND    | digikey | DIODE SCHOTTKY 45V 10A CFP15                                              |
+|    6 | MDB1                                                   |        2 | S1011E-25-ND      | digikey | 25 Positions Header Breakaway Connector 0.1in                             |
+|    7 | P1                                                     |        1 | CP-063BH-ND       | digikey | CONN PWR JACK DC 2.5X5.5 8A T/H                                           |
+|    8 | R1 R12 R2 R7                                           |        4 | P10.0KCCT-ND      | digikey | RES SMD 10K OHM 1% 1/8W 0805                                              |
+|    9 | R10 R11 R13 R14 R15 R16 R3 R4 R5 R6 R8 R9              |       12 | P845CCT-ND        | digikey | RES SMD 845 OHM 1% 1/8W 0805                                              |
+|   10 | REG1                                                   |        1 | 945-1395-5-ND     | digikey | CONV DC/DC 1A 5V OUT SIP VERT                                             |
+|   11 | SS1 SS2 SS3                                            |       48 | ED90331-ND        | digikey | CONN PIN RCPT .025-.037 SOLDER                                            |
+|   12 | T1 T3 T5                                               |        3 | 277-1152-ND       | digikey | TERM BLOCK HDR 4POS VERT 5.08MM                                           |
+|   13 | T2 T4 T6                                               |        3 | 277-1223-ND       | digikey | TERM BLOCK HDR 4POS VERT 3.81MM                                           |
+|   14 | U1                                                     |        1 | 1460-1071-1-ND    | digikey | IC MOTOR CONTROLLER SPI 32QFN                                             |
+|   15 | U10 U2 U4 U7                                           |        4 | 296-11603-1-ND    | digikey | IC BUF NON-INVERT 5.5V SOT23-5                                            |
+|   16 | U11 U5 U8                                              |        3 | MAX6817EUT+TCT-ND | digikey | IC DEBOUNCER SWITCH DUAL SOT23-6                                          |
+|   17 | U12 U6 U9                                              |        3 | 516-2614-1-ND     | digikey | OPTOISO 3.75KV 2CH PUSH PULL 8SO                                          |
+|   18 | U3                                                     |        1 | 296-14668-1-ND    | digikey | Buffer Non-Inverting 1 Element 8 Bit per Element Push-Pull Output 20-SOIC |
